@@ -67,7 +67,7 @@ python3 -I scripts/stage1.py && python3 -I scripts/stage2.py --boot 200 && pytho
 python3 -I scripts/build_site.py
 ```
 
-The site is written to `out/site_live/` (and `out/site/` for 2013–2022). To update the Pages site, copy `out/site_live/` into `docs/`.
+The site is written to `out/site_live/` (and `out/site/` for 2013–2022). To update the Pages site, run `python3 -I scripts/build_pages.py` (copies `out/site_live/` into `docs/` and adds the page skeleton).
 
 ## Data sources
 
