@@ -1,0 +1,4274 @@
+{
+ "3000": {
+  "name": "ירושלים",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 49.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 17100,
+    "rate": 69.2,
+    "lo": 62.1,
+    "hi": 74.0,
+    "src_total": 24696,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 49.0,
+    "src": "הבית היהודי",
+    "dst": "הימין החדש",
+    "votes": 9500,
+    "rate": 44.7,
+    "lo": 39.5,
+    "hi": 49.0,
+    "src_total": 21266,
+    "national_rate": 23.5
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 86.0,
+    "src": "איחוד מפלגות הימין",
+    "dst": "עוצמה יהודית",
+    "votes": 4640,
+    "rate": 26.3,
+    "lo": 24.3,
+    "hi": 28.1,
+    "src_total": 17662,
+    "national_rate": 12.7
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 68.0,
+    "src": "העבודה-גשר-מרצ",
+    "dst": "מרצ",
+    "votes": 7390,
+    "rate": 57.2,
+    "lo": 48.9,
+    "hi": 62.4,
+    "src_total": 12919,
+    "national_rate": 37.8
+   }
+  ]
+ },
+ "5000": {
+  "name": "תל אביב -יפו",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 85.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 26900,
+    "rate": 52.8,
+    "lo": 50.6,
+    "hi": 55.5,
+    "src_total": 50934,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 85.0,
+    "src": "התנועה",
+    "dst": "המחנה הציוני",
+    "votes": 16750,
+    "rate": 94.1,
+    "lo": 87.0,
+    "hi": 100.0,
+    "src_total": 17799,
+    "national_rate": 72.1
+   },
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 50.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 74980,
+    "rate": 83.7,
+    "lo": 77.9,
+    "hi": 86.7,
+    "src_total": 89567,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 55.0,
+    "src": "העבודה",
+    "dst": "לא הצביעו",
+    "votes": 14060,
+    "rate": 36.3,
+    "lo": 24.3,
+    "hi": 39.1,
+    "src_total": 38780,
+    "national_rate": 16.3
+   }
+  ]
+ },
+ "4000": {
+  "name": "חיפה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 60.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 30910,
+    "rate": 81.8,
+    "lo": 77.6,
+    "hi": 85.0,
+    "src_total": 37805,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 60.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 7270,
+    "rate": 58.8,
+    "lo": 55.0,
+    "hi": 62.4,
+    "src_total": 12363,
+    "national_rate": 35.6
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 64.0,
+    "src": "העבודה-גשר-מרצ",
+    "dst": "מרצ",
+    "votes": 5100,
+    "rate": 49.0,
+    "lo": 42.9,
+    "hi": 56.4,
+    "src_total": 10395,
+    "national_rate": 37.8
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 64.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 3460,
+    "rate": 23.2,
+    "lo": 19.7,
+    "hi": 27.0,
+    "src_total": 14915,
+    "national_rate": 34.1
+   }
+  ]
+ },
+ "9000": {
+  "name": "באר שבע",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 57.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 8740,
+    "rate": 73.5,
+    "lo": 65.4,
+    "hi": 79.1,
+    "src_total": 11887,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 92.0,
+    "src": "כחול לבן",
+    "dst": "הליכוד",
+    "votes": 2930,
+    "rate": 16.1,
+    "lo": 12.3,
+    "hi": 19.3,
+    "src_total": 18163,
+    "national_rate": 2.6
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 60.0,
+    "src": "כחול לבן",
+    "dst": "ימינה",
+    "votes": 2860,
+    "rate": 15.9,
+    "lo": 11.6,
+    "hi": 20.3,
+    "src_total": 17984,
+    "national_rate": 4.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 82.0,
+    "src": "ימינה",
+    "dst": "הציונות הדתית",
+    "votes": 3870,
+    "rate": 59.3,
+    "lo": 48.3,
+    "hi": 72.1,
+    "src_total": 6526,
+    "national_rate": 34.3
+   }
+  ]
+ },
+ "2710": {
+  "name": "אום אל-פחם",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 92.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 5570,
+    "rate": 29.0,
+    "lo": 24.3,
+    "hi": 34.0,
+    "src_total": 19187,
+    "national_rate": 5.8
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 48.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 10580,
+    "rate": 47.9,
+    "lo": 44.1,
+    "hi": 55.3,
+    "src_total": 22079,
+    "national_rate": 34.1
+   },
+   {
+    "kind": "switch",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 50.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 5660,
+    "rate": 58.8,
+    "lo": 51.2,
+    "hi": 61.6,
+    "src_total": 9635,
+    "national_rate": 60.7
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 50.0,
+    "src": "לא הצביעו",
+    "dst": "בל\"ד",
+    "votes": 3020,
+    "rate": 12.2,
+    "lo": 7.2,
+    "hi": 15.8,
+    "src_total": 24794,
+    "national_rate": 1.6
+   }
+  ]
+ },
+ "31": {
+  "name": "אופקים",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "לא הצביעו",
+    "dst": "ישראל ביתנו",
+    "votes": 1080,
+    "rate": 14.1,
+    "lo": 0.0,
+    "hi": 17.7,
+    "src_total": 7629,
+    "national_rate": 2.9
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "הבית היהודי",
+    "votes": 570,
+    "rate": 19.6,
+    "lo": 6.2,
+    "hi": 21.0,
+    "src_total": 2924,
+    "national_rate": 1.3
+   }
+  ]
+ },
+ "2400": {
+  "name": "אור יהודה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 80.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 2070,
+    "rate": 21.1,
+    "lo": 14.2,
+    "hi": 27.8,
+    "src_total": 9832,
+    "national_rate": 3.4
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 50.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 2250,
+    "rate": 100.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "src_total": 2250,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 91.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 1480,
+    "rate": 45.8,
+    "lo": 42.4,
+    "hi": 49.0,
+    "src_total": 3228,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 68.0,
+    "src": "לא הצביעו",
+    "dst": "ש\"ס",
+    "votes": 1280,
+    "rate": 14.2,
+    "lo": 7.3,
+    "hi": 19.2,
+    "src_total": 9007,
+    "national_rate": 1.4
+   }
+  ]
+ },
+ "1020": {
+  "name": "אור עקיבא",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 96.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 2040,
+    "rate": 29.8,
+    "lo": 22.6,
+    "hi": 35.0,
+    "src_total": 6846,
+    "national_rate": 3.4
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 96.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "ישראל ביתנו",
+    "votes": 1110,
+    "rate": 33.1,
+    "lo": 26.8,
+    "hi": 38.3,
+    "src_total": 3345,
+    "national_rate": 13.9
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 68.0,
+    "src": "ש\"ס",
+    "dst": "הציונות הדתית",
+    "votes": 250,
+    "rate": 26.9,
+    "lo": 14.7,
+    "hi": 35.2,
+    "src_total": 941,
+    "national_rate": 1.7
+   },
+   {
+    "kind": "turnout",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 68.0,
+    "src": "לא הצביעו",
+    "dst": "הציונות הדתית",
+    "votes": 350,
+    "rate": 5.2,
+    "lo": 2.7,
+    "hi": 10.5,
+    "src_total": 6667,
+    "national_rate": 0.9
+   }
+  ]
+ },
+ "2600": {
+  "name": "אילת",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 89.0,
+    "src": "יש עתיד",
+    "dst": "כולנו",
+    "votes": 920,
+    "rate": 26.9,
+    "lo": 16.0,
+    "hi": 34.4,
+    "src_total": 3436,
+    "national_rate": 7.6
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 89.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 750,
+    "rate": 21.9,
+    "lo": 13.1,
+    "hi": 32.6,
+    "src_total": 3436,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 84.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 2570,
+    "rate": 41.8,
+    "lo": 38.5,
+    "hi": 44.6,
+    "src_total": 6163,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 84.0,
+    "src": "כחול לבן",
+    "dst": "תקווה חדשה",
+    "votes": 1110,
+    "rate": 18.0,
+    "lo": 11.9,
+    "hi": 21.2,
+    "src_total": 6163,
+    "national_rate": 6.6
+   }
+  ]
+ },
+ "1309": {
+  "name": "אלעד",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 79.0,
+    "src": "ש\"ס",
+    "dst": "יחד",
+    "votes": 640,
+    "rate": 9.7,
+    "lo": 5.5,
+    "hi": 13.4,
+    "src_total": 6626,
+    "national_rate": 6.5
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 68.0,
+    "src": "לא הצביעו",
+    "dst": "ש\"ס",
+    "votes": 690,
+    "rate": 21.5,
+    "lo": 14.4,
+    "hi": 29.5,
+    "src_total": 3205,
+    "national_rate": 0.4
+   }
+  ]
+ },
+ "529": {
+  "name": "אעבלין",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 88.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 560,
+    "rate": 19.4,
+    "lo": 2.6,
+    "hi": 24.1,
+    "src_total": 2863,
+    "national_rate": 3.6
+   }
+  ]
+ },
+ "3570": {
+  "name": "אריאל",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 96.0,
+    "src": "לא הצביעו",
+    "dst": "ישראל ביתנו",
+    "votes": 680,
+    "rate": 13.9,
+    "lo": 3.6,
+    "hi": 24.3,
+    "src_total": 4930,
+    "national_rate": 2.9
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 96.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "הבית היהודי",
+    "votes": 640,
+    "rate": 13.1,
+    "lo": 5.3,
+    "hi": 17.3,
+    "src_total": 4844,
+    "national_rate": 1.3
+   },
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 95.0,
+    "src": "ישראל ביתנו",
+    "dst": "לא הצביעו",
+    "votes": 480,
+    "rate": 22.7,
+    "lo": 7.4,
+    "hi": 32.3,
+    "src_total": 2114,
+    "national_rate": 8.7
+   }
+  ]
+ },
+ "70": {
+  "name": "אשדוד",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 94.0,
+    "src": "כחול לבן",
+    "dst": "ישראל ביתנו",
+    "votes": 3790,
+    "rate": 19.8,
+    "lo": 14.1,
+    "hi": 26.0,
+    "src_total": 19146,
+    "national_rate": 3.0
+   },
+   {
+    "kind": "low_retention",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 94.0,
+    "src": "כחול לבן",
+    "dst": "כחול לבן",
+    "votes": 13930,
+    "rate": 72.8,
+    "lo": 68.0,
+    "hi": 76.6,
+    "src_total": 19146,
+    "national_rate": 86.4
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 76.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 9000,
+    "rate": 49.0,
+    "lo": 46.0,
+    "hi": 51.3,
+    "src_total": 18374,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 76.0,
+    "src": "כחול לבן",
+    "dst": "תקווה חדשה",
+    "votes": 3220,
+    "rate": 17.5,
+    "lo": 14.0,
+    "hi": 21.1,
+    "src_total": 18374,
+    "national_rate": 6.6
+   }
+  ]
+ },
+ "7100": {
+  "name": "אשקלון",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 86.0,
+    "src": "העבודה-גשר",
+    "dst": "כחול לבן",
+    "votes": 2280,
+    "rate": 100.0,
+    "lo": 82.4,
+    "hi": 100.0,
+    "src_total": 2283,
+    "national_rate": 29.5
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 86.0,
+    "src": "כחול לבן",
+    "dst": "הליכוד",
+    "votes": 1650,
+    "rate": 13.5,
+    "lo": 8.5,
+    "hi": 19.4,
+    "src_total": 12210,
+    "national_rate": 2.6
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 74.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 5230,
+    "rate": 44.5,
+    "lo": 42.0,
+    "hi": 46.7,
+    "src_total": 11749,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 74.0,
+    "src": "כחול לבן",
+    "dst": "ימינה",
+    "votes": 1780,
+    "rate": 15.2,
+    "lo": 12.4,
+    "hi": 19.2,
+    "src_total": 11749,
+    "national_rate": 4.2
+   }
+  ]
+ },
+ "6000": {
+  "name": "באקה אל-גרביה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 87.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2430,
+    "rate": 30.2,
+    "lo": 22.0,
+    "hi": 38.5,
+    "src_total": 8064,
+    "national_rate": 3.5
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 97.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 5900,
+    "rate": 51.0,
+    "lo": 49.2,
+    "hi": 54.9,
+    "src_total": 11553,
+    "national_rate": 34.1
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 97.0,
+    "src": "הרשימה המשותפת",
+    "dst": "רע\"מ",
+    "votes": 1980,
+    "rate": 17.1,
+    "lo": 13.5,
+    "hi": 18.1,
+    "src_total": 11553,
+    "national_rate": 27.8
+   },
+   {
+    "kind": "turnout",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 97.0,
+    "src": "לא הצביעו",
+    "dst": "בל\"ד",
+    "votes": 1240,
+    "rate": 9.1,
+    "lo": 4.4,
+    "hi": 17.5,
+    "src_total": 13670,
+    "national_rate": 1.6
+   }
+  ]
+ },
+ "2530": {
+  "name": "באר יעקב",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 93.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 2330,
+    "rate": 51.9,
+    "lo": 44.2,
+    "hi": 53.0,
+    "src_total": 4489,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "low_retention",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 93.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 3160,
+    "rate": 57.7,
+    "lo": 45.4,
+    "hi": 62.5,
+    "src_total": 5490,
+    "national_rate": 73.3
+   }
+  ]
+ },
+ "9200": {
+  "name": "בית שאן",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 58.0,
+    "src": "הליכוד",
+    "dst": "ש\"ס",
+    "votes": 540,
+    "rate": 11.4,
+    "lo": 4.9,
+    "hi": 15.6,
+    "src_total": 4742,
+    "national_rate": 0.6
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 95.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 4700,
+    "rate": 85.6,
+    "lo": 75.0,
+    "hi": 95.4,
+    "src_total": 5493,
+    "national_rate": 98.9
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 95.0,
+    "src": "ש\"ס",
+    "dst": "ש\"ס",
+    "votes": 1580,
+    "rate": 74.8,
+    "lo": 66.3,
+    "hi": 85.6,
+    "src_total": 2111,
+    "national_rate": 94.5
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 57.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 940,
+    "rate": 18.4,
+    "lo": 10.3,
+    "hi": 24.5,
+    "src_total": 5091,
+    "national_rate": 2.4
+   }
+  ]
+ },
+ "2610": {
+  "name": "בית שמש",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 72.0,
+    "src": "לא הצביעו",
+    "dst": "ש\"ס",
+    "votes": 570,
+    "rate": 2.6,
+    "lo": 1.4,
+    "hi": 4.1,
+    "src_total": 21935,
+    "national_rate": 0.4
+   }
+  ]
+ },
+ "3780": {
+  "name": "ביתר עילית",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 74.0,
+    "src": "לא הצביעו",
+    "dst": "יהדות התורה",
+    "votes": 530,
+    "rate": 10.7,
+    "lo": 7.4,
+    "hi": 13.4,
+    "src_total": 4924,
+    "national_rate": 0.2
+   },
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 86.0,
+    "src": "לא הצביעו",
+    "dst": "ש\"ס",
+    "votes": 500,
+    "rate": 11.1,
+    "lo": 0.0,
+    "hi": 17.4,
+    "src_total": 4528,
+    "national_rate": 0.3
+   }
+  ]
+ },
+ "6100": {
+  "name": "בני ברק",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 50.0,
+    "src": "יהדות התורה",
+    "dst": "לא הצביעו",
+    "votes": 4630,
+    "rate": 9.9,
+    "lo": 2.6,
+    "hi": 17.5,
+    "src_total": 46661,
+    "national_rate": 4.9
+   },
+   {
+    "kind": "low_retention",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 84.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 3340,
+    "rate": 75.3,
+    "lo": 64.2,
+    "hi": 82.7,
+    "src_total": 4431,
+    "national_rate": 86.7
+   },
+   {
+    "kind": "low_retention",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 91.0,
+    "src": "הציונות הדתית",
+    "dst": "הציונות הדתית",
+    "votes": 2680,
+    "rate": 73.4,
+    "lo": 62.1,
+    "hi": 78.3,
+    "src_total": 3653,
+    "national_rate": 94.5
+   }
+  ]
+ },
+ "6200": {
+  "name": "בת ים",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 95.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 2540,
+    "rate": 26.2,
+    "lo": 18.0,
+    "hi": 36.7,
+    "src_total": 9704,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 69.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 5940,
+    "rate": 59.7,
+    "lo": 50.8,
+    "hi": 69.6,
+    "src_total": 9942,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 54.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 7530,
+    "rate": 52.2,
+    "lo": 46.0,
+    "hi": 55.7,
+    "src_total": 14421,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 63.0,
+    "src": "ישראל ביתנו",
+    "dst": "לא הצביעו",
+    "votes": 3160,
+    "rate": 34.8,
+    "lo": 21.7,
+    "hi": 42.1,
+    "src_total": 9081,
+    "national_rate": 20.3
+   }
+  ]
+ },
+ "1292": {
+  "name": "ג'דיידה-מכר",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 90.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2510,
+    "rate": 31.9,
+    "lo": 29.4,
+    "hi": 43.8,
+    "src_total": 7884,
+    "national_rate": 5.8
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 82.0,
+    "src": "לא הצביעו",
+    "dst": "בל\"ד",
+    "votes": 1060,
+    "rate": 12.1,
+    "lo": 2.8,
+    "hi": 21.0,
+    "src_total": 8699,
+    "national_rate": 1.6
+   },
+   {
+    "kind": "turnout",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 82.0,
+    "src": "לא הצביעו",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 810,
+    "rate": 9.3,
+    "lo": 0.7,
+    "hi": 19.1,
+    "src_total": 8699,
+    "national_rate": 0.9
+   }
+  ]
+ },
+ "3730": {
+  "name": "גבעת זאב",
+  "facts": []
+ },
+ "681": {
+  "name": "גבעת שמואל",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 57.0,
+    "src": "הבית היהודי",
+    "dst": "הליכוד",
+    "votes": 630,
+    "rate": 16.3,
+    "lo": 10.6,
+    "hi": 24.6,
+    "src_total": 3882,
+    "national_rate": 27.7
+   },
+   {
+    "kind": "turnout",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 81.0,
+    "src": "לא הצביעו",
+    "dst": "הציונות הדתית",
+    "votes": 500,
+    "rate": 10.4,
+    "lo": 0.0,
+    "hi": 20.0,
+    "src_total": 4829,
+    "national_rate": 0.9
+   }
+  ]
+ },
+ "6300": {
+  "name": "גבעתיים",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 47.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 9930,
+    "rate": 73.4,
+    "lo": 65.7,
+    "hi": 81.5,
+    "src_total": 13526,
+    "national_rate": 78.2
+   }
+  ]
+ },
+ "2550": {
+  "name": "גדרה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "לא הצביעו",
+    "dst": "כחול לבן",
+    "votes": 630,
+    "rate": 13.9,
+    "lo": 3.9,
+    "hi": 17.1,
+    "src_total": 4563,
+    "national_rate": 1.0
+   },
+   {
+    "kind": "switch",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "הליכוד",
+    "dst": "ימינה",
+    "votes": 440,
+    "rate": 10.3,
+    "lo": 0.0,
+    "hi": 12.9,
+    "src_total": 4297,
+    "national_rate": 0.4
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 710,
+    "rate": 15.6,
+    "lo": 8.2,
+    "hi": 19.2,
+    "src_total": 4579,
+    "national_rate": 2.7
+   }
+  ]
+ },
+ "166": {
+  "name": "גן יבנה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "הליכוד",
+    "dst": "ש\"ס",
+    "votes": 660,
+    "rate": 13.8,
+    "lo": 2.1,
+    "hi": 17.1,
+    "src_total": 4742,
+    "national_rate": 3.2
+   }
+  ]
+ },
+ "229": {
+  "name": "גני תקווה",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 73.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 260,
+    "rate": 8.1,
+    "lo": 1.1,
+    "hi": 17.5,
+    "src_total": 3214,
+    "national_rate": 2.7
+   }
+  ]
+ },
+ "494": {
+  "name": "דאלית אל-כרמל",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 94.0,
+    "src": "קדימה",
+    "dst": "לא הצביעו",
+    "votes": 960,
+    "rate": 32.0,
+    "lo": 19.8,
+    "hi": 44.0,
+    "src_total": 2999,
+    "national_rate": 18.9
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "כחול לבן",
+    "votes": 4710,
+    "rate": 83.7,
+    "lo": 73.7,
+    "hi": 92.4,
+    "src_total": 5620,
+    "national_rate": 94.5
+   },
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "לא הצביעו",
+    "votes": 580,
+    "rate": 10.4,
+    "lo": 1.1,
+    "hi": 19.2,
+    "src_total": 5620,
+    "national_rate": 1.4
+   }
+  ]
+ },
+ "2200": {
+  "name": "דימונה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 74.0,
+    "src": "הליכוד",
+    "dst": "הציונות הדתית",
+    "votes": 1470,
+    "rate": 16.8,
+    "lo": 6.6,
+    "hi": 18.8,
+    "src_total": 8766,
+    "national_rate": 10.7
+   }
+  ]
+ },
+ "9700": {
+  "name": "הוד השרון",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 74.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 4660,
+    "rate": 57.5,
+    "lo": 49.4,
+    "hi": 66.8,
+    "src_total": 8097,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 76.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 10190,
+    "rate": 50.9,
+    "lo": 48.2,
+    "hi": 51.8,
+    "src_total": 20012,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "6400": {
+  "name": "הרצלייה",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 90.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 8580,
+    "rate": 63.7,
+    "lo": 57.0,
+    "hi": 69.4,
+    "src_total": 13474,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 60.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 16460,
+    "rate": 89.0,
+    "lo": 81.4,
+    "hi": 95.4,
+    "src_total": 18495,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 67.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 14060,
+    "rate": 49.9,
+    "lo": 47.4,
+    "hi": 51.1,
+    "src_total": 28206,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 67.0,
+    "src": "כחול לבן",
+    "dst": "מרצ",
+    "votes": 4330,
+    "rate": 15.3,
+    "lo": 13.1,
+    "hi": 17.1,
+    "src_total": 28206,
+    "national_rate": 4.0
+   }
+  ]
+ },
+ "9300": {
+  "name": "זכרון יעקב",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "לא הצביעו",
+    "votes": 440,
+    "rate": 7.9,
+    "lo": 3.7,
+    "hi": 10.7,
+    "src_total": 5620,
+    "national_rate": 3.8
+   }
+  ]
+ },
+ "6500": {
+  "name": "חדרה",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 86.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "ישראל ביתנו",
+    "votes": 3760,
+    "rate": 28.6,
+    "lo": 15.9,
+    "hi": 32.3,
+    "src_total": 13144,
+    "national_rate": 13.9
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 41.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 5280,
+    "rate": 40.5,
+    "lo": 33.1,
+    "hi": 46.1,
+    "src_total": 13046,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "low_retention",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 41.0,
+    "src": "ש\"ס",
+    "dst": "ש\"ס",
+    "votes": 2480,
+    "rate": 61.8,
+    "lo": 45.8,
+    "hi": 69.4,
+    "src_total": 4011,
+    "national_rate": 79.4
+   }
+  ]
+ },
+ "6600": {
+  "name": "חולון",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 3460,
+    "rate": 18.9,
+    "lo": 15.0,
+    "hi": 24.9,
+    "src_total": 18317,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "יש עתיד",
+    "dst": "כולנו",
+    "votes": 3430,
+    "rate": 18.7,
+    "lo": 14.7,
+    "hi": 22.1,
+    "src_total": 18317,
+    "national_rate": 7.6
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 70.0,
+    "src": "כולנו",
+    "dst": "הליכוד",
+    "votes": 5080,
+    "rate": 41.6,
+    "lo": 29.9,
+    "hi": 51.9,
+    "src_total": 12230,
+    "national_rate": 29.8
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 58.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 15730,
+    "rate": 50.3,
+    "lo": 48.2,
+    "hi": 51.6,
+    "src_total": 31303,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "1247": {
+  "name": "חריש",
+  "facts": []
+ },
+ "6700": {
+  "name": "טבריה",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 75.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 1440,
+    "rate": 9.4,
+    "lo": 3.8,
+    "hi": 15.9,
+    "src_total": 15349,
+    "national_rate": 3.4
+   }
+  ]
+ },
+ "2730": {
+  "name": "טייבה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 83.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2670,
+    "rate": 28.1,
+    "lo": 17.8,
+    "hi": 34.5,
+    "src_total": 9471,
+    "national_rate": 3.5
+   },
+   {
+    "kind": "turnout",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 91.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 8050,
+    "rate": 41.0,
+    "lo": 39.0,
+    "hi": 48.4,
+    "src_total": 19652,
+    "national_rate": 34.1
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 91.0,
+    "src": "הרשימה המשותפת",
+    "dst": "רע\"מ",
+    "votes": 2920,
+    "rate": 14.9,
+    "lo": 7.9,
+    "hi": 16.5,
+    "src_total": 19652,
+    "national_rate": 27.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 100.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 7690,
+    "rate": 92.5,
+    "lo": 79.2,
+    "hi": 98.9,
+    "src_total": 8310,
+    "national_rate": 60.7
+   }
+  ]
+ },
+ "2720": {
+  "name": "טירה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2340,
+    "rate": 39.0,
+    "lo": 26.2,
+    "hi": 48.5,
+    "src_total": 5994,
+    "national_rate": 3.5
+   },
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 850,
+    "rate": 7.7,
+    "lo": 1.4,
+    "hi": 13.6,
+    "src_total": 10927,
+    "national_rate": 2.7
+   }
+  ]
+ },
+ "2100": {
+  "name": "טירת כרמל",
+  "facts": [
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 58.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 5580,
+    "rate": 86.3,
+    "lo": 76.8,
+    "hi": 97.4,
+    "src_total": 6459,
+    "national_rate": 98.9
+   },
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 58.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 790,
+    "rate": 12.0,
+    "lo": 6.6,
+    "hi": 19.9,
+    "src_total": 6543,
+    "national_rate": 2.7
+   }
+  ]
+ },
+ "8900": {
+  "name": "טמרה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 73.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2010,
+    "rate": 32.0,
+    "lo": 25.4,
+    "hi": 47.0,
+    "src_total": 6281,
+    "national_rate": 3.5
+   }
+  ]
+ },
+ "2660": {
+  "name": "יבנה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 93.0,
+    "src": "הליכוד",
+    "dst": "ש\"ס",
+    "votes": 570,
+    "rate": 5.8,
+    "lo": 3.7,
+    "hi": 7.2,
+    "src_total": 9842,
+    "national_rate": 3.2
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 95.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 1440,
+    "rate": 16.4,
+    "lo": 12.6,
+    "hi": 20.3,
+    "src_total": 8779,
+    "national_rate": 2.7
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 95.0,
+    "src": "ימינה",
+    "dst": "ימינה",
+    "votes": 870,
+    "rate": 70.0,
+    "lo": 57.1,
+    "hi": 76.0,
+    "src_total": 1237,
+    "national_rate": 80.6
+   }
+  ]
+ },
+ "9400": {
+  "name": "יהוד-מונוסון",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 93.0,
+    "src": "מרצ",
+    "dst": "המחנה הציוני",
+    "votes": 640,
+    "rate": 100.0,
+    "lo": 99.9,
+    "hi": 100.0,
+    "src_total": 637,
+    "national_rate": 41.2
+   },
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 69.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 3620,
+    "rate": 80.9,
+    "lo": 77.2,
+    "hi": 91.0,
+    "src_total": 4478,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 69.0,
+    "src": "כולנו",
+    "dst": "העבודה",
+    "votes": 300,
+    "rate": 16.3,
+    "lo": 2.7,
+    "hi": 23.1,
+    "src_total": 1824,
+    "national_rate": 1.6
+   }
+  ]
+ },
+ "499": {
+  "name": "יפיע",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 64.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2860,
+    "rate": 39.7,
+    "lo": 32.2,
+    "hi": 48.3,
+    "src_total": 7206,
+    "national_rate": 5.8
+   },
+   {
+    "kind": "switch",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 84.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 2280,
+    "rate": 68.0,
+    "lo": 54.5,
+    "hi": 79.4,
+    "src_total": 3356,
+    "national_rate": 60.7
+   },
+   {
+    "kind": "low_retention",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 84.0,
+    "src": "רע\"מ",
+    "dst": "רע\"מ",
+    "votes": 800,
+    "rate": 53.0,
+    "lo": 41.7,
+    "hi": 64.9,
+    "src_total": 1504,
+    "national_rate": 77.9
+   }
+  ]
+ },
+ "240": {
+  "name": "יקנעם עילית",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 72.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 2160,
+    "rate": 54.9,
+    "lo": 49.3,
+    "hi": 56.7,
+    "src_total": 3940,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "502": {
+  "name": "ירכא",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 80.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 1330,
+    "rate": 24.1,
+    "lo": 7.5,
+    "hi": 31.2,
+    "src_total": 5492,
+    "national_rate": 2.4
+   }
+  ]
+ },
+ "168": {
+  "name": "כפר יונה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 76.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 2520,
+    "rate": 52.2,
+    "lo": 45.6,
+    "hi": 53.9,
+    "src_total": 4829,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "509": {
+  "name": "כפר כנא",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 90.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 1250,
+    "rate": 22.8,
+    "lo": 15.7,
+    "hi": 35.4,
+    "src_total": 5480,
+    "national_rate": 3.5
+   },
+   {
+    "kind": "turnout",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 87.0,
+    "src": "לא הצביעו",
+    "dst": "בל\"ד",
+    "votes": 600,
+    "rate": 7.5,
+    "lo": 0.0,
+    "hi": 18.3,
+    "src_total": 7979,
+    "national_rate": 1.6
+   }
+  ]
+ },
+ "510": {
+  "name": "כפר מנדא",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2190,
+    "rate": 46.3,
+    "lo": 40.3,
+    "hi": 55.2,
+    "src_total": 4733,
+    "national_rate": 5.8
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "רע\"מ-בל\"ד",
+    "dst": "לא הצביעו",
+    "votes": 880,
+    "rate": 35.9,
+    "lo": 23.0,
+    "hi": 46.6,
+    "src_total": 2455,
+    "national_rate": 11.5
+   }
+  ]
+ },
+ "6900": {
+  "name": "כפר סבא",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 57.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 15400,
+    "rate": 78.0,
+    "lo": 70.2,
+    "hi": 84.0,
+    "src_total": 19732,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 86.0,
+    "src": "העבודה",
+    "dst": "לא הצביעו",
+    "votes": 1160,
+    "rate": 26.2,
+    "lo": 12.0,
+    "hi": 32.3,
+    "src_total": 4435,
+    "national_rate": 5.2
+   }
+  ]
+ },
+ "634": {
+  "name": "כפר קאסם",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 74.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 500,
+    "rate": 9.3,
+    "lo": 2.2,
+    "hi": 22.0,
+    "src_total": 5307,
+    "national_rate": 5.8
+   }
+  ]
+ },
+ "654": {
+  "name": "כפר קרע",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2560,
+    "rate": 38.1,
+    "lo": 29.5,
+    "hi": 49.0,
+    "src_total": 6714,
+    "national_rate": 5.8
+   }
+  ]
+ },
+ "1139": {
+  "name": "כרמיאל",
+  "facts": [
+   {
+    "kind": "low_retention",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "הליכוד",
+    "votes": 3010,
+    "rate": 34.0,
+    "lo": 26.2,
+    "hi": 45.9,
+    "src_total": 8865,
+    "national_rate": 65.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 530,
+    "rate": 13.5,
+    "lo": 3.7,
+    "hi": 28.2,
+    "src_total": 3956,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 93.0,
+    "src": "הליכוד",
+    "dst": "ישראל ביתנו",
+    "votes": 1010,
+    "rate": 12.5,
+    "lo": 6.3,
+    "hi": 16.2,
+    "src_total": 8038,
+    "national_rate": 1.3
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 82.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 3110,
+    "rate": 46.9,
+    "lo": 42.2,
+    "hi": 50.9,
+    "src_total": 6627,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "7000": {
+  "name": "לוד",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 65.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 1050,
+    "rate": 47.2,
+    "lo": 36.1,
+    "hi": 60.1,
+    "src_total": 2216,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 65.0,
+    "src": "יחד",
+    "dst": "איחוד מפלגות הימין",
+    "votes": 1000,
+    "rate": 69.4,
+    "lo": 64.2,
+    "hi": 71.7,
+    "src_total": 1444,
+    "national_rate": 51.6
+   },
+   {
+    "kind": "turnout",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 44.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 2800,
+    "rate": 39.0,
+    "lo": 34.6,
+    "hi": 43.2,
+    "src_total": 7170,
+    "national_rate": 34.1
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 44.0,
+    "src": "הליכוד",
+    "dst": "ש\"ס",
+    "votes": 1760,
+    "rate": 13.2,
+    "lo": 7.6,
+    "hi": 15.6,
+    "src_total": 13356,
+    "national_rate": 0.7
+   }
+  ]
+ },
+ "1015": {
+  "name": "מבשרת ציון",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 76.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 2800,
+    "rate": 75.2,
+    "lo": 65.8,
+    "hi": 85.1,
+    "src_total": 3724,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 76.0,
+    "src": "המחנה הציוני",
+    "dst": "מרצ",
+    "votes": 600,
+    "rate": 16.1,
+    "lo": 9.4,
+    "hi": 18.4,
+    "src_total": 3724,
+    "national_rate": 2.1
+   }
+  ]
+ },
+ "481": {
+  "name": "מגאר",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 96.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 700,
+    "rate": 9.2,
+    "lo": 0.9,
+    "hi": 10.0,
+    "src_total": 7594,
+    "national_rate": 3.5
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 97.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 1360,
+    "rate": 72.5,
+    "lo": 67.1,
+    "hi": 75.8,
+    "src_total": 1878,
+    "national_rate": 60.7
+   }
+  ]
+ },
+ "874": {
+  "name": "מגדל העמק",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 84.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "כולנו",
+    "votes": 920,
+    "rate": 18.3,
+    "lo": 15.2,
+    "hi": 19.1,
+    "src_total": 5045,
+    "national_rate": 10.7
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "הליכוד",
+    "votes": 370,
+    "rate": 20.8,
+    "lo": 3.7,
+    "hi": 27.4,
+    "src_total": 1781,
+    "national_rate": 2.6
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "כחול לבן",
+    "votes": 1410,
+    "rate": 79.2,
+    "lo": 71.5,
+    "hi": 88.8,
+    "src_total": 1781,
+    "national_rate": 94.5
+   }
+  ]
+ },
+ "3797": {
+  "name": "מודיעין עילית",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 49.0,
+    "src": "יהדות התורה",
+    "dst": "לא הצביעו",
+    "votes": 550,
+    "rate": 3.0,
+    "lo": 1.3,
+    "hi": 5.0,
+    "src_total": 18606,
+    "national_rate": 2.4
+   }
+  ]
+ },
+ "1200": {
+  "name": "מודיעין-מכבים-רעות",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 74.0,
+    "src": "התנועה",
+    "dst": "המחנה הציוני",
+    "votes": 2690,
+    "rate": 100.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "src_total": 2693,
+    "national_rate": 72.1
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 74.0,
+    "src": "העבודה",
+    "dst": "מרצ",
+    "votes": 890,
+    "rate": 14.4,
+    "lo": 5.2,
+    "hi": 23.7,
+    "src_total": 6174,
+    "national_rate": 4.3
+   },
+   {
+    "kind": "low_retention",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 90.0,
+    "src": "העבודה",
+    "dst": "העבודה-גשר",
+    "votes": 1130,
+    "rate": 34.9,
+    "lo": 20.7,
+    "hi": 45.5,
+    "src_total": 3245,
+    "national_rate": 48.5
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 82.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 10160,
+    "rate": 46.7,
+    "lo": 41.8,
+    "hi": 49.2,
+    "src_total": 21744,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "3616": {
+  "name": "מעלה אדומים",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 59.0,
+    "src": "הליכוד",
+    "dst": "כחול לבן",
+    "votes": 1340,
+    "rate": 14.2,
+    "lo": 8.7,
+    "hi": 18.2,
+    "src_total": 9472,
+    "national_rate": 1.1
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 59.0,
+    "src": "הבית היהודי",
+    "dst": "הימין החדש",
+    "votes": 1200,
+    "rate": 41.4,
+    "lo": 36.8,
+    "hi": 48.7,
+    "src_total": 2895,
+    "national_rate": 23.5
+   },
+   {
+    "kind": "switch",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 96.0,
+    "src": "הליכוד",
+    "dst": "הציונות הדתית",
+    "votes": 1450,
+    "rate": 16.5,
+    "lo": 8.4,
+    "hi": 19.0,
+    "src_total": 8801,
+    "national_rate": 10.7
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 96.0,
+    "src": "הציונות הדתית",
+    "dst": "לא הצביעו",
+    "votes": 330,
+    "rate": 16.2,
+    "lo": 8.3,
+    "hi": 24.4,
+    "src_total": 2059,
+    "national_rate": 0.3
+   }
+  ]
+ },
+ "1063": {
+  "name": "מעלות-תרשיחא",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 87.0,
+    "src": "בל\"ד",
+    "dst": "הרשימה המשותפת",
+    "votes": 960,
+    "rate": 100.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "src_total": 956,
+    "national_rate": 92.1
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 67.0,
+    "src": "הליכוד",
+    "dst": "לא הצביעו",
+    "votes": 410,
+    "rate": 13.5,
+    "lo": 7.7,
+    "hi": 21.4,
+    "src_total": 3041,
+    "national_rate": 1.0
+   }
+  ]
+ },
+ "9100": {
+  "name": "נהרייה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 42.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 3870,
+    "rate": 49.5,
+    "lo": 41.5,
+    "hi": 51.0,
+    "src_total": 7817,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 42.0,
+    "src": "כחול לבן",
+    "dst": "תקווה חדשה",
+    "votes": 1400,
+    "rate": 17.9,
+    "lo": 12.9,
+    "hi": 19.5,
+    "src_total": 7817,
+    "national_rate": 6.6
+   }
+  ]
+ },
+ "1061": {
+  "name": "נוף הגליל",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 92.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "ישראל ביתנו",
+    "votes": 4700,
+    "rate": 54.7,
+    "lo": 46.9,
+    "hi": 58.9,
+    "src_total": 8588,
+    "national_rate": 13.9
+   },
+   {
+    "kind": "low_retention",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 92.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "הליכוד",
+    "votes": 2930,
+    "rate": 34.1,
+    "lo": 27.7,
+    "hi": 41.8,
+    "src_total": 8588,
+    "national_rate": 65.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 77.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 2580,
+    "rate": 71.8,
+    "lo": 66.2,
+    "hi": 77.2,
+    "src_total": 3599,
+    "national_rate": 35.6
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 77.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 1260,
+    "rate": 55.7,
+    "lo": 44.4,
+    "hi": 62.7,
+    "src_total": 2269,
+    "national_rate": 78.2
+   }
+  ]
+ },
+ "7200": {
+  "name": "נס ציונה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 82.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 6540,
+    "rate": 50.5,
+    "lo": 45.6,
+    "hi": 51.7,
+    "src_total": 12945,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "7300": {
+  "name": "נצרת",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 73.0,
+    "src": "חד\"ש",
+    "dst": "הרשימה המשותפת",
+    "votes": 10290,
+    "rate": 76.1,
+    "lo": 68.0,
+    "hi": 89.0,
+    "src_total": 13517,
+    "national_rate": 91.7
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 95.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 10180,
+    "rate": 29.4,
+    "lo": 26.7,
+    "hi": 31.6,
+    "src_total": 34636,
+    "national_rate": 5.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 54.0,
+    "src": "הרשימה המשותפת",
+    "dst": "רע\"מ",
+    "votes": 5510,
+    "rate": 16.6,
+    "lo": 14.8,
+    "hi": 18.4,
+    "src_total": 33145,
+    "national_rate": 27.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 76.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 12040,
+    "rate": 82.3,
+    "lo": 77.3,
+    "hi": 87.1,
+    "src_total": 14632,
+    "national_rate": 60.7
+   }
+  ]
+ },
+ "2500": {
+  "name": "נשר",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 45.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 2480,
+    "rate": 100.0,
+    "lo": 91.7,
+    "hi": 100.0,
+    "src_total": 2475,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 92.0,
+    "src": "ישראל ביתנו",
+    "dst": "לא הצביעו",
+    "votes": 450,
+    "rate": 19.9,
+    "lo": 10.8,
+    "hi": 26.1,
+    "src_total": 2287,
+    "national_rate": 8.7
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 44.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 1900,
+    "rate": 47.0,
+    "lo": 40.4,
+    "hi": 50.8,
+    "src_total": 4034,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "low_retention",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 73.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 2630,
+    "rate": 68.5,
+    "lo": 55.3,
+    "hi": 77.1,
+    "src_total": 3843,
+    "national_rate": 84.4
+   }
+  ]
+ },
+ "246": {
+  "name": "נתיבות",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 48.0,
+    "src": "הליכוד",
+    "dst": "לא הצביעו",
+    "votes": 1020,
+    "rate": 15.4,
+    "lo": 0.0,
+    "hi": 18.1,
+    "src_total": 6596,
+    "national_rate": 8.1
+   }
+  ]
+ },
+ "7400": {
+  "name": "נתניה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 80.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 13080,
+    "rate": 50.5,
+    "lo": 48.8,
+    "hi": 51.8,
+    "src_total": 25906,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 69.0,
+    "src": "ימינה",
+    "dst": "הציונות הדתית",
+    "votes": 3310,
+    "rate": 47.9,
+    "lo": 42.2,
+    "hi": 54.2,
+    "src_total": 6898,
+    "national_rate": 34.3
+   }
+  ]
+ },
+ "7500": {
+  "name": "סח'נין",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 69.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 1640,
+    "rate": 12.5,
+    "lo": 3.6,
+    "hi": 26.1,
+    "src_total": 13115,
+    "national_rate": 2.7
+   }
+  ]
+ },
+ "7600": {
+  "name": "עכו",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 87.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "ישראל ביתנו",
+    "votes": 2120,
+    "rate": 29.6,
+    "lo": 20.8,
+    "hi": 37.9,
+    "src_total": 7164,
+    "national_rate": 13.9
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 87.0,
+    "src": "רע\"מ-תע\"ל",
+    "dst": "הרשימה המשותפת",
+    "votes": 1670,
+    "rate": 100.0,
+    "lo": 100.0,
+    "hi": 100.0,
+    "src_total": 1670,
+    "national_rate": 88.9
+   },
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 66.0,
+    "src": "הרשימה המשותפת",
+    "dst": "רע\"מ-בל\"ד",
+    "votes": 2350,
+    "rate": 35.4,
+    "lo": 30.2,
+    "hi": 39.3,
+    "src_total": 6655,
+    "national_rate": 28.7
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 70.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 3510,
+    "rate": 44.9,
+    "lo": 39.7,
+    "hi": 51.5,
+    "src_total": 7805,
+    "national_rate": 34.1
+   }
+  ]
+ },
+ "7700": {
+  "name": "עפולה",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 83.0,
+    "src": "הליכוד",
+    "dst": "לא הצביעו",
+    "votes": 630,
+    "rate": 5.3,
+    "lo": 0.0,
+    "hi": 12.8,
+    "src_total": 12016,
+    "national_rate": 2.3
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 68.0,
+    "src": "ש\"ס",
+    "dst": "ש\"ס",
+    "votes": 1590,
+    "rate": 82.6,
+    "lo": 72.1,
+    "hi": 89.7,
+    "src_total": 1925,
+    "national_rate": 94.5
+   }
+  ]
+ },
+ "531": {
+  "name": "עראבה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 68.0,
+    "src": "חד\"ש",
+    "dst": "הרשימה המשותפת",
+    "votes": 2740,
+    "rate": 98.5,
+    "lo": 85.3,
+    "hi": 100.0,
+    "src_total": 2786,
+    "national_rate": 91.7
+   }
+  ]
+ },
+ "2560": {
+  "name": "ערד",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 97.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "ישראל ביתנו",
+    "votes": 1080,
+    "rate": 28.4,
+    "lo": 15.6,
+    "hi": 38.6,
+    "src_total": 3808,
+    "national_rate": 13.9
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 97.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "יש עתיד",
+    "votes": 650,
+    "rate": 17.2,
+    "lo": 9.1,
+    "hi": 21.7,
+    "src_total": 3808,
+    "national_rate": 2.5
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 1940,
+    "rate": 79.7,
+    "lo": 70.6,
+    "hi": 94.5,
+    "src_total": 2432,
+    "national_rate": 98.9
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 63.0,
+    "src": "לא הצביעו",
+    "dst": "ישראל ביתנו",
+    "votes": 1560,
+    "rate": 17.6,
+    "lo": 6.3,
+    "hi": 25.8,
+    "src_total": 8833,
+    "national_rate": 1.0
+   }
+  ]
+ },
+ "637": {
+  "name": "ערערה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 100.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 1760,
+    "rate": 30.2,
+    "lo": 26.2,
+    "hi": 42.5,
+    "src_total": 5824,
+    "national_rate": 3.5
+   }
+  ]
+ },
+ "7800": {
+  "name": "פרדס חנה-כרכור",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 3780,
+    "rate": 43.2,
+    "lo": 37.0,
+    "hi": 44.6,
+    "src_total": 8738,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "העבודה",
+    "votes": 1720,
+    "rate": 19.7,
+    "lo": 17.0,
+    "hi": 29.3,
+    "src_total": 8738,
+    "national_rate": 7.8
+   }
+  ]
+ },
+ "7900": {
+  "name": "פתח תקווה",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 75.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 20310,
+    "rate": 54.2,
+    "lo": 51.6,
+    "hi": 55.6,
+    "src_total": 37442,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 75.0,
+    "src": "ש\"ס",
+    "dst": "הציונות הדתית",
+    "votes": 2450,
+    "rate": 22.6,
+    "lo": 17.2,
+    "hi": 26.3,
+    "src_total": 10805,
+    "national_rate": 6.4
+   }
+  ]
+ },
+ "8000": {
+  "name": "צפת",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 96.0,
+    "src": "עוצמה יהודית",
+    "dst": "יהדות התורה",
+    "votes": 440,
+    "rate": 40.5,
+    "lo": 27.7,
+    "hi": 52.4,
+    "src_total": 1080,
+    "national_rate": 12.3
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 96.0,
+    "src": "כחול לבן",
+    "dst": "כחול לבן",
+    "votes": 720,
+    "rate": 83.7,
+    "lo": 72.7,
+    "hi": 90.2,
+    "src_total": 863,
+    "national_rate": 94.5
+   }
+  ]
+ },
+ "195": {
+  "name": "קדימה-צורן",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 100.0,
+    "src": "כחול לבן",
+    "dst": "המחנה הדמוקרטי",
+    "votes": 300,
+    "rate": 5.1,
+    "lo": 1.5,
+    "hi": 8.6,
+    "src_total": 5776,
+    "national_rate": 1.2
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 56.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 1010,
+    "rate": 24.7,
+    "lo": 12.0,
+    "hi": 35.7,
+    "src_total": 4078,
+    "national_rate": 2.4
+   }
+  ]
+ },
+ "638": {
+  "name": "קלנסווה",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 95.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 3180,
+    "rate": 42.9,
+    "lo": 36.6,
+    "hi": 56.1,
+    "src_total": 7394,
+    "national_rate": 5.8
+   },
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 90.0,
+    "src": "הרשימה המשותפת",
+    "dst": "לא הצביעו",
+    "votes": 520,
+    "rate": 5.9,
+    "lo": 0.0,
+    "hi": 13.1,
+    "src_total": 8833,
+    "national_rate": 2.7
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 85.0,
+    "src": "לא הצביעו",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 1550,
+    "rate": 16.0,
+    "lo": 6.6,
+    "hi": 23.8,
+    "src_total": 9695,
+    "national_rate": 0.9
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 85.0,
+    "src": "לא הצביעו",
+    "dst": "בל\"ד",
+    "votes": 1510,
+    "rate": 15.6,
+    "lo": 3.7,
+    "hi": 23.3,
+    "src_total": 9695,
+    "national_rate": 1.6
+   }
+  ]
+ },
+ "2620": {
+  "name": "קריית אונו",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 53.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 5640,
+    "rate": 78.3,
+    "lo": 69.2,
+    "hi": 85.2,
+    "src_total": 7208,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 53.0,
+    "src": "הליכוד",
+    "dst": "כחול לבן",
+    "votes": 850,
+    "rate": 20.3,
+    "lo": 3.8,
+    "hi": 27.7,
+    "src_total": 4176,
+    "national_rate": 1.1
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 83.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הממלכתי",
+    "votes": 1120,
+    "rate": 19.2,
+    "lo": 10.6,
+    "hi": 27.6,
+    "src_total": 5850,
+    "national_rate": 6.3
+   }
+  ]
+ },
+ "6800": {
+  "name": "קריית אתא",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 80.0,
+    "src": "לא הצביעו",
+    "dst": "ישראל ביתנו",
+    "votes": 2660,
+    "rate": 15.3,
+    "lo": 13.0,
+    "hi": 17.0,
+    "src_total": 17385,
+    "national_rate": 2.9
+   },
+   {
+    "kind": "switch",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 80.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "כולנו",
+    "votes": 1600,
+    "rate": 17.2,
+    "lo": 13.2,
+    "hi": 21.4,
+    "src_total": 9312,
+    "national_rate": 10.7
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 60.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 4350,
+    "rate": 100.0,
+    "lo": 89.2,
+    "hi": 100.0,
+    "src_total": 4353,
+    "national_rate": 78.2
+   }
+  ]
+ },
+ "9500": {
+  "name": "קריית ביאליק",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 52.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 5400,
+    "rate": 94.6,
+    "lo": 84.2,
+    "hi": 100.0,
+    "src_total": 5715,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 52.0,
+    "src": "יש עתיד",
+    "dst": "העבודה",
+    "votes": 600,
+    "rate": 18.7,
+    "lo": 5.3,
+    "hi": 26.2,
+    "src_total": 3205,
+    "national_rate": 1.6
+   },
+   {
+    "kind": "low_retention",
+    "pair": "21-22",
+    "from_year": "אפריל 2019",
+    "to_year": "ספטמבר 2019",
+    "coverage_pct": 84.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 5510,
+    "rate": 72.5,
+    "lo": 60.9,
+    "hi": 82.2,
+    "src_total": 7610,
+    "national_rate": 86.7
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 42.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 3920,
+    "rate": 47.7,
+    "lo": 43.8,
+    "hi": 49.6,
+    "src_total": 8225,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "2630": {
+  "name": "קריית גת",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 90.0,
+    "src": "כחול לבן",
+    "dst": "הליכוד",
+    "votes": 1780,
+    "rate": 41.0,
+    "lo": 28.1,
+    "hi": 52.9,
+    "src_total": 4353,
+    "national_rate": 2.6
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 90.0,
+    "src": "כחול לבן",
+    "dst": "כחול לבן",
+    "votes": 2420,
+    "rate": 55.6,
+    "lo": 44.9,
+    "hi": 65.2,
+    "src_total": 4353,
+    "national_rate": 94.5
+   },
+   {
+    "kind": "turnout",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 68.0,
+    "src": "הליכוד",
+    "dst": "לא הצביעו",
+    "votes": 1870,
+    "rate": 14.2,
+    "lo": 9.0,
+    "hi": 19.5,
+    "src_total": 13159,
+    "national_rate": 8.1
+   }
+  ]
+ },
+ "2300": {
+  "name": "קריית טבעון",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 74.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 4110,
+    "rate": 95.7,
+    "lo": 86.8,
+    "hi": 100.0,
+    "src_total": 4295,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 77.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 2100,
+    "rate": 41.0,
+    "lo": 34.9,
+    "hi": 46.3,
+    "src_total": 5129,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 77.0,
+    "src": "לא הצביעו",
+    "dst": "העבודה",
+    "votes": 460,
+    "rate": 10.9,
+    "lo": 5.0,
+    "hi": 14.9,
+    "src_total": 4237,
+    "national_rate": 0.4
+   }
+  ]
+ },
+ "9600": {
+  "name": "קריית ים",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "ישראל ביתנו",
+    "votes": 3220,
+    "rate": 39.7,
+    "lo": 26.6,
+    "hi": 51.0,
+    "src_total": 8098,
+    "national_rate": 13.9
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 88.0,
+    "src": "הליכוד-ישראל ביתנו",
+    "dst": "יש עתיד",
+    "votes": 1220,
+    "rate": 15.1,
+    "lo": 8.7,
+    "hi": 20.0,
+    "src_total": 8098,
+    "national_rate": 2.5
+   },
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 90.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 2080,
+    "rate": 71.0,
+    "lo": 60.0,
+    "hi": 82.3,
+    "src_total": 2924,
+    "national_rate": 78.2
+   }
+  ]
+ },
+ "8200": {
+  "name": "קריית מוצקין",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 87.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 770,
+    "rate": 5.9,
+    "lo": 3.2,
+    "hi": 8.1,
+    "src_total": 13117,
+    "national_rate": 2.7
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 87.0,
+    "src": "ימינה",
+    "dst": "ימינה",
+    "votes": 540,
+    "rate": 59.0,
+    "lo": 45.1,
+    "hi": 68.6,
+    "src_total": 913,
+    "national_rate": 80.6
+   }
+  ]
+ },
+ "1034": {
+  "name": "קריית מלאכי",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 58.0,
+    "src": "לא הצביעו",
+    "dst": "הליכוד",
+    "votes": 1060,
+    "rate": 16.8,
+    "lo": 11.0,
+    "hi": 21.5,
+    "src_total": 6301,
+    "national_rate": 3.4
+   },
+   {
+    "kind": "turnout",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 85.0,
+    "src": "הליכוד",
+    "dst": "לא הצביעו",
+    "votes": 920,
+    "rate": 15.2,
+    "lo": 8.4,
+    "hi": 23.7,
+    "src_total": 6040,
+    "national_rate": 8.1
+   }
+  ]
+ },
+ "2800": {
+  "name": "קריית שמונה",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 78.0,
+    "src": "הליכוד",
+    "dst": "לא הצביעו",
+    "votes": 800,
+    "rate": 12.3,
+    "lo": 6.8,
+    "hi": 19.7,
+    "src_total": 6471,
+    "national_rate": 8.1
+   }
+  ]
+ },
+ "2640": {
+  "name": "ראש העין",
+  "facts": [
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 77.0,
+    "src": "ימינה",
+    "dst": "ימינה",
+    "votes": 1250,
+    "rate": 68.7,
+    "lo": 54.6,
+    "hi": 74.0,
+    "src_total": 1817,
+    "national_rate": 80.6
+   },
+   {
+    "kind": "switch",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 79.0,
+    "src": "הליכוד",
+    "dst": "הציונות הדתית",
+    "votes": 1940,
+    "rate": 18.3,
+    "lo": 11.7,
+    "hi": 24.1,
+    "src_total": 10609,
+    "national_rate": 10.7
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 79.0,
+    "src": "כחול לבן",
+    "dst": "לא הצביעו",
+    "votes": 630,
+    "rate": 17.1,
+    "lo": 7.7,
+    "hi": 21.3,
+    "src_total": 3677,
+    "national_rate": 1.6
+   }
+  ]
+ },
+ "8300": {
+  "name": "ראשון לציון",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 82.0,
+    "src": "לא הצביעו",
+    "dst": "ישראל ביתנו",
+    "votes": 9040,
+    "rate": 13.7,
+    "lo": 12.4,
+    "hi": 14.9,
+    "src_total": 65885,
+    "national_rate": 2.9
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 82.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 6480,
+    "rate": 22.5,
+    "lo": 18.2,
+    "hi": 29.1,
+    "src_total": 28745,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 54.0,
+    "src": "ישראל ביתנו",
+    "dst": "לא הצביעו",
+    "votes": 2710,
+    "rate": 28.6,
+    "lo": 20.4,
+    "hi": 35.6,
+    "src_total": 9485,
+    "national_rate": 12.9
+   },
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 61.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 26120,
+    "rate": 51.3,
+    "lo": 47.7,
+    "hi": 53.8,
+    "src_total": 50944,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "1161": {
+  "name": "רהט",
+  "facts": []
+ },
+ "8400": {
+  "name": "רחובות",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 88.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 12130,
+    "rate": 50.3,
+    "lo": 48.3,
+    "hi": 52.4,
+    "src_total": 24095,
+    "national_rate": 45.0
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 88.0,
+    "src": "העבודה-גשר-מרצ",
+    "dst": "מרצ",
+    "votes": 2740,
+    "rate": 56.4,
+    "lo": 49.5,
+    "hi": 63.1,
+    "src_total": 4854,
+    "national_rate": 37.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 91.0,
+    "src": "העבודה",
+    "dst": "יש עתיד",
+    "votes": 2390,
+    "rate": 49.9,
+    "lo": 33.4,
+    "hi": 56.4,
+    "src_total": 4800,
+    "national_rate": 24.2
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 91.0,
+    "src": "מרצ",
+    "dst": "לא הצביעו",
+    "votes": 1390,
+    "rate": 41.6,
+    "lo": 31.1,
+    "hi": 49.0,
+    "src_total": 3348,
+    "national_rate": 8.6
+   }
+  ]
+ },
+ "8500": {
+  "name": "רמלה",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 99.0,
+    "src": "כחול לבן",
+    "dst": "הליכוד",
+    "votes": 910,
+    "rate": 20.0,
+    "lo": 8.5,
+    "hi": 30.3,
+    "src_total": 4572,
+    "national_rate": 2.6
+   },
+   {
+    "kind": "low_retention",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 99.0,
+    "src": "כחול לבן",
+    "dst": "כחול לבן",
+    "votes": 2980,
+    "rate": 65.1,
+    "lo": 56.8,
+    "hi": 73.0,
+    "src_total": 4572,
+    "national_rate": 94.5
+   },
+   {
+    "kind": "switch",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 74.0,
+    "src": "הליכוד",
+    "dst": "הציונות הדתית",
+    "votes": 2190,
+    "rate": 15.5,
+    "lo": 11.9,
+    "hi": 18.7,
+    "src_total": 14159,
+    "national_rate": 10.7
+   }
+  ]
+ },
+ "8600": {
+  "name": "רמת גן",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 86.0,
+    "src": "התנועה",
+    "dst": "המחנה הציוני",
+    "votes": 5630,
+    "rate": 96.0,
+    "lo": 86.1,
+    "hi": 100.0,
+    "src_total": 5863,
+    "national_rate": 72.1
+   },
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 50.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 20360,
+    "rate": 76.8,
+    "lo": 73.3,
+    "hi": 83.2,
+    "src_total": 26515,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 63.0,
+    "src": "העבודה-גשר-מרצ",
+    "dst": "מרצ",
+    "votes": 4580,
+    "rate": 53.1,
+    "lo": 40.9,
+    "hi": 63.8,
+    "src_total": 8641,
+    "national_rate": 37.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 85.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 4920,
+    "rate": 50.0,
+    "lo": 36.5,
+    "hi": 58.5,
+    "src_total": 9831,
+    "national_rate": 32.2
+   }
+  ]
+ },
+ "2650": {
+  "name": "רמת השרון",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 84.0,
+    "src": "יש עתיד",
+    "dst": "המחנה הציוני",
+    "votes": 4330,
+    "rate": 59.5,
+    "lo": 50.4,
+    "hi": 64.7,
+    "src_total": 7271,
+    "national_rate": 38.8
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 84.0,
+    "src": "העבודה",
+    "dst": "מרצ",
+    "votes": 630,
+    "rate": 14.5,
+    "lo": 4.8,
+    "hi": 21.8,
+    "src_total": 4358,
+    "national_rate": 4.3
+   },
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 52.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 10130,
+    "rate": 86.1,
+    "lo": 75.3,
+    "hi": 96.0,
+    "src_total": 11767,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "22-23",
+    "from_year": "ספטמבר 2019",
+    "to_year": "2020",
+    "coverage_pct": 98.0,
+    "src": "המחנה הדמוקרטי",
+    "dst": "כחול לבן",
+    "votes": 1730,
+    "rate": 59.2,
+    "lo": 46.4,
+    "hi": 69.1,
+    "src_total": 2918,
+    "national_rate": 26.7
+   }
+  ]
+ },
+ "8700": {
+  "name": "רעננה",
+  "facts": [
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 94.0,
+    "src": "הבית היהודי",
+    "dst": "הליכוד",
+    "votes": 920,
+    "rate": 16.4,
+    "lo": 11.5,
+    "hi": 21.3,
+    "src_total": 5616,
+    "national_rate": 27.7
+   },
+   {
+    "kind": "switch",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 55.0,
+    "src": "המחנה הציוני",
+    "dst": "כחול לבן",
+    "votes": 11260,
+    "rate": 79.8,
+    "lo": 69.9,
+    "hi": 88.4,
+    "src_total": 14117,
+    "national_rate": 78.2
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "20-21",
+    "from_year": "2015",
+    "to_year": "אפריל 2019",
+    "coverage_pct": 55.0,
+    "src": "הבית היהודי",
+    "dst": "הימין החדש",
+    "votes": 2220,
+    "rate": 47.4,
+    "lo": 37.5,
+    "hi": 60.8,
+    "src_total": 4673,
+    "national_rate": 23.5
+   },
+   {
+    "kind": "turnout_distinct",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 77.0,
+    "src": "ימינה",
+    "dst": "לא הצביעו",
+    "votes": 1110,
+    "rate": 21.1,
+    "lo": 6.9,
+    "hi": 28.2,
+    "src_total": 5262,
+    "national_rate": 5.2
+   }
+  ]
+ },
+ "1031": {
+  "name": "שדרות",
+  "facts": [
+   {
+    "kind": "turnout",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 72.0,
+    "src": "הליכוד",
+    "dst": "לא הצביעו",
+    "votes": 1000,
+    "rate": 14.6,
+    "lo": 0.0,
+    "hi": 20.2,
+    "src_total": 6861,
+    "national_rate": 8.1
+   },
+   {
+    "kind": "low_retention",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 72.0,
+    "src": "הליכוד",
+    "dst": "הליכוד",
+    "votes": 4120,
+    "rate": 60.1,
+    "lo": 50.2,
+    "hi": 69.3,
+    "src_total": 6861,
+    "national_rate": 73.3
+   }
+  ]
+ },
+ "1304": {
+  "name": "שוהם",
+  "facts": [
+   {
+    "kind": "switch",
+    "pair": "23-24",
+    "from_year": "2020",
+    "to_year": "2021",
+    "coverage_pct": 83.0,
+    "src": "כחול לבן",
+    "dst": "יש עתיד",
+    "votes": 2480,
+    "rate": 41.4,
+    "lo": 31.1,
+    "hi": 49.8,
+    "src_total": 5989,
+    "national_rate": 45.0
+   }
+  ]
+ },
+ "8800": {
+  "name": "שפרעם",
+  "facts": [
+   {
+    "kind": "turnout_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 84.0,
+    "src": "לא הצביעו",
+    "dst": "הרשימה המשותפת",
+    "votes": 2610,
+    "rate": 23.2,
+    "lo": 16.1,
+    "hi": 32.7,
+    "src_total": 11282,
+    "national_rate": 4.7
+   },
+   {
+    "kind": "switch_distinct",
+    "pair": "19-20",
+    "from_year": "2013",
+    "to_year": "2015",
+    "coverage_pct": 84.0,
+    "src": "בל\"ד",
+    "dst": "מרצ",
+    "votes": 470,
+    "rate": 13.5,
+    "lo": 9.8,
+    "hi": 15.0,
+    "src_total": 3522,
+    "national_rate": 0.6
+   },
+   {
+    "kind": "switch",
+    "pair": "24-25",
+    "from_year": "2021",
+    "to_year": "2022",
+    "coverage_pct": 85.0,
+    "src": "הרשימה המשותפת",
+    "dst": "חד\"ש-תע\"ל",
+    "votes": 4830,
+    "rate": 67.9,
+    "lo": 59.8,
+    "hi": 71.3,
+    "src_total": 7118,
+    "national_rate": 60.7
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "_doc": "Election-day turnout by hour, % of eligible voters, as the Central Elections Committee announces it during the day. 26 is filled in on election day (Tuesday 27 Oct 2026) as each figure is published; empty means not yet announced.",
+ "_sources_25": "Central Elections Committee announcements on 1 Nov 2022 as reported the same day: 10:00 and 12:00 ICE; 14:00 Srugim and JDN; 16:00 ynet; 18:00 Maariv; 19:00 Srugim; 20:00 Israel Hayom; 22:00 (polls closed) JDN and Kan, 71.3%. סופי: official final turnout 70.63% (votes25.bechirot.gov.il), after the count including double envelopes.",
+ "_hours": "Rows of the page table. In 2026 the committee kept the 2022 hours, releasing each figure about 50 minutes after the hour (10:00 came out at 10:50). An hour it adds on the day can be added here; where 2022 has no figure for a row's hour the page interpolates one and marks it ≈ (note 25|est).",
+ "hours": [
+  "10:00",
+  "12:00",
+  "14:00",
+  "16:00",
+  "18:00",
+  "19:00",
+  "20:00",
+  "22:00",
+  "סופי"
+ ],
+ "25": {
+  "10:00": 15.9,
+  "12:00": 28.4,
+  "14:00": 38.9,
+  "16:00": 47.5,
+  "18:00": 57.7,
+  "19:00": 62.5,
+  "20:00": 66.3,
+  "22:00": 71.3,
+  "סופי": 70.6
+ },
+ "26": {
+  "10:00": 16.7,
+  "12:00": 31.5,
+  "14:00": 44.9,
+  "16:00": 55.7,
+  "18:00": 66.7,
+  "20:00": 74.3,
+  "22:00": 77.7,
+  "סופי": 77.9
+ },
+ "_sources_26": "10:00: 16.68%, Central Elections Committee figure released at 10:50, reported by TheMarker, Walla and TOV. 12:00: 31.5%, committee figure as reported by TheMarker, Walla, Zman and Srugim. 14:00: 44.9%, committee figure as reported by TheMarker and JDN (Walla rounded to 45%, Maariv gave about 44.7%). 16:00: 55.7%, committee figure as reported by TheMarker and Maariv (8.2 points above 2022). 18:00: 66.7% (4,892,186 voters), committee figure as reported by TheMarker and Mako/N12 (9 points above 2022). 19:00: no national figure found after three checks (20:07-20:57). 20:00: 74.3% (5,449,277 voters), committee figure as reported by Walla, TheMarker and Mako (8 points above 2022). 22:00 (polls closed): 77.7%, committee figure as reported by Maariv and TheMarker/Haaretz (an earlier TheMarker line said 77%). סופי: 77.9%, final turnout as published with the committee's final results on the night of Friday 30 Oct 2026 (5,716,665 voters), reported by Arutz 7.",
+ "notes": {
+  "26|14:00": "דווחו 44.9% (TheMarker,‏ JDN), 45% (וואלה, בעיגול) וכ-44.7% (מעריב); נלקח 44.9%, הנתון שמייחסים לוועדת הבחירות רוב המקורות.",
+  "25|est": "ב-2022 לא פורסם נתון לשעה הזו. הערך המסומן ב-≈ הוא הערכה לאותה שעה ב-2022, בקו ישר בין שני הנתונים הסמוכים.",
+  "25|סופי": "שיעור ההצבעה הסופי הרשמי (70.63%) מחושב אחרי ספירת כל הקולות, כולל המעטפות הכפולות, מתוך כל פנקס הבוחרים. הוא נמוך מהנתון שנמסר ב-22:00 (71.3%), שהתבסס על דיווחים מהקלפיות במהלך היום. ועדת הבחירות לא פרסמה הסבר לפער, ולכן ההשוואה הנכונה היא שעה מול אותה שעה.",
+  "26|סופי": "שיעור ההצבעה הסופי (77.9%), כפי שפורסם עם תוצאות האמת של ועדת הבחירות, אחרי ספירת כל הקולות כולל המעטפות הכפולות."
+ }
+}

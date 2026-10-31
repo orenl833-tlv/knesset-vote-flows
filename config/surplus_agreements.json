@@ -1,0 +1,5 @@
+{
+ "_doc": "Surplus-vote agreements, as pairs of ballot letters. 26: as reported in October 2026 (Haaretz, ynet, Knesset Channel, MS); the 16 October deadline has passed, but recheck against the committee's list before election night. 25: used to check seats.py against the official 2022 result.",
+ "25": [["מחל","ט"],["פה","כן"],["שס","ג"],["אמת","מרצ"]],
+ "26": [["מחל","ט"],["שס","ג"],["דרך","אמת"],["רק","ל"],["עם","ודם"]]
+}

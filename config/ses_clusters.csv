@@ -1,0 +1,1251 @@
+code,name,cluster,source
+7,שחר,7,regional_council
+10,תירוש,7,regional_council
+11,"ניר ח""ן",7,regional_council
+13,חצבה,7,regional_council
+15,נועם,5,regional_council
+16,בית ניר,8,regional_council
+18,שדה משה,7,regional_council
+21,באר אורה,5,regional_council
+23,אמציה,7,regional_council
+24,לכיש,7,regional_council
+26,ראש פינה,7,authority
+27,שדות מיכה,7,regional_council
+28,מזכרת בתיה,8,authority
+29,יסוד המעלה,7,authority
+31,אופקים,3,authority
+32,עוצם,7,regional_council
+33,בת שלמה,7,regional_council
+35,גדות,7,regional_council
+36,שדה דוד,7,regional_council
+37,איתן,5,regional_council
+39,גפן,7,regional_council
+41,אליכין,7,authority
+43,מטולה,7,authority
+44,זוהר,7,regional_council
+46,יבנאל,2,authority
+47,כפר תבור,8,authority
+48,מנחמיה,6,regional_council
+49,אילנייה,7,regional_council
+52,לוזית,7,regional_council
+53,עתלית,7,regional_council
+55,נוגה,7,regional_council
+57,כנרת (קבוצה),7,regional_council
+58,מצפה,7,regional_council
+59,נחושה,7,regional_council
+62,דגניה א',7,regional_council
+63,כנרת (מושבה),7,regional_council
+64,"יד רמב""ם",8,regional_council
+65,מגדל,6,authority
+66,מרחביה (קיבוץ),8,regional_council
+67,אור הנר,7,regional_council
+69,ניר עוז,6,regional_council
+70,אשדוד,5,authority
+71,אשבול,6,regional_council
+72,גן שמואל,7,regional_council
+74,עין הוד,7,regional_council
+76,כפר גלעדי,7,regional_council
+77,איילת השחר,7,regional_council
+78,קריית ענבים,7,regional_council
+79,דגניה ב',7,regional_council
+80,נהלל,8,regional_council
+82,עין חרוד (מאוחד),5,regional_council
+84,תל יוסף,5,regional_council
+85,כפר יחזקאל,5,regional_council
+86,גבע,5,regional_council
+89,עין חרוד (איחוד),5,regional_council
+90,חפצי-בה,5,regional_council
+92,גיניגר,8,regional_council
+94,בלפוריה,8,regional_council
+95,בית אלפא,5,regional_council
+96,יגור,5,regional_council
+97,מרחביה (מושב),8,regional_council
+98,"כפר מל""ל",9,regional_council
+99,מצפה רמון,3,authority
+102,מאיר שפיה,7,regional_council
+103,תל עדשים,8,regional_council
+104,מזרע,8,regional_council
+106,כפר גדעון,8,regional_council
+107,כפר סילבר,7,regional_council
+112,כפר חסידים א',5,regional_council
+113,אדירים,5,regional_council
+115,חופית,8,regional_council
+122,רמת ישי,8,authority
+126,שריד,8,regional_council
+127,רמת רחל,7,regional_council
+128,גת רימון,9,regional_council
+130,משמר העמק,7,regional_council
+132,כפר ברוך,8,regional_council
+133,גבת,8,regional_council
+134,יפעת,8,regional_council
+135,רמת דוד,8,regional_council
+139,עין שמר,7,regional_council
+140,כפר יהושע,8,regional_council
+141,ברק,5,regional_council
+142,שדה יעקב,8,regional_council
+143,בית זרע,7,regional_council
+144,גן שלמה,8,regional_council
+145,גדיש,5,regional_council
+146,דבורה,5,regional_council
+147,גבעת ברנר,8,regional_council
+154,תל מונד,9,authority
+155,באר טוביה,7,regional_council
+156,עיינות,8,regional_council
+157,עין ורד,8,regional_council
+158,נען,8,regional_council
+159,בית חנן,8,regional_council
+160,חולדה,8,regional_council
+162,חירות,8,regional_council
+163,תימורים,7,regional_council
+164,מלאה,5,regional_council
+165,ניר יפה,5,regional_council
+166,גן יבנה,7,authority
+167,עין החורש,8,regional_council
+168,כפר יונה,7,authority
+170,כפר יעבץ,8,regional_council
+171,פרדסייה,9,authority
+173,גבעת חיים (מאוחד),8,regional_council
+174,נטעים,8,regional_council
+175,אביחיל,8,regional_council
+176,אפיקים,7,regional_council
+177,"כפר ביל""ו",8,regional_council
+178,רמת יוחנן,5,regional_council
+182,אבן יהודה,9,authority
+183,ירקונה,9,regional_council
+184,רמת הכובש,9,regional_council
+186,נעורים,8,regional_council
+187,כפר הס,8,regional_council
+188,אשדות יעקב (מאוחד),7,regional_council
+189,כפר פינס,7,regional_council
+190,כפר ויתקין,8,regional_council
+191,הדר עם,8,regional_council
+192,כפר החורש,8,regional_council
+193,כפר חיים,8,regional_council
+194,משמר השרון,8,regional_council
+195,קדימה-צורן,8,authority
+196,גיבתון,8,regional_council
+197,מעברות,8,regional_council
+198,צופית,9,regional_council
+199,אשדות יעקב (איחוד),7,regional_council
+200,בית ינאי,8,regional_council
+202,בית עובד,8,regional_council
+204,אלישיב,8,regional_council
+205,חגלה,8,regional_council
+206,רמות השבים,9,regional_council
+207,"גבעת ח""ן",9,regional_council
+208,מוצא עילית,7,regional_council
+212,בית צבי,7,regional_council
+213,משמרות,7,regional_council
+217,"כפר הרא""ה",8,regional_council
+218,גני עם,9,regional_council
+219,חיבת ציון,8,regional_council
+220,כפר ביאליק,5,regional_council
+223,עין עירון,7,regional_council
+224,שושנת העמקים,8,regional_council
+225,גן השומרון,7,regional_council
+229,גני תקווה,9,authority
+230,מעש,9,regional_council
+232,שפיים,9,regional_council
+233,כפר ידידיה,8,regional_council
+234,ביצרון,7,regional_council
+235,חבצלת השרון,8,regional_council
+237,שער העמקים,5,regional_council
+239,גן חיים,9,regional_council
+240,יקנעם עילית,7,authority
+241,יקנעם (מושבה),7,regional_council
+242,בית השיטה,5,regional_council
+246,נתיבות,3,authority
+247,רשפון,9,regional_council
+248,בית שערים,8,regional_council
+249,כפר סירקין,9,regional_council
+250,הזורע,7,regional_council
+252,ביתן אהרן,8,regional_council
+253,חולתה,7,regional_council
+254,כפר המכבי,5,regional_council
+255,כפר חיטים,7,regional_council
+256,ניר דוד (תל עמל),6,regional_council
+257,נופך,7,regional_council
+259,שדה נחום,6,regional_council
+262,גינוסר,7,regional_council
+263,מסדה,7,regional_council
+264,שער הגולן,7,regional_council
+265,בית יוסף,6,regional_council
+267,כפר שמריהו,10,authority
+268,טירת צבי,6,regional_council
+269,מולדת,5,regional_council
+270,עין השופט,7,regional_council
+272,מעוז חיים,6,regional_council
+273,עין גב,7,regional_council
+274,כפר מנחם,8,regional_council
+276,צור משה,8,regional_council
+278,אושה,5,regional_council
+280,חניתה,7,regional_council
+281,פקיעין חדשה,7,regional_council
+282,שבי ציון,7,regional_council
+284,שדה ורבורג,9,regional_council
+285,אלונים,8,regional_council
+286,מעלה החמישה,7,regional_council
+287,תל יצחק,9,regional_council
+288,בית יהושע,9,regional_council
+289,עין המפרץ,7,regional_council
+290,מעיין צבי,7,regional_council
+292,שרונה,7,regional_council
+293,שדה יואב,8,regional_council
+294,אילון,7,regional_council
+295,כפר רופין,6,regional_council
+296,נווה איתן,6,regional_council
+297,כפר מסריק,7,regional_council
+298,מסילות,6,regional_council
+300,דלייה,7,regional_council
+301,בית עוזיאל,8,regional_council
+302,דפנה,7,regional_council
+303,דן,7,regional_council
+304,שדה אליהו,6,regional_council
+305,גשר,6,regional_council
+306,שדמות דבורה,7,regional_council
+307,הזורעים,7,regional_council
+308,מחניים,7,regional_council
+309,נהורה,7,regional_council
+310,כפר גליקסון,7,regional_council
+311,גן שורק,8,regional_council
+312,נווה ים,7,regional_council
+313,אפק,7,regional_council
+315,נגבה,8,regional_council
+316,כפר נטר,9,regional_council
+317,בית אורן,7,regional_council
+318,עמיעוז,6,regional_council
+319,עמיר,7,regional_council
+320,כפר ורבורג,7,regional_council
+322,בית הלל,7,regional_council
+324,שאר ישוב,7,regional_council
+325,מצובה,7,regional_council
+326,בית יצחק-שער חפר,8,regional_council
+327,שדות ים,7,regional_council
+329,שדה נחמיה,7,regional_council
+330,אלומות,7,regional_council
+331,ניר צבי,6,regional_council
+334,קבוצת יבנה,5,regional_council
+335,רמת השופט,7,regional_council
+336,דורות,7,regional_council
+338,איבים,7,regional_council
+339,רמת צבי,5,regional_council
+340,גת (קיבוץ),8,regional_council
+342,גברעם,7,regional_council
+343,חמדיה,6,regional_council
+344,מענית,7,regional_council
+345,כפר סאלד,7,regional_council
+346,גליל ים,9,regional_council
+347,מנרה,7,regional_council
+348,ניר עם,7,regional_council
+351,ניצן,7,regional_council
+352,גבולות,6,regional_council
+354,רביבים,6,regional_council
+355,חורשים,9,regional_council
+356,הגושרים,7,regional_council
+357,כפר בלום,7,regional_council
+358,יד מרדכי,7,regional_council
+359,ניצנים,7,regional_council
+360,"גבעת ניל""י",8,regional_council
+362,רוחמה,7,regional_council
+363,חפץ חיים,5,regional_council
+364,כפר אוריה,7,regional_council
+365,בית קשת,7,regional_council
+366,שמיר,7,regional_council
+367,עין העמק,7,regional_council
+368,בירייה,5,regional_council
+369,גלעד (אבן יצחק),7,regional_council
+370,גזר,8,regional_council
+371,כדורי,7,regional_council
+372,רמות נפתלי,7,regional_council
+373,בית הלוי,8,regional_council
+374,חוקוק,7,regional_council
+375,מגל,7,regional_council
+376,עברון,7,regional_council
+377,המעפיל,8,regional_council
+378,משגב עם,7,regional_council
+379,גאולים,8,regional_council
+380,להבות הבשן,7,regional_council
+382,מכמורת,8,regional_council
+383,"עין הנצי""ב",6,regional_council
+385,עמיעד,7,regional_council
+386,בני דרור,8,regional_council
+387,כפר מונש,8,regional_council
+388,כפר קיש,7,regional_council
+389,בצרה,9,regional_council
+390,רגבה,7,regional_council
+393,גלאון,8,regional_council
+394,שובל,7,regional_council
+395,משמר הנגב,7,regional_council
+396,נבטים,7,regional_council
+397,חצרים,7,regional_council
+398,שרשרת,6,regional_council
+399,בארי,6,regional_council
+400,אבן שמואל,5,regional_council
+402,ניר יצחק,6,regional_council
+403,אורים,6,regional_council
+405,נווה אילן,7,regional_council
+406,חצור-אשדוד,7,regional_council
+407,דברת,8,regional_council
+408,נאות מרדכי,7,regional_council
+409,יחיעם,7,regional_council
+413,צאלים,6,regional_council
+414,קלחים,6,regional_council
+415,שוקדה,6,regional_council
+416,מעיין ברוך,7,regional_council
+417,יקום,9,regional_council
+418,בני ציון,9,regional_council
+419,סעד,6,regional_council
+421,משאבי שדה,6,regional_council
+422,חרב לאת,8,regional_council
+423,העוגן,8,regional_council
+424,גבים,7,regional_council
+425,משמרת,8,regional_council
+426,עין כרמל,7,regional_council
+427,כפר גלים,7,regional_council
+428,ברור חיל,7,regional_council
+429,אלוני אבא,8,regional_council
+430,בית לחם הגלילית,8,regional_council
+431,דלתון,5,regional_council
+432,שמרת,7,regional_council
+433,נחשולים,7,regional_council
+434,החותרים,7,regional_council
+435,נצר סרני,8,regional_council
+436,עין דור,8,regional_council
+437,רשפים,6,regional_council
+439,שלוחות,6,regional_council
+440,יסודות,5,regional_council
+442,גדעונה,5,regional_council
+443,כפר הנשיא,7,regional_council
+444,רגבים,7,regional_council
+445,רמות מנשה,7,regional_council
+446,אודים,9,regional_council
+447,נורדייה,8,regional_council
+448,בני עטרות,7,regional_council
+449,נחלים,7,regional_council
+450,בארות יצחק,7,regional_council
+452,יזרעאל,5,regional_council
+453,יפתח,7,regional_council
+454,סער,7,regional_council
+456,שורש,7,regional_council
+457,גזית,8,regional_council
+460,רמת רזיאל,7,regional_council
+462,טל שחר,7,regional_council
+463,געתון,7,regional_council
+464,הראל,7,regional_council
+465,צובה,7,regional_council
+466,בית דגן,7,authority
+469,קריית עקרון,6,authority
+472,אבו גוש,3,authority
+473,אבו סנאן,3,authority
+475,דחי,3,regional_council
+478,אכסאל,3,authority
+480,בית ג'ן,4,authority
+481,מגאר,3,authority
+482,בועיינה-נוג'ידאת,2,authority
+483,בענה,2,authority
+485,ג'ולס,5,authority
+487,ג'ש (גוש חלב),7,authority
+489,דבורייה,4,authority
+490,דייר אל-אסד,4,authority
+492,דייר חנא,4,authority
+494,דאלית אל-כרמל,5,authority
+496,חורפיש,5,authority
+497,טייבה (בעמק),5,regional_council
+498,טורעאן,3,authority
+499,יפיע,3,authority
+502,ירכא,3,authority
+504,כאבול,3,authority
+505,כאוכב אבו אל-היג'א,4,authority
+507,כפר יאסיף,5,authority
+508,כפר כמא,6,authority
+509,כפר כנא,2,authority
+510,כפר מנדא,2,authority
+511,עילוט,2,authority
+512,כפר מצר,3,regional_council
+514,עין ראפה,7,regional_council
+516,מג'ד אל-כרום,3,authority
+517,מזרעה,4,authority
+518,מעיליא,7,authority
+520,משהד,2,authority
+521,עין נקובא,7,regional_council
+522,נחף,2,authority
+523,ניין,3,regional_council
+524,נאעורה,5,regional_council
+525,סאג'ור,4,authority
+526,סולם,3,regional_council
+527,שזור,5,regional_council
+528,עוזייר,2,regional_council
+529,אעבלין,3,authority
+530,עיילבון,5,authority
+531,עראבה,3,authority
+532,עין מאהל,2,authority
+534,עספיא,5,authority
+535,פסוטה,6,authority
+536,פקיעין (בוקייעה),5,authority
+537,פוריידיס,3,authority
+538,שעב,2,authority
+539,רומאנה,2,regional_council
+540,ריחאנייה,5,regional_council
+541,ג'סר א-זרקא,2,authority
+542,ריינה,3,authority
+543,ראמה,5,authority
+546,עין אל-אסד,5,regional_council
+547,טמרה (יזרעאל),5,regional_council
+549,גנות הדר,8,regional_council
+553,ניר בנים,7,regional_council
+555,שדמה,9,regional_council
+559,בוסתן הגליל,7,regional_council
+562,בית אלעזרי,8,regional_council
+563,משמר דוד,8,regional_council
+564,רבדים,8,regional_council
+565,אזור,7,authority
+567,צרעה,7,regional_council
+570,מעונה,7,regional_council
+571,בית גמליאל,5,regional_council
+572,בית העמק,7,regional_council
+573,מבקיעים,7,regional_council
+574,גשר הזיו,7,regional_council
+575,יסעור,7,regional_council
+576,כברי,7,regional_council
+577,יד בנימין,5,regional_council
+578,סאסא,7,regional_council
+579,כפר ראש הנקרה,7,regional_council
+580,"כרם מהר""ל",7,regional_council
+582,כפר הנגיד,8,regional_council
+584,זיקים,7,regional_council
+585,לביא,7,regional_council
+586,מגידו,7,regional_council
+587,סביון,10,authority
+588,בני ראם,5,regional_council
+589,בצת,7,regional_council
+590,נווה אור,6,regional_council
+591,עשרת,9,regional_council
+592,בני דרום,5,regional_council
+593,ערוגות,7,regional_council
+594,צפרייה,6,regional_council
+595,לוחמי הגיטאות,7,regional_council
+596,מלכייה,7,regional_council
+597,פלמחים,8,regional_council
+598,בית קמה,7,regional_council
+599,פרוד,5,regional_council
+602,נירים,6,regional_council
+603,אלקוש,7,regional_council
+604,בית עריף,7,regional_council
+605,כפר שמאי,5,regional_council
+606,מזור,7,regional_council
+607,מירון,5,regional_council
+609,כפר חושן,5,regional_council
+610,סתרייה,8,regional_council
+612,צרופה,7,regional_council
+613,ציפורי,8,regional_council
+614,שומרה,7,regional_council
+615,קדרון,8,regional_council
+616,רינתיה,7,regional_council
+617,ברקאי,7,regional_council
+618,חדיד,7,regional_council
+619,בית גוברין,8,regional_council
+620,משואות יצחק,5,regional_council
+622,עין צורים,5,regional_council
+623,יראון,7,regional_council
+627,ג'לג'וליה,3,authority
+628,ג'ת,5,authority
+633,כפר ברא,4,authority
+634,כפר קאסם,3,authority
+635,מוקייבלה,5,regional_council
+636,צנדלה,5,regional_council
+637,ערערה,3,authority
+638,קלנסווה,3,authority
+648,מצר,7,regional_council
+649,מייסר,7,regional_council
+652,אבטין,5,regional_council
+654,כפר קרע,5,authority
+658,שייח' דנון,7,regional_council
+661,שער אפרים,8,regional_council
+662,חוסן,7,regional_council
+663,טירת יהודה,7,regional_council
+664,כרם בן זמרה,5,regional_council
+665,תקומה,6,regional_council
+666,עומר,10,authority
+667,ברעם,7,regional_council
+668,מפלסים,7,regional_council
+670,משמר איילון,8,regional_council
+672,בית נקופה,7,regional_council
+673,כפר טרומן,7,regional_council
+674,לימן,7,regional_council
+675,הבונים,7,regional_council
+676,עין השלושה,6,regional_council
+677,הסוללים,8,regional_council
+678,מעגן,7,regional_council
+679,אביאל,8,regional_council
+680,אומץ,8,regional_council
+681,גבעת שמואל,8,authority
+682,אליקים,7,regional_council
+683,גבע כרמל,7,regional_council
+684,היוגב,8,regional_council
+685,בניה,8,regional_council
+686,נווה ימין,9,regional_council
+687,עין איילה,7,regional_council
+688,עלמה,5,regional_council
+689,מגדים,7,regional_council
+690,כפר אחים,7,regional_council
+692,שפיר,5,regional_council
+693,"נתיב הל""ה",7,regional_council
+694,מעגן מיכאל,7,regional_council
+695,מגן,6,regional_council
+696,"כפר חב""ד",6,regional_council
+697,בארותיים,8,regional_council
+698,בורגתה,8,regional_council
+699,ניר ישראל,7,regional_council
+700,חצב,7,regional_council
+701,ארבל,7,regional_council
+702,האון,7,regional_council
+703,גבעת עוז,7,regional_council
+705,נחשונים,9,regional_council
+706,גיאה,7,regional_council
+707,כפר דניאל,7,regional_council
+708,עמקה,7,regional_council
+709,תפרח,6,regional_council
+710,בית זית,7,regional_council
+711,עזריה,8,regional_council
+712,בן עמי,7,regional_council
+713,רעים,6,regional_council
+714,ארז,7,regional_council
+715,להבות חביבה,7,regional_council
+716,אייל,9,regional_council
+717,חגור,9,regional_council
+718,ירחיב,9,regional_council
+719,תל קציר,7,regional_council
+720,ניר גלים,5,regional_council
+721,שדה אילן,7,regional_council
+722,מגשימים,9,regional_council
+723,בית הגדי,6,regional_council
+726,הודייה,7,regional_council
+727,תלמי יחיאל,7,regional_council
+729,משמר השבעה,6,regional_council
+730,אליפלט,7,regional_council
+731,מישר,9,regional_council
+732,משמר הירדן,7,regional_council
+734,גן יאשיה,8,regional_council
+735,רמות מאיר,8,regional_council
+736,גילת,6,regional_council
+737,עולש,8,regional_council
+738,דור,7,regional_council
+739,שדה עוזיהו,7,regional_council
+740,אשתאול,7,regional_council
+741,שואבה,7,regional_council
+742,מסילת ציון,7,regional_council
+743,כפר שמואל,8,regional_council
+744,תלמי יפה,7,regional_council
+745,גמזו,7,regional_council
+746,ברכיה,7,regional_council
+747,בית שקמה,7,regional_council
+748,מסלול,6,regional_council
+749,פטיש,6,regional_council
+750,פדויים,6,regional_council
+751,בית מאיר,7,regional_council
+752,תעוז,7,regional_council
+753,ינוב,8,regional_council
+755,גורן,7,regional_council
+756,בית עזרא,7,regional_council
+757,מצליח,8,regional_council
+758,יד חנה,8,regional_council
+759,יציץ,8,regional_council
+760,בן זכאי,5,regional_council
+761,שובה,6,regional_council
+762,בטחה,6,regional_council
+763,שתולים,7,regional_council
+764,כפר מרדכי,9,regional_council
+765,משגב דב,9,regional_council
+766,קוממיות,5,regional_council
+767,פורת,8,regional_council
+768,כרמייה,7,regional_council
+769,ניר עציון,7,regional_council
+771,מבוא ביתר,7,regional_council
+772,אמונים,7,regional_council
+773,עמיקם,8,regional_council
+774,צוריאל,7,regional_council
+775,יד נתן,7,regional_council
+776,מחסיה,7,regional_council
+777,נחשון,7,regional_council
+778,תרום,7,regional_council
+779,עמינדב,7,regional_council
+780,אורה,7,regional_council
+783,אבן ספיר,7,regional_council
+784,בית נחמיה,7,regional_council
+785,אחיהוד,7,regional_council
+786,כפר זיתים,7,regional_council
+787,גבעת יערים,7,regional_council
+788,זיתן,6,regional_council
+789,רנן,6,regional_council
+791,משען,7,regional_council
+792,נתיב השיירה,7,regional_council
+793,גבעתי,7,regional_council
+794,עגור,7,regional_council
+795,יערה,7,regional_council
+796,צלפון,7,regional_council
+797,אחיעזר,6,regional_council
+798,יגל,6,regional_council
+799,זכריה,7,regional_council
+800,בית חנניה,7,regional_council
+801,"חמ""ד",6,regional_council
+802,"גבעת כ""ח",7,regional_council
+803,יושיביה,6,regional_council
+804,אחיסמך,7,regional_council
+805,ישעי,7,regional_council
+806,עין יהב,7,regional_council
+807,חניאל,8,regional_council
+808,ניר אליהו,9,regional_council
+809,נחם,7,regional_council
+810,עופר,7,regional_council
+811,יכיני,7,regional_council
+812,שלומי,6,authority
+813,עין יעקב,7,regional_council
+814,תלמים,7,regional_council
+815,זבדיאל,5,regional_council
+816,זנוח,7,regional_council
+817,עזריקם,7,regional_council
+818,זרחיה,5,regional_council
+819,אביגדור,7,regional_council
+820,חלץ,7,regional_council
+821,אחוזם,7,regional_council
+822,מטע,7,regional_council
+823,בר גיורא,7,regional_council
+824,כוכב מיכאל,7,regional_council
+825,נס הרים,7,regional_council
+826,עוזה,5,regional_council
+827,נווה מבטח,7,regional_council
+828,ישרש,8,regional_council
+829,מבטחים,6,regional_council
+831,ירוחם,4,authority
+833,נורית,5,regional_council
+836,גנות,6,regional_council
+837,עזריאל,8,regional_council
+838,פדיה,8,regional_council
+839,פתחיה,8,regional_council
+840,כיסופים,6,regional_council
+841,אלישמע,9,regional_council
+842,געש,9,regional_council
+843,מרגליות,7,regional_council
+844,נחל עוז,7,regional_council
+845,כפר עזה,7,regional_council
+846,שפר,5,regional_council
+848,בית רבן,5,regional_council
+849,דבירה,7,regional_council
+850,אחיטוב,8,regional_council
+851,ניצני עוז,8,regional_council
+852,גונן,7,regional_council
+853,גאליה,8,regional_council
+854,רחוב,6,regional_council
+856,שעלבים,8,regional_council
+857,כפר אביב,9,regional_council
+858,נווה ירק,9,regional_council
+859,כסלון,7,regional_council
+861,שדה אליעזר,7,regional_council
+862,גני יוחנן,8,regional_council
+863,גינתון,7,regional_council
+864,בקוע,7,regional_council
+865,שיבולים,6,regional_council
+866,יטבתה,5,regional_council
+868,אלוני יצחק,7,regional_council
+870,גבעת השלושה,9,regional_council
+871,עינת,9,regional_council
+872,גאולי תימן,8,regional_council
+873,שלווה,5,regional_council
+874,מגדל העמק,5,authority
+877,בית חירות,8,regional_council
+880,עין שריד,8,regional_council
+882,אורנים,5,regional_council
+885,שדה בוקר,6,regional_council
+888,"כפר הרי""ף",8,regional_council
+889,כפר חסידים ב',5,regional_council
+890,כפר הנוער הדתי,5,regional_council
+892,עבדון,7,regional_council
+897,מדרשת רופין,8,regional_council
+913,שבלי - אום אל-גנם,3,authority
+916,ישע,6,regional_council
+917,עצמון שגב,7,regional_council
+919,גבעת ישעיהו,7,regional_council
+922,רכסים,2,authority
+942,סואעד (חמרייה),8,regional_council
+944,בסמת טבעון,3,authority
+962,טובא-זנגרייה,3,authority
+975,זרזיר,2,authority
+978,כעביה-טבאש-חג'אג'רה,3,authority
+990,ראס עלי,5,regional_council
+993,חמאם,2,regional_council
+994,מנשית זבדה,8,regional_council
+997,רומת הייב,2,regional_council
+998,ביר אל-מכסור,2,authority
+1015,מבשרת ציון,8,authority
+1020,אור עקיבא,5,authority
+1024,חרוצים,9,regional_council
+1031,שדרות,5,authority
+1034,קריית מלאכי,4,authority
+1043,גיזו,7,regional_council
+1044,יעף,8,regional_council
+1045,שתולה,7,regional_council
+1046,אוהד,6,regional_council
+1047,חזון,5,regional_council
+1050,בית חשמונאי,8,regional_council
+1051,תלמי אליהו,6,regional_council
+1052,קטורה,5,regional_council
+1054,תל שבע,1,authority
+1056,"עין כרם-בי""ס חקלאי",7,regional_council
+1058,שדה ניצן,6,regional_council
+1059,כסיפה,1,authority
+1060,לקיה,1,authority
+1061,נוף הגליל,5,authority
+1063,מעלות-תרשיחא,5,authority
+1064,אמירים,5,regional_council
+1065,זמרת,6,regional_council
+1066,"בני עי""ש",5,authority
+1067,"דוב""ב",5,regional_council
+1068,אדמית,7,regional_council
+1069,רם-און,5,regional_council
+1070,אביעזר,7,regional_council
+1071,נווה מיכאל,7,regional_council
+1072,גן הדרום,9,regional_council
+1076,בית ברל,9,regional_council
+1077,גבעת שפירא,8,regional_council
+1079,צפרירים,7,regional_council
+1080,מבועים,6,regional_council
+1081,אבן מנחם,7,regional_council
+1082,מעגלים,6,regional_council
+1083,תושייה,6,regional_council
+1084,בן שמן (כפר נוער),7,regional_council
+1085,כרם שלום,6,regional_council
+1094,כרם יבנה (ישיבה),5,regional_council
+1095,כפר מימון,6,regional_council
+1098,מרכז שפירא,5,regional_council
+1102,צוקי ים,8,regional_council
+1103,גני הדר,8,regional_council
+1104,פורייה - כפר עבודה,7,regional_council
+1105,פורייה - נווה עובד,7,regional_council
+1108,אומן,5,regional_council
+1110,חבר,5,regional_council
+1112,יודפת,7,regional_council
+1113,צור הדסה,7,regional_council
+1114,שריגים (לי-און),7,regional_council
+1115,אביבים,5,regional_council
+1123,אדרת,7,regional_council
+1124,נאות הכיכר,7,regional_council
+1125,אלמגור,7,regional_council
+1126,אילות,5,regional_council
+1127,מעלה גלבוע,6,regional_council
+1128,מי עמי,7,regional_council
+1129,גרופית,5,regional_council
+1130,כפר רוזנואלד (זרעית),7,regional_council
+1132,שניר,7,regional_council
+1133,ורדון,8,regional_council
+1134,יד השמונה,7,regional_council
+1136,צוחר,6,regional_council
+1137,קריית יערים,2,authority
+1138,יעד,7,regional_council
+1139,כרמיאל,6,authority
+1140,מדרשת בן גוריון,6,regional_council
+1141,מבוא מודיעים,7,regional_council
+1143,נס עמים,7,regional_council
+1145,אלומה,5,regional_council
+1146,עלומים,6,regional_council
+1147,נטועה,7,regional_council
+1148,צור נתן,9,regional_council
+1149,עזר,7,regional_council
+1150,צופר,7,regional_council
+1151,פארן,7,regional_council
+1152,אשלים,6,regional_council
+1155,מגן שאול,5,regional_council
+1156,סמר,5,regional_council
+1157,אחווה,7,regional_council
+1158,יהל,5,regional_council
+1160,שכניה,7,regional_council
+1161,רהט,1,authority
+1162,בית רימון,7,regional_council
+1163,מורן,7,regional_council
+1165,שילת,7,regional_council
+1166,כפר רות,7,regional_council
+1167,קיסריה,7,regional_council
+1171,לוטם,7,regional_council
+1172,תובל,7,regional_council
+1173,לפידות,7,regional_council
+1174,מנוף,7,regional_council
+1175,עידן,7,regional_council
+1176,ספיר,7,regional_council
+1177,טללים,6,regional_council
+1178,מורשת,7,regional_council
+1179,קורנית,7,regional_council
+1180,צביה,7,regional_council
+1181,טל-אל,7,regional_council
+1182,אלון הגליל,8,regional_council
+1183,כליל,7,regional_council
+1184,מתת,7,regional_council
+1185,פלך,7,regional_council
+1186,הושעיה,8,regional_council
+1188,אשחר,7,regional_council
+1190,מצפה נטופה,7,regional_council
+1191,בר יוחאי,5,regional_council
+1192,ערערה-בנגב,1,authority
+1195,ניצנה (קהילת חינוך),6,regional_council
+1197,נאות סמדר,5,regional_council
+1198,כרמים,7,regional_council
+1199,עדי,8,regional_council
+1200,מודיעין-מכבים-רעות,9,authority
+1201,כמון,7,regional_council
+1202,מכמנים,7,regional_council
+1203,הררית,7,regional_council
+1204,גילון,7,regional_council
+1205,מנות,7,regional_council
+1206,גיתה,7,regional_council
+1207,לבון,7,regional_council
+1208,הילה,7,regional_council
+1209,חרשים,7,regional_council
+1210,כחל,7,regional_council
+1211,קדרים,7,regional_council
+1212,עמוקה,5,regional_council
+1213,צבעון,7,regional_council
+1214,טפחות,5,regional_council
+1219,גורנות הגליל,7,regional_council
+1220,אבירים,7,regional_council
+1221,צורית,7,regional_council
+1222,"מצפה אבי""ב",7,regional_council
+1223,שדי אברהם,6,regional_council
+1224,כוכב יאיר,10,authority
+1226,יובלים,7,regional_council
+1227,יתד,6,regional_council
+1228,רקפת,7,regional_council
+1229,כלנית,5,regional_council
+1230,לבנים,5,regional_council
+1231,פרי גן,6,regional_council
+1232,יבול,6,regional_council
+1233,שקף,7,regional_council
+1235,שורשים,7,regional_council
+1236,נירית,9,regional_council
+1237,תלמי יוסף,6,regional_council
+1238,סופה,6,regional_council
+1239,חולית,6,regional_council
+1240,עין הבשור,6,regional_council
+1241,דקל,6,regional_council
+1242,נתיב העשרה,7,regional_council
+1243,קציר,7,regional_council
+1244,תמרת,8,regional_council
+1245,סלמה,7,regional_council
+1246,עראמשה,7,regional_council
+1247,חריש,5,authority
+1248,אליפז,5,regional_council
+1249,הרדוף,8,regional_council
+1251,עין תמר,7,regional_council
+1252,כורזים,7,regional_council
+1253,אמנון,7,regional_council
+1254,נטף,7,regional_council
+1255,לוטן,5,regional_council
+1256,אשרת,7,regional_council
+1257,חנתון,8,regional_council
+1258,מסד,7,regional_council
+1259,נווה שלום,7,regional_council
+1260,רתמים,6,regional_council
+1261,הר עמשא,7,regional_council
+1262,צוקים,7,regional_council
+1263,כפר ורדים,9,authority
+1264,כרמי יוסף,8,regional_council
+1265,שומרייה,7,regional_council
+1266,שחרות,5,regional_council
+1268,מיתר,9,authority
+1271,להבים,10,authority
+1272,חלוץ,7,regional_council
+1274,גן נר,5,regional_council
+1275,אבטליון,7,regional_council
+1276,אשבל,7,regional_council
+1278,באר מילכה,6,regional_council
+1280,ניצני סיני,6,regional_council
+1282,מירב,6,regional_council
+1283,תל תאומים,6,regional_council
+1284,נופית,5,regional_council
+1285,כרכום,7,regional_council
+1286,שגב-שלום,1,authority
+1288,גבעת אלה,8,regional_council
+1290,זמר,4,authority
+1291,כמהין,6,regional_council
+1292,ג'דיידה-מכר,3,authority
+1293,גבעת אבני,7,regional_council
+1294,אור הגנוז,5,regional_council
+1295,יאנוח-ג'ת,5,authority
+1296,כסרא-סמיע,3,authority
+1297,כפר חנניה,5,regional_council
+1303,חורה,1,authority
+1304,שוהם,9,authority
+1309,אלעד,2,authority
+1310,לפיד,7,regional_council
+1311,אבשלום,6,regional_council
+1313,פורייה עילית,7,regional_council
+1314,נווה זיו,7,regional_council
+1315,מתן,9,regional_council
+1316,אל -עריאן,7,regional_council
+1317,דמיידה,7,regional_council
+1318,מבואות ים,8,regional_council
+1319,בת חפר,8,regional_council
+1320,עין חוד,7,regional_council
+1321,ח'ואלד,5,regional_council
+1322,הודיות,7,regional_council
+1323,בת הדר,7,regional_council
+1324,ארסוף,9,regional_council
+1325,כפר זוהרים,7,regional_council
+1326,"בסמ""ה",2,authority
+1327,מעלה עירון,2,authority
+1330,אחוזת ברק,8,regional_council
+1331,כמאנה,7,regional_council
+1332,חוסנייה,7,regional_council
+1333,נוף איילון,8,regional_council
+1334,ראס אל-עין,7,regional_council
+1335,ערב אל נעים,7,regional_council
+1336,אירוס,8,regional_council
+1337,שמשית,8,regional_council
+1338,כדיתה,5,regional_council
+1339,אל -עזי,8,regional_council
+1340,מרחב עם,6,regional_council
+1342,אבו קורינאת (יישוב),1,regional_council
+1343,מכחול,1,regional_council
+1344,גבעות בר,7,regional_council
+1345,צור יצחק,9,regional_council
+1346,תרבין א-צאנע (יישוב),1,regional_council
+1347,קצר א-סר,1,regional_council
+1348,ביר הדאג',1,regional_council
+1349,דריג'את,1,regional_council
+1358,אום בטין,1,regional_council
+1359,אל סייד,1,regional_council
+1360,סעוה,1,regional_council
+1361,בת חן,8,regional_council
+1363,בני נצרים,6,regional_council
+1364,שלומית,6,regional_council
+1365,אליאב,7,regional_council
+1366,נווה,6,regional_council
+1367,כחלה,1,regional_council
+1368,בני דקלים,7,regional_council
+1369,נטע,7,regional_council
+1370,מצפה אילן,7,regional_council
+1371,גני טל,5,regional_council
+1372,נצר חזני,5,regional_council
+1374,כרמי קטיף,7,regional_council
+1375,אבו תלול,1,regional_council
+1376,באר גנים,7,regional_council
+1377,שבי דרום,6,regional_council
+1419,ניצן ב',7,regional_council
+2002,תנובות,8,regional_council
+2003,תלמי אלעזר,7,regional_council
+2006,כנות,7,regional_council
+2008,שדה יצחק,7,regional_council
+2009,יובל,7,regional_council
+2010,כפר בן נון,8,regional_council
+2011,ינון,7,regional_council
+2012,אורות,7,regional_council
+2013,בן שמן (מושב),7,regional_council
+2014,גבעולים,6,regional_council
+2015,שדי חמד,9,regional_council
+2016,רוויה,6,regional_council
+2018,גבעת חיים (איחוד),8,regional_council
+2021,אשל הנשיא,6,regional_council
+2023,להב,7,regional_council
+2024,אום אל-קוטוף,7,regional_council
+2026,ירדנה,6,regional_council
+2029,מדרך עוז,7,regional_council
+2030,מנוחה,7,regional_council
+2033,בית חלקיה,5,regional_council
+2034,חצור הגלילית,4,authority
+2035,עדנים,9,regional_council
+2038,ברקת,7,regional_council
+2039,קריית יערים (מוסד),7,regional_council
+2042,עין גדי,7,regional_council
+2043,בחן,8,regional_council
+2044,מלילות,6,regional_council
+2045,נחלה,8,regional_council
+2046,סגולה,8,regional_council
+2047,ניר משה,6,regional_council
+2048,ניר עקיבא,6,regional_council
+2049,שדה צבי,6,regional_council
+2050,"תלמי ביל""ו",6,regional_council
+2051,רווחה,5,regional_council
+2052,אביטל,5,regional_council
+2053,פרזון,5,regional_council
+2054,מיטב,5,regional_council
+2055,מאור,7,regional_council
+2057,שדי תרומות,6,regional_council
+2059,"פעמי תש""ז",6,regional_council
+2060,ברוש,7,regional_council
+2061,תדהר,7,regional_council
+2062,תאשור,7,regional_council
+2063,דישון,7,regional_council
+2064,זרועה,6,regional_council
+2100,טירת כרמל,5,authority
+2200,דימונה,5,authority
+2300,קריית טבעון,8,authority
+2400,אור יהודה,5,authority
+2500,נשר,7,authority
+2530,באר יעקב,7,authority
+2550,גדרה,7,authority
+2560,ערד,3,authority
+2600,אילת,6,authority
+2610,בית שמש,2,authority
+2620,קריית אונו,9,authority
+2630,קריית גת,4,authority
+2640,ראש העין,7,authority
+2650,רמת השרון,9,authority
+2660,יבנה,7,authority
+2710,אום אל-פחם,2,authority
+2720,טירה,5,authority
+2730,טייבה,3,authority
+2800,קריית שמונה,5,authority
+3000,ירושלים,2,authority
+3488,כפר עציון,6,regional_council
+3555,נתיב הגדוד,6,regional_council
+3556,אלמוג,7,regional_council
+3557,קדומים,5,authority
+3558,תומר,6,regional_council
+3560,אלקנה,8,authority
+3561,מגדל עוז,6,regional_council
+3563,תקוע,6,regional_council
+3564,כוכב השחר,5,regional_council
+3565,רימונים,5,regional_council
+3566,יפית,6,regional_council
+3567,סלעית,6,regional_council
+3568,ריחן,6,regional_council
+3569,מבוא דותן,6,regional_council
+3570,אריאל,6,authority
+3571,שבי שומרון,6,regional_council
+3572,כפר תפוח,6,regional_council
+3573,נווה צוף,5,regional_council
+3574,בית אל,4,authority
+3575,בית חורון,5,regional_council
+3576,מצפה יריחו,5,regional_council
+3578,שדמות מחולה,6,regional_council
+3579,אלון מורה,6,regional_council
+3598,ארגמן,6,regional_council
+3599,מחולה,6,regional_council
+3601,קליה,7,regional_council
+3602,ראש צורים,6,regional_council
+3603,הר גילה,6,regional_council
+3604,אלון שבות,6,regional_council
+3605,משואה,6,regional_council
+3606,גלגל,6,regional_council
+3607,"ייט""ב",6,regional_council
+3608,מעלה אפרים,4,authority
+3609,חמרה,6,regional_council
+3610,מצפה שלם,7,regional_council
+3611,קריית ארבע,3,authority
+3612,בקעות,6,regional_council
+3613,גיתית,6,regional_council
+3614,מכורה,6,regional_council
+3615,פצאל,6,regional_council
+3616,מעלה אדומים,6,authority
+3617,עפרה,5,regional_council
+3618,אלעזר,6,regional_council
+3619,רועי,6,regional_council
+3637,מעלה שומרון,6,regional_council
+3638,כפר אדומים,5,regional_council
+3639,ורד יריחו,7,regional_council
+3640,קרני שומרון,6,authority
+3641,שילה,5,regional_council
+3643,חיננית,6,regional_council
+3644,גבעון החדשה,5,regional_council
+3645,בית הערבה,7,regional_council
+3646,חמדת,6,regional_council
+3647,יקיר,6,regional_council
+3648,מתתיהו,5,regional_council
+3649,שקד,6,regional_council
+3650,אפרת,7,authority
+3651,מעלה מכמש,5,regional_council
+3652,בית אריה-עופרים,7,authority
+3653,מעלה עמוס,6,regional_council
+3654,ברקן,6,regional_council
+3655,"ניל""י",5,regional_council
+3656,כרמל,5,regional_council
+3657,מעון,5,regional_council
+3658,עטרת,5,regional_council
+3659,פסגות,5,regional_council
+3660,עמנואל,2,authority
+3709,מבוא חורון,5,regional_council
+3710,ברכה,6,regional_council
+3712,ענב,6,regional_council
+3713,"נעמ""ה",6,regional_council
+3715,עלמון,5,regional_council
+3717,חרמש,6,regional_council
+3719,תלם,5,regional_council
+3720,שערי תקווה,6,regional_council
+3722,אשכולות,5,regional_council
+3723,פני חבר,5,regional_council
+3724,נגוהות,5,regional_council
+3725,נווה דניאל,6,regional_council
+3726,נוקדים,6,regional_council
+3727,עלי זהב,6,regional_council
+3730,גבעת זאב,5,authority
+3743,טנא,5,regional_council
+3744,ברוכין,6,regional_council
+3745,מצדות יהודה,5,regional_council
+3746,קריית נטפים,6,regional_council
+3747,דולב,5,regional_council
+3748,עתניאל,5,regional_council
+3749,יצהר,6,regional_council
+3750,אלפי מנשה,8,authority
+3751,מגדלים,6,regional_council
+3752,מעלה לבונה,5,regional_council
+3754,אספר,6,regional_council
+3756,סוסיה,5,regional_council
+3759,אדורה,5,regional_council
+3760,אורנית,8,authority
+3762,איתמר,6,regional_council
+3763,גבע בנימין,5,regional_council
+3764,חגי,5,regional_council
+3765,עלי,5,regional_council
+3766,כרמי צור,6,regional_council
+3767,נחליאל,5,regional_council
+3768,פדואל,6,regional_council
+3769,הר אדר,9,authority
+3770,חשמונאים,5,regional_council
+3777,סנסנה,5,regional_council
+3778,עץ אפרים,6,regional_council
+3779,כוכב יעקב,5,regional_council
+3780,ביתר עילית,1,authority
+3781,קדר,6,regional_council
+3782,רותם,6,regional_council
+3784,שמעה,5,regional_council
+3785,משכיות,6,regional_council
+3786,אבנת,7,regional_council
+3787,נעלה,5,regional_council
+3788,טלמון,5,regional_council
+3790,נופים,6,regional_council
+3791,צופים,6,regional_council
+3793,אבני חפץ,6,regional_council
+3794,בת עין,6,regional_council
+3795,רבבה,6,regional_council
+3796,כפר האורנים,5,regional_council
+3797,מודיעין עילית,1,authority
+3822,רחלים,6,regional_council
+3823,גני מודיעין,5,regional_council
+3824,עמיחי,5,regional_council
+4000,חיפה,7,authority
+4001,בוקעאתא,3,authority
+4002,אלי-עד,6,regional_council
+4003,אל -רום,6,regional_council
+4004,כפר חרוב,6,regional_council
+4005,חספין,6,regional_council
+4006,קשת,6,regional_council
+4007,יונתן,6,regional_council
+4008,מעלה גמלא,6,regional_council
+4009,שעל,6,regional_council
+4010,אודם,6,regional_council
+4011,אבני איתן,6,regional_council
+4012,אניעם,6,regional_council
+4013,אורטל,6,regional_council
+4014,נטור,6,regional_council
+4015,בני יהודה,6,regional_council
+4017,אלוני הבשן,6,regional_council
+4019,מיצר,6,regional_council
+4021,גבעת יואב,6,regional_council
+4022,גשור,6,regional_council
+4024,קלע,6,regional_council
+4025,קדמת צבי,6,regional_council
+4026,חד-נס,6,regional_council
+4028,כנף,6,regional_council
+4100,קצרין,5,authority
+4101,מרום גולן,6,regional_council
+4201,מג'דל שמס,3,authority
+4203,מסעדה,2,authority
+4204,מבוא חמה,6,regional_council
+4301,אפיק,6,regional_council
+4304,נוב,6,regional_council
+4501,ע'ג'ר,3,authority
+4502,עין קנייא,3,authority
+4503,עין זיוון,6,regional_council
+4551,נאות גולן,6,regional_council
+4701,רמת מגשימים,6,regional_council
+4702,רמות,6,regional_council
+5000,תל אביב -יפו,8,authority
+6000,באקה אל-גרביה,4,authority
+6100,בני ברק,2,authority
+6200,בת ים,5,authority
+6300,גבעתיים,9,authority
+6400,הרצלייה,8,authority
+6500,חדרה,6,authority
+6600,חולון,7,authority
+6700,טבריה,4,authority
+6800,קריית אתא,6,authority
+6900,כפר סבא,8,authority
+7000,לוד,4,authority
+7100,אשקלון,5,authority
+7200,נס ציונה,8,authority
+7300,נצרת,3,authority
+7400,נתניה,6,authority
+7500,סח'נין,4,authority
+7600,עכו,4,authority
+7700,עפולה,5,authority
+7800,פרדס חנה-כרכור,7,authority
+7900,פתח תקווה,7,authority
+8000,צפת,2,authority
+8200,קריית מוצקין,7,authority
+8300,ראשון לציון,7,authority
+8400,רחובות,7,authority
+8500,רמלה,5,authority
+8600,רמת גן,8,authority
+8700,רעננה,8,authority
+8800,שפרעם,3,authority
+8900,טמרה,3,authority
+9000,באר שבע,5,authority
+9100,נהרייה,6,authority
+9200,בית שאן,5,authority
+9300,זכרון יעקב,8,authority
+9400,יהוד,7,authority
+9500,קריית ביאליק,6,authority
+9600,קריית ים,5,authority
+9700,הוד השרון,9,authority
+9800,בנימינה-גבעת עדה,8,authority
+10001,הגליל העליון,7,authority
+10002,מרום הגליל,5,authority
+10003,הגליל התחתון,7,authority
+10004,מטה אשר,7,authority
+10006,עמק הירדן,7,authority
+10007,עמק המעיינות,6,authority
+10008,הגלבוע,5,authority
+10009,עמק יזרעאל,8,authority
+10012,זבולון,5,authority
+10013,מגידו,7,authority
+10014,מנשה,7,authority
+10015,חוף הכרמל,7,authority
+10016,עמק חפר,8,authority
+10018,לב השרון,8,authority
+10019,חוף השרון,9,authority
+10020,דרום השרון,9,authority
+10025,חבל מודיעין,7,authority
+10026,מטה יהודה,7,authority
+10027,גן רווה,8,authority
+10028,ברנר,8,authority
+10029,חבל יבנה,5,authority
+10030,גזר,8,authority
+10031,נחל שורק,5,authority
+10032,גדרות,9,authority
+10033,באר טוביה,7,authority
+10034,שפיר,5,authority
+10035,יואב,8,authority
+10036,חוף אשקלון,7,authority
+10037,שער הנגב,7,authority
+10038,אשכול,6,authority
+10039,שדות נגב,6,authority
+10040,עמק לוד,6,authority
+10041,בני שמעון,7,authority
+10042,מרחבים,6,authority
+10045,אלונה,8,authority
+10048,רמת נגב,6,authority
+10050,לכיש,7,authority
+10051,תמר,7,authority
+10052,מעלה יוסף,7,authority
+10053,חבל אילות,5,authority
+10054,הערבה התיכונה,7,authority
+10055,מבואות החרמון,7,authority
+10056,משגב,7,authority
+10065,אל - בטוף,2,authority
+10066,בוסתן אל -מרג',3,authority
+10068,נווה מדבר,1,authority
+10069,אל קסום,1,authority
+10071,גולן,6,authority
+10072,שומרון,6,authority
+10073,מטה בנימין,5,authority
+10074,מגילות ים המלח,7,authority
+10075,ערבות הירדן,6,authority
+10076,גוש עציון,6,authority
+10078,הר חברון,5,authority

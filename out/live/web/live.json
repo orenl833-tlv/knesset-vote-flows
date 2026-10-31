@@ -1,0 +1,8 @@
+{
+ "updated_utc": "2026-10-31T10:50:14Z",
+ "k26_file": "data/raw/k26.csv",
+ "counted_ballots": 12005,
+ "total_ballots": 12005,
+ "counted_share_national": 0.894,
+ "boot": 1000
+}

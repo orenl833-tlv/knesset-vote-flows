@@ -1,0 +1,28 @@
+{
+ "_doc": "Blocs for the Knesset 26 seat bar, by the lists' declared alignment before the vote. Each list is in the order it is drawn, right to left; a list with seats that is missing here is drawn at the end. Blue and White did not run; Balad (ד) ran inside the Joint List. Replace with the presidential recommendations once they are made. \"mid\": lists between the blocs (Hendel's Reservists), counted half in each bloc in the seat totals.",
+ "bibi": [
+  "מחל",
+  "ב",
+  "ט",
+  "ני",
+  "שס",
+  "ג",
+  "ך",
+  "זך"
+ ],
+ "joint": [
+  "ודם"
+ ],
+ "raam": [
+  "עם"
+ ],
+ "anti": [
+  "רק",
+  "ל",
+  "אמת",
+  "דרך"
+ ],
+ "mid": [
+  "די"
+ ]
+}

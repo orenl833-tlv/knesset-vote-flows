@@ -1,0 +1,27 @@
+Live summary, 25-26, k26 file live/k26/latest.csv, B = 1000
+  runtime steps (s): 2.7, 0.7, 3586.1, 0.6, 1.6, 7.3, 0.3, 1.1; total 3600.2
+  national counted_share (k25 bzb covered by used units) 0.8940; units 4259; counted ballots 12005 of 12005; fallback_levels {'own': 79, 'type': 38, 'national': 0}
+  modelled vs counted 2026 shares (national, categories >= 3% of counted total; pp deviation):
+    הליכוד                 modelled  14.51%  counted  14.78%  dev  -0.27 pp
+    ביחד                   modelled   5.66%  counted   6.43%  dev  -0.76 pp
+    ישר!                   modelled  10.94%  counted  11.54%  dev  -0.60 pp
+    ישראל ביתנו            modelled   3.33%  counted   4.25%  dev  -0.92 pp
+    עוצמה יהודית           modelled   2.96%  counted   3.96%  dev  -1.00 pp
+    הציונות הדתית          modelled   2.66%  counted   3.35%  dev  -0.69 pp
+    הדמוקרטים              modelled   3.98%  counted   4.63%  dev  -0.65 pp
+    רע"מ                   modelled   4.22%  counted   4.44%  dev  -0.22 pp
+    ש"ס                    modelled   2.80%  counted   3.77%  dev  -0.96 pp
+    יהדות התורה            modelled   3.37%  counted   4.00%  dev  -0.63 pp
+    הרשימה המשותפת         modelled   6.35%  counted   6.63%  dev  -0.28 pp
+    לא הצביעו              modelled  29.22%  counted  28.52%  dev  +0.69 pp
+  five largest cross-category national flows 25-26:
+    יש עתיד -> ישר!: votes 423210  rate 57.7%
+    יש עתיד -> ביחד: votes 209708  rate 28.6%
+    המחנה הממלכתי -> ישר!: votes 200768  rate 60.7%
+    חד"ש-תע"ל -> הרשימה המשותפת: votes 145154  rate 95.9%
+    לא הצביעו -> הרשימה המשותפת: votes 133163  rate 5.4%
+  יש עתיד -> ביחד: rate 28.6%
+  הליכוד -> הליכוד: rate 82.5%
+  cities non-null: 62 of 99 (62.6%)
+  SES areas non-null: 59 of 60
+  SES file for 25-26: CBS 2021; k25 bzb share by group: g1 24.13%, g2 21.44%, g3 30.66%, g4 23.07%; not in the SES file 0.70%

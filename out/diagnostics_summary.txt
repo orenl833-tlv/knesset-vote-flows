@@ -1,0 +1,266 @@
+Stage 1 diagnostics summary
+============================================================
+
+1. National coverage per pair (share of all modelled boxes): before residual rule -> after
+  19-20: before residual a 76.11% b 73.86% | after a 77.62% b 75.39% | units kept 7459 (residual 26, candidates 7697; dropped zero-valid 3, replacement 235)
+  20-21: before residual a 51.23% b 47.67% | after a 55.73% b 52.03% | units kept 5091 (residual 57, candidates 5259; dropped zero-valid 2, replacement 166)
+  21-22: before residual a 86.25% b 85.97% | after a 95.53% b 95.43% | units kept 8232 (residual 76, candidates 8552; dropped zero-valid 2, replacement 318)
+  22-23: before residual a 89.62% b 89.19% | after a 96.91% b 96.69% | units kept 8951 (residual 81, candidates 9083; dropped zero-valid 1, replacement 131)
+  23-24: before residual a 65.94% b 65.24% | after a 94.43% b 93.91% | units kept 4430 (residual 223, candidates 4513; dropped zero-valid 0, replacement 83)
+  24-25: before residual a 71.87% b 70.42% | after a 88.91% b 87.64% | units kept 5681 (residual 151, candidates 5772; dropped zero-valid 0, replacement 91)
+  20-25: before residual a 18.63% b 16.00% | after a 29.89% b 26.29% | units kept 1964 (residual 42, candidates 2048; dropped zero-valid 0, replacement 84)
+
+2. Double-envelope rows excluded from all modelling (valid votes per election)
+  k19: 228 rows, code 875 (19-20) / 99999 (21), named "מעטפות חיצוניות": bzb 0, valid votes 212949
+      = 5.95% of modelled valid votes; cannot be matched (bzb 0).
+  k20: 295 rows, code 875 (19-20) / 99999 (21), named "מעטפות חיצוניות": bzb 0, valid votes 232681
+      = 5.85% of modelled valid votes; cannot be matched (bzb 0).
+  k21: 305 rows, code 875 (19-20) / 99999 (21), named "מעטפות חיצוניות": bzb 0, valid votes 238822
+      = 5.87% of modelled valid votes; cannot be matched (bzb 0).
+  k22: 362 rows, 9999 (double envelopes): bzb 0, valid votes 280216
+  k23: 548 rows, 9999 (double envelopes): bzb 0, valid votes 327702
+  k24: 799 rows, 9999 (double envelopes): bzb 0, valid votes 421619
+  k25: 838 rows, 9999 (double envelopes): bzb 0, valid votes 458714
+
+3. Ten large localities with the lowest coverage per pair (ranked by min(cov a, cov b), kept units)
+  19-20:
+       634  כפר קאסם               cov_a   8.40%  cov_b   8.18%  units    2  boxes_k25 29
+      1161  רהט                    cov_a  13.23%  cov_b  12.44%  units    5  boxes_k25 64
+      3780  ביתר עילית             cov_a  17.00%  cov_b  15.64%  units    5  boxes_k25 49
+      6000  באקה אל-גרביה          cov_a  16.69%  cov_b  16.15%  units    4  boxes_k25 33
+      2710  אום אל-פחם             cov_a  21.97%  cov_b  20.31%  units   10  boxes_k25 63
+       246  נתיבות                 cov_a  23.99%  cov_b  22.47%  units    7  boxes_k25 51
+       510  כפר מנדא               cov_a  28.79%  cov_b  28.31%  units    4  boxes_k25 23
+      3797  מודיעין עילית          cov_a  43.09%  cov_b  38.88%  units   15  boxes_k25 53
+      2660  יבנה                   cov_a  52.41%  cov_b  45.15%  units   24  boxes_k25 66
+      1292  ג'דיידה-מכר            cov_a  51.47%  cov_b  48.66%  units    9  boxes_k25 25
+  20-21:
+       502  ירכא                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 21
+       634  כפר קאסם               cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 29
+      1247  חריש                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 26
+      2720  טירה                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 34
+       637  ערערה                  cov_a   6.19%  cov_b   5.28%  units    1  boxes_k25 23
+      3780  ביתר עילית             cov_a  10.93%  cov_b   8.63%  units    3  boxes_k25 49
+      2710  אום אל-פחם             cov_a  14.07%  cov_b  12.80%  units    7  boxes_k25 63
+       529  אעבלין                 cov_a  16.21%  cov_b  15.39%  units    2  boxes_k25 20
+      1161  רהט                    cov_a  23.38%  cov_b  19.35%  units    9  boxes_k25 64
+       246  נתיבות                 cov_a  22.93%  cov_b  19.78%  units    7  boxes_k25 51
+  21-22:
+      1247  חריש                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 26
+      2720  טירה                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 34
+      8900  טמרה                   cov_a  33.11%  cov_b  33.27%  units   10  boxes_k25 42
+       637  ערערה                  cov_a  66.72%  cov_b  66.77%  units   12  boxes_k25 23
+      8800  שפרעם                  cov_a  71.25%  cov_b  71.21%  units   28  boxes_k25 54
+       229  גני תקווה              cov_a  74.69%  cov_b  72.98%  units   16  boxes_k25 29
+       634  כפר קאסם               cov_a  74.11%  cov_b  74.07%  units   17  boxes_k25 29
+      1161  רהט                    cov_a  75.42%  cov_b  75.33%  units   32  boxes_k25 64
+      2640  ראש העין               cov_a  81.22%  cov_b  78.75%  units   54  boxes_k25 82
+      7500  סח'נין                 cov_a  79.89%  cov_b  82.80%  units   24  boxes_k25 38
+  22-23:
+      1247  חריש                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 26
+       634  כפר קאסם               cov_a   8.47%  cov_b   8.39%  units    2  boxes_k25 29
+       502  ירכא                   cov_a  41.60%  cov_b  33.48%  units    5  boxes_k25 21
+       168  כפר יונה               cov_a  65.22%  cov_b  63.33%  units   16  boxes_k25 35
+      7500  סח'נין                 cov_a  68.84%  cov_b  66.49%  units   20  boxes_k25 38
+      2640  ראש העין               cov_a  77.23%  cov_b  74.11%  units   53  boxes_k25 82
+      7000  לוד                    cov_a  76.18%  cov_b  75.48%  units   68  boxes_k25 103
+       246  נתיבות                 cov_a  77.80%  cov_b  75.76%  units   29  boxes_k25 51
+      1161  רהט                    cov_a  81.66%  cov_b  81.72%  units   18  boxes_k25 64
+      1020  אור עקיבא              cov_a  84.92%  cov_b  82.86%  units   17  boxes_k25 30
+  23-24:
+      1247  חריש                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 26
+      3780  ביתר עילית             cov_a  38.49%  cov_b  36.97%  units    8  boxes_k25 49
+       654  כפר קרע                cov_a  40.97%  cov_b  37.62%  units    2  boxes_k25 22
+       229  גני תקווה              cov_a  47.28%  cov_b  44.39%  units    7  boxes_k25 29
+        31  אופקים                 cov_a  46.99%  cov_b  44.77%  units   15  boxes_k25 41
+       246  נתיבות                 cov_a  48.33%  cov_b  46.49%  units   13  boxes_k25 51
+      2640  ראש העין               cov_a  60.59%  cov_b  55.81%  units   33  boxes_k25 82
+      8200  קריית מוצקין           cov_a  60.13%  cov_b  56.96%  units   28  boxes_k25 68
+      2100  טירת כרמל              cov_a  62.10%  cov_b  59.00%  units   19  boxes_k25 37
+      2610  בית שמש                cov_a  66.48%  cov_b  63.30%  units   35  boxes_k25 133
+  24-25:
+      1247  חריש                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 26
+      1031  שדרות                  cov_a  25.43%  cov_b  23.83%  units    8  boxes_k25 42
+      3797  מודיעין עילית          cov_a  28.93%  cov_b  27.56%  units    5  boxes_k25 53
+       246  נתיבות                 cov_a  51.71%  cov_b  45.83%  units   15  boxes_k25 51
+      3780  ביתר עילית             cov_a  52.80%  cov_b  50.68%  units   12  boxes_k25 49
+      9100  נהרייה                 cov_a  54.91%  cov_b  53.37%  units   28  boxes_k25 87
+       874  מגדל העמק              cov_a  57.76%  cov_b  55.32%  units   15  boxes_k25 39
+       531  עראבה                  cov_a  57.59%  cov_b  55.34%  units   14  boxes_k25 30
+      1309  אלעד                   cov_a  57.68%  cov_b  55.83%  units   10  boxes_k25 39
+      7700  עפולה                  cov_a  58.41%  cov_b  56.31%  units   29  boxes_k25 76
+  20-25:
+       499  יפיע                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 25
+       509  כפר כנא                cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 27
+       502  ירכא                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 21
+       634  כפר קאסם               cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 29
+       638  קלנסווה                cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 29
+      1247  חריש                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 26
+      2720  טירה                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 34
+      7500  סח'נין                 cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 38
+      8900  טמרה                   cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 42
+      9300  זכרון יעקב             cov_a   0.00%  cov_b   0.00%  units    0  boxes_k25 27
+
+4. Sector unit counts per pair (kept units; transitional units used in no sector fit)
+  19-20: druze 65, arab 561, haredi 328, general 6482, transitional 23  (total 7459)
+  20-21: druze 28, arab 360, haredi 217, general 4467, transitional 19  (total 5091)
+  21-22: druze 102, arab 825, haredi 482, general 6813, transitional 10  (total 8232)
+  22-23: druze 83, arab 1007, haredi 503, general 7345, transitional 13  (total 8951)
+  23-24: druze 50, arab 437, haredi 147, general 3791, transitional 5  (total 4430)
+  24-25: druze 68, arab 728, haredi 270, general 4604, transitional 11  (total 5681)
+  20-25: druze 13, arab 119, haredi 42, general 1789, transitional 1  (total 1964)
+
+5. Ballot-level sector totals per election (classified on the election's own shares)
+  k19: arab valid 377579 / bzb 686165, druze valid 38275 / bzb 69150, general valid 2914459 / bzb 4574416, haredi valid 249480 / bzb 326974
+  k20: arab valid 469297 / bzb 747008, druze valid 40151 / bzb 72165, general valid 3220521 / bzb 4734148, haredi valid 248234 / bzb 328375
+  k21: arab valid 391577 / bzb 823037, druze valid 44868 / bzb 80127, general valid 3334213 / bzb 5027219, haredi valid 299790 / bzb 409346
+  k22: arab valid 500781 / bzb 861879, druze valid 39724 / bzb 75397, general valid 3303111 / bzb 5032345, haredi valid 312974 / bzb 421597
+  k23: arab valid 565913 / bzb 883989, druze valid 40502 / bzb 73796, general valid 3331235 / bzb 5054678, haredi valid 324710 / bzb 440792
+  k24: arab valid 386612 / bzb 890711, druze valid 36108 / bzb 79294, general valid 3251742 / bzb 5159631, haredi valid 313971 / bzb 448448
+  k25: arab valid 494245 / bzb 944727, druze valid 39637 / bzb 81251, general valid 3417433 / bzb 5276278, haredi valid 354713 / bzb 486548
+
+6. Localities in the elections missing from the CBS file (excluding envelope pseudo-localities)
+  code 1417 "מחנה עדי": boxes k19:1 k20:1 -> region misc
+  code 3400 "חברון": boxes k19:1 k20:1 k21:1 k22:1 k23:1 k24:1 k25:1 -> region misc
+  code 3637 "מעלה שומרון": boxes k19:1 k20:1 k21:1 k22:1 k23:1 -> region misc
+  code 3720 "שערי תקווה": boxes k19:5 k20:5 k21:6 k22:6 k23:6 k24:7 -> region misc
+  code 3778 "עץ אפרים": boxes k19:1 k20:2 k21:2 k22:2 k23:2 k24:3 -> region misc
+  Code 875 is in CBS as "כפר עבודה"; in k19-k20 the 875 rows are the envelope pseudo-locality and are excluded by name.
+  Localities in CBS with an empty religion code (flagged; assigned to their district cluster rules: unknown -> misc):
+    code 1411 "מחנה הילה*" (המרכז), k25 boxes 1 -> region misc
+    code 1412 "מחנה תל נוף*" (המרכז), k25 boxes 1 -> region misc
+    code 1413 "מחנה יהודית*" (הצפון), k25 boxes 1 -> region misc
+    code 1414 "מחנה מרים*" (הדרום), k25 boxes 1 -> region misc
+    code 1415 "מחנה יפה*" (הדרום), k25 boxes 1 -> region misc
+    code 1416 "מחנה יוכבד*" (הדרום), k25 boxes 1 -> region misc
+    code 1418 "מחנה טלי*" (הדרום), k25 boxes 1 -> region misc
+  Large localities with fewer than 25 k25 boxes keep their own region (see note in stage 2 summary).
+
+7. Holon (6600) validation, reference from spec (rates in %)
+  23-24  כחול לבן -> יש עתיד                      ref  50  ours 50.4  diff 0.4 pp  
+  23-24  כחול לבן -> כחול לבן                     ref  24  ours 23.6  diff -0.4 pp  
+  23-24  הליכוד -> הליכוד                         ref  76  ours 76.7  diff 0.7 pp  
+  23-24  ש"ס -> ש"ס                               ref  85  ours 84.6  diff -0.4 pp  
+  23-24  ישראל ביתנו -> ישראל ביתנו               ref  80  ours 79.1  diff -0.9 pp  
+  24-25  הליכוד -> הליכוד                         ref  85  ours 84.5  diff -0.5 pp  
+  24-25  הליכוד -> הציונות הדתית                  ref  13  ours 15.5  diff 2.5 pp  
+  24-25  יש עתיד -> יש עתיד                       ref  82  ours 78.0  diff -4.0 pp  
+  24-25  כחול לבן -> המחנה הממלכתי                ref  72  ours 73.9  diff 1.9 pp  
+  24-25  ש"ס -> ש"ס                               ref  97  ours 95.5  diff -1.5 pp  
+  23-24: units 74, categories X 7 / Y 10, FISTA iterations 8528, converged True
+  24-25: units 86, categories X 10 / Y 8, FISTA iterations 7956, converged True
+
+8. Runtime per step (stage 1)
+      1.77 s  load: config, CBS, six ballot-box CSVs (k19-k25)
+      0.17 s  regions, clusters and misc merge
+      0.55 s  matching, residual, filters, sectors 19-20
+      0.42 s  matching, residual, filters, sectors 20-21
+      0.47 s  matching, residual, filters, sectors 21-22
+      0.48 s  matching, residual, filters, sectors 22-23
+      0.58 s  matching, residual, filters, sectors 23-24
+      0.56 s  matching, residual, filters, sectors 24-25
+      0.39 s  matching, residual, filters, sectors 20-25
+      3.45 s  matching total (7 pairs)
+      0.01 s  write diagnostics_units.csv
+      0.52 s  Holon validation fits (23-24, 24-25)
+      6.02 s  total stage 1
+
+      0.10 s  write summary (stage 1)
+=== STAGE 2 ===
+
+Stage 2 summary (bootstrap B = 100; solver tol 1e-6, max 50000 iterations)
+timing: one pair point-only 6.1s; per bootstrap replicate per pair 3.85s; extrapolated 7 pairs with B=100: 45.6 min -> within 2 h, using B=100
+
+A. Per pair: national coverage (after residual, after filter), units, non-converged main fits, fallback regions
+  19-20: coverage 77.6% (core, non-residual 76.1%)  units 7459  non-converged main fits 0 of 182  fallback regions (thin, type pool) 20  large localities null 18
+      null large localities: קדימה-צורן, נתיבות, מגאר, ירכא, כפר כנא, כפר מנדא, אעבלין, כפר קאסם, קלנסווה, כפר קרע, רהט, חריש, ג'דיידה-מכר, באר יעקב, אום אל-פחם, גבעת זאב, ביתר עילית, באקה אל-גרביה
+  20-21: coverage 55.7% (core, non-residual 51.2%)  units 5091  non-converged main fits 0 of 160  fallback regions (thin, type pool) 31  large localities null 27
+      null large localities: גן יבנה, קדימה-צורן, נתיבות, מגאר, דאלית אל-כרמל, יפיע, ירכא, כפר כנא, כפר מנדא, אעבלין, עראבה, כפר קאסם, ערערה, כפר קרע, רהט, חריש, ג'דיידה-מכר, שוהם, אלעד, באר יעקב, גדרה, אום אל-פחם, טירה, גבעת זאב, ביתר עילית, מודיעין עילית, טמרה
+  21-22: coverage 95.5% (core, non-residual 86.2%)  units 8232  non-converged main fits 0 of 199  fallback regions (thin, type pool) 7  large localities null 7
+      null large localities: אעבלין, חריש, טירה, טייבה, גבעת זאב, באקה אל-גרביה, טמרה
+  22-23: coverage 96.9% (core, non-residual 89.6%)  units 8951  non-converged main fits 0 of 200  fallback regions (thin, type pool) 7  large localities null 7
+      null large localities: ירכא, אעבלין, עראבה, כפר קאסם, חריש, באר יעקב, גבעת זאב
+  23-24: coverage 94.4% (core, non-residual 65.9%)  units 4430  non-converged main fits 0 of 154  fallback regions (thin, type pool) 31  large localities null 31
+      null large localities: גן יבנה, קדימה-צורן, גני תקווה, מגאר, דאלית אל-כרמל, יפיע, ירכא, כפר כנא, כפר מנדא, אעבלין, עראבה, כפר קאסם, ערערה, קלנסווה, כפר קרע, גבעת שמואל, מבשרת ציון, אור עקיבא, חריש, ג'דיידה-מכר, אלעד, גדרה, טירה, גבעת זאב, ביתר עילית, מודיעין עילית, סח'נין, שפרעם, טמרה, בית שאן, זכרון יעקב
+  24-25: coverage 88.9% (core, non-residual 71.9%)  units 5681  non-converged main fits 0 of 182  fallback regions (thin, type pool) 12  large localities null 12
+      null large localities: גן יבנה, דאלית אל-כרמל, כפר מנדא, כפר קאסם, ערערה, שדרות, קריית מלאכי, רהט, חריש, אלעד, מודיעין עילית, זכרון יעקב
+  20-25: coverage 29.9% (core, non-residual 18.6%)  units 1964  non-converged main fits 0 of 87  fallback regions (thin, type pool) 73  large localities null 65
+      null large localities: אופקים, גן יבנה, כפר יונה, קדימה-צורן, גני תקווה, יקנעם עילית, נתיבות, מגאר, דאלית אל-כרמל, יפיע, ירכא, כפר כנא, כפר מנדא, אעבלין, עראבה, כפר קאסם, ערערה, קלנסווה, כפר קרע, גבעת שמואל, מגדל העמק, מבשרת ציון, אור עקיבא, שדרות, קריית מלאכי, מעלות-תרשיחא, רהט, מודיעין-מכבים-רעות, חריש, ג'דיידה-מכר, שוהם, אלעד, טירת כרמל, דימונה, קריית טבעון, אור יהודה, נשר, באר יעקב, גדרה, ערד, בית שמש, קריית אונו, רמת השרון, יבנה, אום אל-פחם, טירה, טייבה, קריית שמונה, מעלה אדומים, גבעת זאב, ביתר עילית, מודיעין עילית, באקה אל-גרביה, טבריה, נס ציונה, נצרת, סח'נין, עפולה, פרדס חנה-כרכור, צפת, שפרעם, טמרה, בית שאן, זכרון יעקב, הוד השרון
+  total non-converged main fits: 0
+
+B. Sanity: the 10 worst max abs % deviation among fits with >= 12 units
+  21-22 general:7600           units    44  max abs % dev 69.73  (general 7600)
+  21-22 region:הצפון|jewish_urban units    72  max abs % dev 68.11  (region הצפון|jewish_urban)
+  24-25 region:misc            units    15  max abs % dev 66.54  (region misc)
+  19-20 region:הצפון|jewish_urban units    52  max abs % dev 57.47  (region הצפון|jewish_urban)
+  19-20 general:7600           units    49  max abs % dev 52.91  (general 7600)
+  22-23 general:2610           units    35  max abs % dev 51.41  (general 2610)
+  20-25 general:2640           units    17  max abs % dev 50.71  (general 2640)
+  20-25 region:2640            units    17  max abs % dev 50.71  (region 2640)
+  23-24 region:1161            units    12  max abs % dev 50.30  (region 1161)
+  19-20 general:8500           units    58  max abs % dev 50.12  (general 8500)
+
+C. Sensitivity: top-20 national cross-category flows at T=0.15; movement at T=0.10 and 0.20
+  19-20: T=0.15 top-20 flows, largest rate shift at T=0.10 or 0.20: 4.66 pp; median absolute shift 0.13 pp
+  20-21: T=0.15 top-20 flows, largest rate shift at T=0.10 or 0.20: 2.79 pp; median absolute shift 0.09 pp
+  21-22: T=0.15 top-20 flows, largest rate shift at T=0.10 or 0.20: 1.89 pp; median absolute shift 0.19 pp
+  22-23: T=0.15 top-20 flows, largest rate shift at T=0.10 or 0.20: 1.96 pp; median absolute shift 0.10 pp
+  23-24: T=0.15 top-20 flows, largest rate shift at T=0.10 or 0.20: 1.42 pp; median absolute shift 0.10 pp
+  24-25: T=0.15 top-20 flows, largest rate shift at T=0.10 or 0.20: 1.41 pp; median absolute shift 0.07 pp
+  20-25: T=0.15 top-20 flows, largest rate shift at T=0.10 or 0.20: 5.35 pp; median absolute shift 0.25 pp
+
+D. Top 10 national cross-category flows, 24-25 and 20-25, with 90% intervals (rate %, from-row)
+  23-24:
+    כחול לבן -> יש עתיד: votes 495416  rate 45.0%  [44.4, 45.1]
+    הרשימה המשותפת -> לא הצביעו: votes 186896  rate 34.1%  [33.5, 36.2]
+    הרשימה המשותפת -> רע"מ: votes 152269  rate 27.8%  [26.7, 28.4]
+    כחול לבן -> אחרים: votes 121406  rate 11.0%  [10.5, 11.3]
+    הליכוד -> לא הצביעו: votes 99680  rate 8.1%  [7.5, 8.8]
+    העבודה-גשר-מרצ -> העבודה: votes 86852  rate 43.4%  [40.9, 45.2]
+    כחול לבן -> העבודה: votes 85843  rate 7.8%  [7.5, 8.3]
+    ימינה -> הציונות הדתית: votes 83950  rate 49.7%  [46.7, 51.2]
+    העבודה-גשר-מרצ -> מרצ: votes 75573  rate 37.8%  [35.8, 39.2]
+    הליכוד -> אחרים: votes 74949  rate 6.1%  [6.0, 7.0]
+  24-25:
+    כחול לבן -> המחנה הממלכתי: votes 144501  rate 61.9%  [57.8, 62.5]
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 113898  rate 60.7%  [57.7, 62.4]
+    הליכוד -> הציונות הדתית: votes 102318  rate 10.7%  [10.0, 10.9]
+    תקווה חדשה -> המחנה הממלכתי: votes 76941  rate 51.3%  [47.0, 52.7]
+    כחול לבן -> יש עתיד: votes 75320  rate 32.2%  [29.5, 34.2]
+    ימינה -> הציונות הדתית: votes 67976  rate 34.3%  [32.2, 36.2]
+    לא הצביעו -> הליכוד: votes 63202  rate 2.4%  [2.2, 2.7]
+    לא הצביעו -> אחרים: votes 59112  rate 2.3%  [2.2, 2.6]
+    הרשימה המשותפת -> בל"ד: votes 48958  rate 26.1%  [23.6, 28.3]
+    העבודה -> יש עתיד: votes 48854  rate 24.2%  [22.1, 27.9]
+  20-25:
+    המחנה הציוני -> יש עתיד: votes 383656  rate 53.0%  [51.2, 54.5]
+    הרשימה המשותפת -> לא הצביעו: votes 137832  rate 34.3%  [30.6, 37.2]
+    הבית היהודי -> הציונות הדתית: votes 119350  rate 60.8%  [55.8, 63.0]
+    כולנו -> הליכוד: votes 119114  rate 49.7%  [43.3, 52.1]
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 114114  rate 28.4%  [26.0, 30.4]
+    המחנה הציוני -> המחנה הממלכתי: votes 110515  rate 15.3%  [13.9, 16.2]
+    הליכוד -> הציונות הדתית: votes 102301  rate 11.2%  [10.3, 11.8]
+    אחרים -> לא הצביעו: votes 98835  rate 15.4%  [12.0, 17.5]
+    לא הצביעו -> רע"מ: votes 84119  rate 4.4%  [3.3, 5.0]
+    הרשימה המשותפת -> בל"ד: votes 79229  rate 19.7%  [18.6, 21.1]
+
+E. Interval check: point estimate inside its 5-95% interval (rounded web values), all areas
+  19-20: links 2329, point outside interval 3
+  20-21: links 2030, point outside interval 5
+  21-22: links 2447, point outside interval 4
+  22-23: links 2064, point outside interval 9
+  23-24: links 1624, point outside interval 7
+  24-25: links 2356, point outside interval 5
+  20-25: links 1021, point outside interval 0
+
+F. Runtime per step (stage 2)
+      2.05 s  load and context
+      6.10 s  timing: full pair 24-25 WITHOUT bootstrap (fits and assembly)
+     13.80 s  timing: bootstrap cost probe (2 replicates, one pair)
+   2229.58 s  fits with bootstrap B=100, all 7 pairs (incl. aggregates)
+      2.43 s  sanity and web areas
+      0.19 s  write web JSON
+      0.07 s  write sanity.csv
+     57.85 s  sensitivity (T=0.10, 0.20 point fits, 7 pairs)
+   2312.11 s  total stage 2
+

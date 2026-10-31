@@ -1,0 +1,40 @@
+{
+ "_doc": "Findings for the election-night page. 'headlines': cards for the top of the page, each {title, big, unit, body, area, pair: '25-26', area_name, links: [[from name, to name]], check: null or ['agree'|'disputed', text]}; numbers from the current run, the first card says how much has been counted. Other keys are area ids (national, sector:haredi, 3000, ...) with lists of {title, text} shown above the chart of that area; they replace the built findings. Written and updated during the night from out/live/briefing.md. Card titles are human headlines, not reports (live/HEADLINES_STYLE.md): the verb matches the size of the flow, the numbers go in the body.",
+ "headlines": [
+  {
+   "id": "shas-otzma-2026",
+   "title": "בן גביר נגס בדרעי",
+   "big": "9%",
+   "unit": "מש\"ס לבן גביר",
+   "area": "national",
+   "area_name": "כל הארץ",
+   "pair": "25-26",
+   "body": "כ-9% ממצביעי ש\"ס ב-2022 הצביעו לעוצמה יהודית, כ-30 אלף קולות. ש\"ס שמרה על כ-59% ממצביעיה.",
+   "links": [
+    [
+     "ש\"ס",
+     "עוצמה יהודית"
+    ]
+   ],
+   "check": null
+  },
+  {
+   "id": "joint-dnv-2026",
+   "title": "המשותפת הוציאה אנשים מהבית",
+   "big": "133",
+   "unit": "אלף חזרו לקלפי",
+   "area": "national",
+   "area_name": "כל הארץ",
+   "pair": "25-26",
+   "body": "כ-133 אלף מי שלא הצביעו ב-2022 הצביעו הפעם לרשימה המשותפת, כשליש מקולותיה.",
+   "links": [
+    [
+     "לא הצביעו",
+     "הרשימה המשותפת"
+    ]
+   ],
+   "check": null
+  }
+ ],
+ "national": []
+}

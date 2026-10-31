@@ -1,0 +1,310 @@
+{
+ "valid": 5690685,
+ "eligible": 7331981,
+ "lists": [
+  {
+   "code": "מחל",
+   "name": "הליכוד",
+   "family": "likud",
+   "votes": 1167458,
+   "pct": 20.52,
+   "seats": 27
+  },
+  {
+   "code": "דרך",
+   "name": "ישר!",
+   "family": "yashar",
+   "votes": 913502,
+   "pct": 16.05,
+   "seats": 21
+  },
+  {
+   "code": "רק",
+   "name": "ביחד",
+   "family": "beyachad",
+   "votes": 531476,
+   "pct": 9.34,
+   "seats": 12
+  },
+  {
+   "code": "ודם",
+   "name": "הרשימה המשותפת",
+   "family": "joint",
+   "votes": 500147,
+   "pct": 8.79,
+   "seats": 11
+  },
+  {
+   "code": "אמת",
+   "name": "הדמוקרטים",
+   "family": "labor",
+   "votes": 366352,
+   "pct": 6.44,
+   "seats": 8
+  },
+  {
+   "code": "ל",
+   "name": "ישראל ביתנו",
+   "family": "yb",
+   "votes": 337413,
+   "pct": 5.93,
+   "seats": 7
+  },
+  {
+   "code": "עם",
+   "name": "רע\"מ",
+   "family": "raam",
+   "votes": 337253,
+   "pct": 5.93,
+   "seats": 8
+  },
+  {
+   "code": "ב",
+   "name": "עוצמה יהודית",
+   "family": "otzma",
+   "votes": 326624,
+   "pct": 5.74,
+   "seats": 7
+  },
+  {
+   "code": "ג",
+   "name": "יהדות התורה",
+   "family": "utj",
+   "votes": 312604,
+   "pct": 5.49,
+   "seats": 7
+  },
+  {
+   "code": "שס",
+   "name": "ש\"ס",
+   "family": "shas",
+   "votes": 299506,
+   "pct": 5.26,
+   "seats": 6
+  },
+  {
+   "code": "ט",
+   "name": "הציונות הדתית",
+   "family": "far_right",
+   "votes": 290451,
+   "pct": 5.1,
+   "seats": 6
+  },
+  {
+   "code": "די",
+   "name": "המילואימניקים",
+   "family": "reservists",
+   "votes": 154995,
+   "pct": 2.72,
+   "seats": 0
+  },
+  {
+   "code": "ך",
+   "name": "עמך ישראל",
+   "family": "winter",
+   "votes": 95663,
+   "pct": 1.68,
+   "seats": 0
+  },
+  {
+   "code": "נר",
+   "name": "נר",
+   "family": "other",
+   "votes": 11274,
+   "pct": 0.2,
+   "seats": 0
+  },
+  {
+   "code": "זך",
+   "name": "הציבור החרדי",
+   "family": "utj",
+   "votes": 10594,
+   "pct": 0.19,
+   "seats": 0
+  },
+  {
+   "code": "ני",
+   "name": "נעם",
+   "family": "far_right",
+   "votes": 9923,
+   "pct": 0.17,
+   "seats": 0
+  },
+  {
+   "code": "בי",
+   "name": "בי",
+   "family": "other",
+   "votes": 5712,
+   "pct": 0.1,
+   "seats": 0
+  },
+  {
+   "code": "ד",
+   "name": "ד",
+   "family": "other",
+   "votes": 4294,
+   "pct": 0.08,
+   "seats": 0
+  },
+  {
+   "code": "צדק",
+   "name": "צדק",
+   "family": "other",
+   "votes": 2084,
+   "pct": 0.04,
+   "seats": 0
+  },
+  {
+   "code": "בד",
+   "name": "בד",
+   "family": "other",
+   "votes": 1465,
+   "pct": 0.03,
+   "seats": 0
+  },
+  {
+   "code": "צף",
+   "name": "צף",
+   "family": "other",
+   "votes": 1050,
+   "pct": 0.02,
+   "seats": 0
+  },
+  {
+   "code": "רץ",
+   "name": "רץ",
+   "family": "other",
+   "votes": 1011,
+   "pct": 0.02,
+   "seats": 0
+  },
+  {
+   "code": "י",
+   "name": "י",
+   "family": "other",
+   "votes": 955,
+   "pct": 0.02,
+   "seats": 0
+  },
+  {
+   "code": "נקי",
+   "name": "נקי",
+   "family": "other",
+   "votes": 929,
+   "pct": 0.02,
+   "seats": 0
+  },
+  {
+   "code": "קך",
+   "name": "קך",
+   "family": "other",
+   "votes": 919,
+   "pct": 0.02,
+   "seats": 0
+  },
+  {
+   "code": "ה",
+   "name": "ה",
+   "family": "other",
+   "votes": 902,
+   "pct": 0.02,
+   "seats": 0
+  },
+  {
+   "code": "פה",
+   "name": "פה",
+   "family": "other",
+   "votes": 872,
+   "pct": 0.02,
+   "seats": 0
+  },
+  {
+   "code": "נף",
+   "name": "נף",
+   "family": "other",
+   "votes": 787,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "קץ",
+   "name": "קץ",
+   "family": "other",
+   "votes": 774,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "בקר",
+   "name": "בקר",
+   "family": "other",
+   "votes": 747,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "קה",
+   "name": "קה",
+   "family": "other",
+   "votes": 712,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "ק",
+   "name": "ק",
+   "family": "other",
+   "votes": 581,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "ז",
+   "name": "ז",
+   "family": "other",
+   "votes": 508,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "נץ",
+   "name": "נץ",
+   "family": "other",
+   "votes": 481,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "יק",
+   "name": "יק",
+   "family": "other",
+   "votes": 412,
+   "pct": 0.01,
+   "seats": 0
+  },
+  {
+   "code": "זץ",
+   "name": "זץ",
+   "family": "other",
+   "votes": 255,
+   "pct": 0.0,
+   "seats": 0
+  },
+  {
+   "code": "כן",
+   "name": "כן",
+   "family": "other",
+   "votes": 0,
+   "pct": 0.0,
+   "seats": 0
+  },
+  {
+   "code": "צבי",
+   "name": "צבי",
+   "family": "other",
+   "votes": 0,
+   "pct": 0.0,
+   "seats": 0
+  }
+ ]
+}

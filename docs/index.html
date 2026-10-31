@@ -1,0 +1,1012 @@
+<title>בחירות 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Assistant:wght@400;600;700&display=swap">
+<style>
+/* Layout: controls bar, then one wide seven-column flow chart (time runs right to left), then notes on method */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#15202b; --ink-2:#4a5664; --ink-3:#7a8592; --rule:#dde2e8; --accent:#c8372d;
+  --display:"Frank Ruhl Libre","David Libre",Georgia,serif; --body:"Assistant","Arial Hebrew",Arial,sans-serif;
+  --link-op:.4; --link-op-hi:.82;
+  --f-likud:#3466a8; --f-yeshatid:#3fb2c8; --f-bluewhite:#2f9a68; --f-labor:#d0402e; --f-meretz:#93b33a;
+  --f-center:#a07cc5; --f-center_left:#b3a06b; --f-religious_right:#f2a65a; --f-new_right:#e47c2f; --f-far_right:#94653b;
+  --f-shas:#d9a400; --f-utj:#3b3b3b; --f-yb:#d45f86; --f-joint:#8e3b7a; --f-hadash:#b5476f; --f-raam:#5b3f8c; --f-balad:#7a2e3f;
+  --f-beyachad:#1f8fb3; --f-yashar:#2bb3a3; --f-reservists:#9a8c3a; --f-otzma:#b34a2b; --f-winter:#c7843a;
+  --f-other:#b4bac1; --f-dnv:#6c737c;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#10151c;--surface:#171f29;--ink:#e8edf2;--ink-2:#b2bcc7;--ink-3:#85909c;--rule:#2a3441;--accent:#ff6b5e;--link-op:.5;--link-op-hi:.92;--f-utj:#c9c9c9;--f-dnv:#8a929b;--f-raam:#8a6cc0;--f-balad:#b04a63;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10151c;--surface:#171f29;--ink:#e8edf2;--ink-2:#b2bcc7;--ink-3:#85909c;--rule:#2a3441;--accent:#ff6b5e;--link-op:.5;--link-op-hi:.92;--f-utj:#c9c9c9;--f-dnv:#8a929b;--f-raam:#8a6cc0;--f-balad:#b04a63;color-scheme:dark}
+[hidden]{display:none!important}
+.heads{display:grid;gap:12px}
+.sect{font-family:var(--display);font-size:24px;margin:0}
+.hgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px}
+.hc{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;display:grid;gap:6px;align-content:start}
+.hc .big{font-family:var(--display);font-weight:900;font-size:40px;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.hc .big small{font-family:var(--body);font-size:17px;font-weight:700;color:var(--ink-2);margin-inline-start:8px}
+.hc h3{font-family:var(--display);font-size:20px;line-height:1.25;margin:0}
+.hc p{margin:0;color:var(--ink-2);font-size:15px}
+.hc .chk{font-size:13px;color:var(--ink-2);border-inline-start:3px solid #2f9a68;padding-inline-start:8px}
+.hc .chk.disputed{border-color:#d9a400}
+.hc .foot{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;justify-content:space-between;margin-top:4px}
+.hc .where{font-size:12px;color:var(--ink-3)}
+.hc button,.dl{font:inherit;font-size:13px;font-weight:700;color:var(--accent);background:none;border:1px solid var(--rule);border-radius:6px;padding:5px 10px;cursor:pointer}
+.dl{margin-inline-start:auto}
+.hrel{max-width:110ch}
+.hc .acts{display:flex;gap:6px}
+.hc p.stat{font-weight:700;color:var(--ink);font-size:15px}
+.hc.waiting .big{color:var(--ink-3)}
+.hc.waiting p{color:var(--ink-3)}
+.hc button.minor{color:var(--ink-2);font-weight:600}
+.hc input.link{font:inherit;font-size:12px;width:100%;padding:4px 6px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink);direction:ltr}
+table.cmp{border-collapse:collapse;font-size:14px;width:100%}
+table.turnout{max-width:560px;font-variant-numeric:tabular-nums}
+table.turnout td.has-note{text-decoration:underline dotted;text-underline-offset:3px;cursor:help}
+table.cmp th,table.cmp td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:right;vertical-align:top}
+table.cmp th{color:var(--ink-2);font-weight:700}
+table.cmp td.ok{color:#2f9a68;font-weight:700}
+table.cmp td.no{color:#b07d00;font-weight:700}
+.method h3{font-family:var(--display);font-size:20px;margin:18px 0 6px}
+details.ines{margin-top:18px}
+details.ines summary{font-family:var(--display);font-size:20px;font-weight:700;cursor:pointer}
+details.ines[open] summary{margin-bottom:8px}
+.swipe,.swipe-chart{display:none}
+.chart-note summary{font-size:13px;font-weight:700;color:var(--ink-2);cursor:pointer}
+.chart-note .note{margin-top:6px}
+details.card:not([open]){gap:0}
+details#mapcard summary,details#turnout-box summary,details.ctl summary{font-family:var(--display);font-size:20px;font-weight:700;cursor:pointer}
+details.ctl summary{font-size:15px;color:var(--ink-2)}
+details.ctl[open] summary{margin-bottom:10px}
+details.ctl[open]{display:grid;gap:12px}
+.hswitch{justify-self:start}
+.hfor{grid-column:1/-1;margin:0}
+.hgroup{grid-column:1/-1;margin:6px 0 0;font-size:17px;color:var(--ink-2)}
+.hgroup.old{color:var(--accent);background:var(--bg);border-inline-start:4px solid var(--accent);padding:4px 10px}
+details.seats summary{font-family:var(--display);font-size:20px;font-weight:700;cursor:pointer}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;direction:rtl}
+.wrap{max-width:1440px;margin:0 auto;padding-block:26px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:20px}
+header{display:grid;gap:6px}
+.eyebrow{font-size:13px;letter-spacing:.06em;color:var(--accent);font-weight:700}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,4.6vw,46px);line-height:1.1;margin:0;text-wrap:balance}
+.lede{color:var(--ink-2);max-width:78ch;margin:0}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:16px;display:grid;gap:12px;min-width:0}
+.bar{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:end}
+.field{display:grid;gap:4px;font-size:13px;color:var(--ink-2);font-weight:600}
+select{font:inherit;font-size:15px;font-weight:600;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:6px;padding:7px 10px;min-width:220px;max-width:100%}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.seg button{font:inherit;font-size:14px;font-weight:600;background:var(--bg);color:var(--ink-2);border:0;padding:7px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+.toggles{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;color:var(--ink-2)}
+.toggles label{display:flex;gap:7px;align-items:center;cursor:pointer}
+.toggles input[type=range]{width:120px;accent-color:var(--accent)}
+.toggles output{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:600}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.area-head{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline}
+.area-head h2{font-family:var(--display);font-size:26px;margin:0}
+.area-head .meta{font-size:14px;color:var(--ink-3)}
+.status{font-size:14px;color:var(--ink-3)}
+.seats-head{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.seats-head h2{font-family:var(--display);font-size:20px;margin:0}
+#seats{display:grid;gap:10px}
+.srow{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:4px 12px;align-items:center}
+.srow .yr{font-weight:700;font-size:14px;line-height:1.2}
+.srow .yr small{display:block;font-weight:400;color:var(--ink-3);font-size:12px}
+.sbar{position:relative;display:flex;gap:1px;height:26px}
+.sbar .blk{display:flex;gap:1px}
+.sbar .blk + .blk{margin-right:5px}
+.sbar{margin-bottom:8px}
+.sbar .sseg{position:relative;height:100%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;font-variant-numeric:tabular-nums;border-radius:2px;cursor:default}
+.sbar .sseg.coal::after,.sbar .sseg.coal-part::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:4px;border-radius:1px;background:var(--ink)}
+.sbar .sseg.coal-part::after{background:repeating-linear-gradient(90deg,var(--ink) 0 4px,transparent 4px 7px)}
+.sbar .sseg.coal-late::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:4px;border-radius:1px;background:transparent;box-shadow:inset 0 0 0 1.5px var(--ink)}
+.stot .gov{color:var(--ink-3)}
+.key{display:inline-flex;gap:6px;align-items:center}
+.key i{display:inline-block;width:22px;height:4px;background:var(--ink);border-radius:1px}
+.key i.part{background:repeating-linear-gradient(90deg,var(--ink) 0 4px,transparent 4px 7px)}
+.key i.late{background:transparent;box-shadow:inset 0 0 0 1.5px var(--ink)}
+.sbar .mid{position:absolute;top:-3px;bottom:-3px;border-right:2px dashed var(--ink-2);pointer-events:none}
+.stot{grid-column:2;display:flex;flex-wrap:wrap;gap:2px 16px;font-size:12.5px;color:var(--ink-2)}
+.stot b{color:var(--ink);font-variant-numeric:tabular-nums}
+.mapgrid{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:760px){.mapgrid{grid-template-columns:minmax(0,1fr)}}
+.mapctl{display:grid;gap:12px;min-width:0}
+.mapctl select{min-width:0;width:100%}
+.mapbox{min-width:0}
+#map{direction:ltr;display:block;width:100%;max-width:560px;height:auto;margin-inline:auto}
+#map text{font-family:var(--body);fill:var(--ink)}
+#map .dot{fill:var(--rule)}
+#map .lbl{font-size:11.5px;font-weight:600;paint-order:stroke;stroke:var(--surface);stroke-width:3.5px;stroke-linejoin:round;pointer-events:none}
+#map .leader{stroke:var(--ink-3);stroke-width:.8}
+#map .bub{stroke:var(--surface);stroke-width:1.5;cursor:pointer}
+#map .bub.null{fill:var(--surface);stroke:var(--ink-3);stroke-dasharray:3 2}
+#map .bub:hover{stroke:var(--ink);stroke-width:2}
+#m-legend svg{display:block;width:100%;height:auto;direction:ltr}
+#m-legend text{font-family:var(--body);font-size:11px;fill:var(--ink-2)}
+:root{--seq-lo:#e6edf6;--seq-hi:#1f4e8c;--div-lo:#2b6cb0;--div-mid:#e4e7eb;--div-hi:#d2591e}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--seq-lo:#24364d;--seq-hi:#8fc1ff;--div-lo:#5b9be0;--div-mid:#3a4350;--div-hi:#f08a4b}}
+:root[data-theme="dark"]{--seq-lo:#24364d;--seq-hi:#8fc1ff;--div-lo:#5b9be0;--div-mid:#3a4350;--div-hi:#f08a4b}
+.ses-ctl{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:end;padding:12px;border:1px dashed var(--rule);border-radius:6px}
+.checks{display:flex;flex-wrap:wrap;gap:6px}
+.checks label{display:flex;gap:6px;align-items:center;font-size:14px;font-weight:600;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:6px;padding:6px 10px;cursor:pointer}
+.live-banner{background:var(--accent);color:#fff;font-weight:700;border-radius:6px;padding:10px 14px;font-size:15px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.facts li{background:var(--bg);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;font-size:15px;color:var(--ink-2);min-width:0}
+.facts b{display:block;color:var(--ink);font-family:var(--display);font-size:18px;font-weight:700;line-height:1.25;margin-bottom:3px}
+.chart-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+#chart{direction:ltr;display:block;min-width:1100px;width:100%;height:auto;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+#chart text{font-family:var(--body);fill:var(--ink)}
+#chart .yr{font-family:var(--display);font-weight:700;font-size:17px}
+#chart .yr-sub,#chart .gap-note{font-size:11.5px;fill:var(--ink-3)}
+#chart .gap-note.warn{fill:var(--accent)}
+#chart .nlabel{font-size:12.5px;font-weight:600;paint-order:stroke;stroke:var(--surface);stroke-width:4px;stroke-linejoin:round}
+#chart .nval{font-size:11px;fill:var(--ink-3);font-variant-numeric:tabular-nums;paint-order:stroke;stroke:var(--surface);stroke-width:4px}
+#chart .nval.below{fill:var(--accent);font-weight:600}
+#chart path.lk{fill:none;stroke-opacity:var(--link-op);transition:stroke-opacity .15s}
+#chart.dim path.lk{stroke-opacity:.08}
+#chart.dim path.lk.on{stroke-opacity:var(--link-op-hi)}
+#chart rect.nd{stroke:var(--surface);stroke-width:1}
+#chart .nodata{font-size:13px;fill:var(--ink-3)}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--surface);padding:8px 11px;border-radius:6px;font-size:13.5px;line-height:1.45;max-width:300px;box-shadow:0 4px 18px rgba(0,0,0,.18);z-index:20}
+#tip .m{opacity:.75;font-size:12.5px}
+.note{font-size:13px;color:var(--ink-3);margin:0}
+details{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:12px 16px}
+summary{cursor:pointer;font-weight:700;font-size:15px}
+.tbl-bar{display:flex;gap:10px;align-items:center;margin-top:10px;font-size:14px;color:var(--ink-2)}
+.tbl-bar select{min-width:0}
+.tbl-scroll{overflow-x:auto;margin-top:10px}
+table{border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
+th,td{padding:5px 8px;border-bottom:1px solid var(--rule);text-align:left}
+th{color:var(--ink-2);font-weight:600}
+td:first-child,th:first-child{text-align:right;font-weight:600;color:var(--ink)}
+td.z{color:var(--ink-3)}
+.method{display:grid;gap:8px;color:var(--ink-2);font-size:15px;max-width:80ch}
+.method h2{font-family:var(--display);font-size:22px;margin:0;color:var(--ink)}
+.method p{margin:0}
+.src{font-size:13px;color:var(--ink-3)}
+.src a{color:inherit}
+.note.about{font-size:14px;color:var(--ink-2)}
+.note.about a{color:inherit;font-weight:600}
+@media (prefers-reduced-motion: reduce){#chart path.lk{transition:none}}
+/* phones: last, so it overrides the rules above */
+@media (max-width:640px){
+  .wrap{gap:14px;padding-block:16px 32px}
+  h1{font-size:28px}
+  .lede{font-size:15px}
+  .card{padding:12px;gap:10px}
+  .sect{font-size:21px}
+  .hgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;padding-bottom:6px;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px}
+  .hc{flex:0 0 82%;scroll-snap-align:start;padding:12px 14px;gap:5px}
+  .hc .big{font-size:30px}
+  .hc h3{font-size:17px}
+  .hc p{font-size:14px;line-height:1.45}
+  .hc .chk{font-size:12px}
+  .hgroup{flex:0 0 auto;writing-mode:vertical-rl;margin:0;font-size:13px}
+  .swipe,.swipe-chart{display:block}
+  .mapctl{display:grid;grid-template-columns:1fr 1fr;gap:8px 10px}
+  .mapctl > :not(label.field){grid-column:1/-1}
+  .mapctl label.field[for="m-pair"]{grid-column:1/-1}
+  .hrel{font-size:12px}
+  .bar{gap:10px 14px}
+  .field{font-size:12px;width:100%}
+  .seg{display:flex;width:100%}
+  .seg button{flex:1;font-size:13px;padding:7px 6px}
+  select{min-width:0;width:100%;font-size:15px;padding:6px 8px}
+  .toggles{font-size:13px;gap:6px 14px}
+  .toggles input[type=range]{width:90px}
+  .area-head h2{font-size:22px}
+  .area-head .meta{font-size:12px}
+  .dl{font-size:12px;padding:4px 8px}
+  .note{font-size:12px}
+}
+</style>
+
+<div class="wrap">
+<div class="live-banner" id="live-banner" hidden></div>
+<header>
+  <div class="eyebrow">כנסת 19 עד כנסת 26 · 2013 עד 2026</div>
+  <h1>נדידת הקולות בישראל</h1>
+  <p class="lede">מי עבר לאן בין מערכות הבחירות, לפי תוצאות כל הקלפיות בארץ. בתרשים: כל הארץ, כל מגזר וכל יישוב גדול. מתחתיו: הממצאים הבולטים.</p>
+</header>
+
+<section class="card" aria-label="תרשים נדידת קולות">
+  <details class="ctl" id="ctl">
+    <summary>פילוח והגדרות: אזור, מגזר, אשכול, תקופה</summary>
+  <div class="bar">
+    <div class="field">פילוח לפי
+      <div class="seg" role="group" aria-label="פילוח לפי">
+        <button type="button" id="mode-area" aria-pressed="true">אזור, מגזר או יישוב</button>
+        <button type="button" id="mode-ses" aria-pressed="false">אשכול חברתי-כלכלי</button>
+      </div>
+    </div>
+    <label class="field" for="area" id="area-field">אזור
+      <select id="area"></select>
+    </label>
+    <div class="field">תקופה
+      <div class="seg" role="group" aria-label="תקופה">
+        <button type="button" id="v-last" aria-pressed="false" hidden></button>
+        <button type="button" id="v-full" aria-pressed="true">כל מערכות הבחירות</button>
+        <button type="button" id="v-skip" aria-pressed="false">דילוג על המבוי הסתום</button>
+      </div>
+    </div>
+    <div class="toggles">
+      <label><input type="checkbox" id="nv" checked> מי שלא הצביעו</label>
+      <label><input type="checkbox" id="stay" checked> מי שנשארו באותה מפלגה</label>
+      <label for="th">הסתר זרמים קטנים מ- <input type="range" id="th" min="0" max="20" step="1" value="7"><output id="tho"></output></label>
+    </div>
+  </div>
+  <div class="ses-ctl" id="ses-ctl" hidden>
+    <div class="field">קבוצות אשכולות (חברתי-כלכלי, למ"ס 2019)<div class="checks" id="ses-groups"></div></div>
+    <div class="field">מגזר<div class="seg" role="group" aria-label="מגזר" id="ses-filter"></div><span class="note">"יהודי לא-חרדי": קלפיות שאינן חרדיות, ערביות או דרוזיות.</span></div>
+  </div>
+  </details>
+  <div class="area-head"><h2 id="area-name">כל הארץ</h2><span class="meta" id="area-meta"></span><button type="button" class="dl" id="csv">הורדת הנתונים (CSV)</button></div>
+  <ul class="facts" id="insights" hidden></ul>
+  <div class="status" id="status" hidden></div>
+  <div class="chart-scroll"><svg id="chart" role="img" aria-label="תרשים זרימה של מעבר קולות בין מערכות הבחירות"></svg></div>
+  <p class="note swipe-chart">התרשים רחב: גללו ימינה לבחירות מוקדמות יותר.</p>
+  <details class="chart-note"><summary>איך לקרוא את התרשים</summary>
+  <p class="note">מתחת למספר הקולות של כל מפלגה מופיע האחוז שקיבלה מהקולות הכשרים באזור באותן בחירות, ולצד "לא הצביעו" האחוז מבעלי זכות הבחירה. בארץ וביישובים האחוז מחושב ישירות מתוצאות הקלפיות (בארץ כולל המעטפות הכפולות). במגזרים ובאשכולות הוא מחושב מסכומי המודל. ב"אחרים" נכללות גם מפלגות שקיבלו באזור פחות מ-3%. רחפו מעל רצועה או מעל מפלגה כדי לראות מספר קולות, אחוז מעבר וטווח אי-ודאות. מתחת לכל מעבר מופיע הכיסוי: איזה חלק מבעלי זכות הבחירה נכנס לחישוב. "אחרים" כולל את המפלגות הקטנות, ובכל יישוב גם מפלגות שקיבלו בו פחות מ-3%. "לא הצביעו" כולל גם פתקים פסולים ושינויים בפנקס הבוחרים.</p>
+  </details>
+</section>
+
+<section class="heads" id="heads" aria-label="ממצאים בולטים" hidden>
+  <h2 class="sect">הממצאים הבולטים</h2>
+  <div class="hgrid" id="hgrid"></div>
+  <p class="note swipe">החליקו הצידה לממצאים נוספים</p>
+  <p class="note hrel"><b>כמה אפשר לסמוך על זה?</b> ההערכה נשענת על תוצאות הקלפיות בלבד. היא תופסת היטב תנועה נטו, למשל מפלגה שאיבדה בוחרים לטובת מפלגה אחרת או לטובת הבית. היא מפספסת חילופים שמתקזזים בתוך אותה קלפי, ולכן מעריכה נאמנות למפלגה ביותר מהמציאות. ב-2022, למשל, 84% ממצביעי הליכוד נשארו בליכוד לפי ההערכה שלנו, ו-72% לפי סקר הבחירות INES. ליד כל ממצא שהסקר בודק גם הוא מצוין אם שני המקורות מסכימים. <a href="#ines" onclick="document.getElementById('ines').open = true">טבלת ההשוואה המלאה</a> בתחתית הדף.</p>
+</section>
+
+<details class="card" id="mapcard">
+  <summary>על המפה: 20 היישובים הגדולים</summary>
+  <div class="seats-head"><span class="note">בוחרים מעבר, וכל יישוב נצבע לפי אחוז המצביעים שעשו אותו. לחיצה על רצועה בתרשים למעלה מציגה אותה כאן. לחיצה על יישוב פותחת אותו בתרשים.</span></div>
+  <div class="mapgrid">
+    <div class="mapctl">
+      <label class="field" for="m-pair">מעבר<select id="m-pair"></select></label>
+      <label class="field" for="m-src">מצביעי<select id="m-src"></select></label>
+      <label class="field" for="m-dst">שעברו ל-<select id="m-dst"></select></label>
+      <div class="field">צבע לפי
+        <div class="seg" role="group" aria-label="צבע לפי">
+          <button type="button" id="m-diff" aria-pressed="true">הפרש מהממוצע הארצי</button>
+          <button type="button" id="m-rate" aria-pressed="false">אחוז</button>
+        </div>
+      </div>
+      <div id="m-legend"></div>
+      <p class="note" id="m-nat"></p>
+      <p class="note">הבועות הוזזו מעט ממקומן האמיתי כדי שלא יסתירו זו את זו. גודל הבועה לפי מספר בעלי זכות הבחירה ב-2022. בועה ריקה: אין מספיק נתונים, או שהמפלגה קובצה ב"אחרים" באותו יישוב. הצבע מתאר את היישוב כולו, לא כל בוחר בו.</p>
+    </div>
+    <div class="mapbox"><svg id="map" role="img" aria-label="מפת בועות של 20 היישובים הגדולים"></svg></div>
+  </div>
+</details>
+
+<details class="card" id="turnout-box">
+  <summary>אחוז ההצבעה לפי שעה: 2026 מול 2022</summary>
+  <p class="note">אחוז מבעלי זכות הבחירה שהצביעו עד כל שעה, לפי ההודעות של ועדת הבחירות המרכזית ביום הבחירות. "-": עוד לא פורסם.</p>
+  <div class="tbl-scroll"><table class="cmp turnout" id="turnout"></table></div>
+</details>
+
+<details class="card seats" id="seats-box" open>
+  <summary>המנדטים בכל מערכת בחירות</summary>
+  <div class="seats-head"><span class="note">הרשימות שבממשלה מימין. את השאר מסדרים לפי הגושים, שנקבעים לפי ההמלצה לנשיא אחרי כל בחירות. הקו המקווקו האנכי מסמן 61 מנדטים.</span><span class="note key"><i></i>חברה בממשלה שקמה אחרי הבחירות</span><span class="note key"><i class="part"></i>רק חלק מחברי הרשימה הצטרפו</span><span class="note key"><i class="late"></i>הצטרפה לממשלה מאוחר יותר</span></div>
+  <div id="seats"></div>
+</details>
+
+<details id="tables">
+  <summary>טבלת קולות מלאה</summary>
+  <div class="tbl-bar"><label for="tpair">מעבר:</label><select id="tpair"></select></div>
+  <div class="tbl-scroll" id="tbl"></div>
+</details>
+
+<section class="method">
+  <h2>איך זה חושב</h2>
+  <p>מקלפי אחת אי אפשר לדעת מי עבר לאן, אז מסתכלים על כל הקלפיות של אותו יישוב ביחד. דוגמה: אם בכל קלפי בעיר מסוימת בן גביר עלה בערך ב-10% ממה שהליכוד קיבל שם בבחירות הקודמות, כלומר הרבה בקלפיות שבהן הליכוד היה חזק ומעט בקלפיות שבהן הוא היה חלש, ההסבר הסביר הוא שכ-10% ממצביעי הליכוד בעיר עברו לבן גביר.</p>
+  <p>החישוב עושה את זה לכל המפלגות במקביל. לכל זוג בחירות עוקבות מניחים שאחוז המצביעים שעבר ממפלגה א' למפלגה ב' זהה בכל הקלפיות של אותו יישוב, ובוחרים את האחוזים כך שסכום ריבועי ההפרשים בין המודל לבין התוצאות בכל קלפי יהיה קטן ככל האפשר. החישוב נעשה לכל יישוב גדול בנפרד, ולאשכולות של יישובים קטנים לפי מחוז וסוג יישוב. התוצאה הארצית היא סכום כל ההערכות המקומיות. ההנחה הזו היא גם החולשה העיקרית: ביישוב מגוון מאוד, כמו ירושלים, התוצאה היא ממוצע של שכונות שמתנהגות אחרת. פירוט פורמלי של המתמטיקה יש בפוסט בלינקדאין, שהקישור אליו בתחתית הדף.</p>
+  <p>מספור הקלפיות משתנה בין מערכות הבחירות. במעברים מספטמבר 2019 ואילך ההשוואה נעשית לפי מקום ההצבעה. במעברים המוקדמים יותר ובתצוגת הדילוג היא נעשית לפי מספר קלפי, ולכן הכיסוי שם נמוך יותר. בכל מקרה נכנסות רק יחידות שמספר בעלי זכות הבחירה בהן כמעט לא השתנה. הקלפיות שלא הותאמו בכל יישוב נכנסות כיחידה אחת נוספת, גסה ובמשקל מוגבל. הכיסוי שמוצג מתחת לכל מעבר לא כולל אותה. קלפיות שבהן שיעור ההצבעה למפלגות החרדיות או הערביות קפץ ביותר מ-15 נקודות הוצאו מהחישוב, כי קפיצה כזו מעידה בדרך כלל על החלפת אוכלוסייה ולא על מעבר בין מפלגות.</p>
+  <p>המגזרים: קלפי חרדית היא קלפי שבה ש"ס ויהדות התורה קיבלו יחד 60% ומעלה בשתי מערכות הבחירות. מגזר ערבי ודרוזי מוגדר לפי היישוב, ובערים מעורבות לפי הקלפי. כל שאר הקלפיות נקראות כאן "יהודי לא-חרדי": חילונים, מסורתיים ודתיים-לאומיים, וגם חרדים שמצביעים בקלפיות מעורבות. ההערכה לכל מגזר נעשית רק על הקלפיות שלו.</p>
+  <p>האשכולות החברתיים-כלכליים לקוחים מהמדד של הלמ"ס לשנת 2019. לכל רשות מקומית יש אשכול משלה, ויישובים במועצה אזורית מקבלים את האשכול של המועצה. האשכול שייך ליישוב כולו, כך שגם שכונות חזקות וחלשות באותה עיר נכנסות לאותה קבוצה. התוצאה לכל קבוצה היא סכום ההערכות של היישובים שבה. יישוב בלי הערכה משלו מקבל את שיעורי המעבר של האשכול האזורי שלו, מוכפלים בתוצאות שלו עצמו. צירוף עם פחות מ-20,000 בעלי זכות בחירה לא מוצג. במעבר 2022 ← 2026 החלוקה לאשכולות היא לפי המדד המעודכן של הלמ"ס לשנת 2021, שבו גם ליישובים במועצות אזוריות יש אשכול משלהם. לכן קבוצה עשויה להכיל בעמודת 2026 יישובים קצת שונים מאשר בעמודות הקודמות.</p>
+  <p>מעטפות כפולות (חיילים, נציגים בחו"ל ועוד) נספרות ברמה הארצית בלבד ולא שייכות לקלפי, ולכן אינן בחישוב. בתצוגת הדילוג ההשוואה היא ישירות בין 2015 ל-2022. מספור הקלפיות השתנה מאוד בשבע השנים האלה, ולכן הכיסוי שם נמוך בהרבה. יישוב עם פחות מ-12 יחידות השוואה במעבר מסוים מסומן כ"אין מספיק נתונים". בסיכום הארצי הוא מחושב לפי הערכה משותפת ליישובים מאותו סוג.</p>
+  <p>המודל מזהה רק מעבר נטו: קולות שזזו בשני הכיוונים בין אותן מפלגות מקזזים זה את זה. זרמים קטנים, בעיקר ממפלגות קטנות, הם בעיקר רעש. טווח של 90% לכל זרם מוצג בתיבת המידע.</p>
+  <p class="src">מקור הנתונים: תוצאות הבחירות לפי קלפי, ועדת הבחירות המרכזית (דרך data.gov.il). סוג היישוב, המחוז והדת לפי קובץ היישובים של הלמ"ס. בליל הבחירות 2026 קובץ הקלפיות של הוועדה נלקח גם דרך המאגר הציבורי <a href="https://github.com/OmerCohenBI/k26-turnout-live" target="_blank" rel="noopener">k26-turnout-live</a> ב-GitHub.</p>
+
+  <details id="ines" class="ines">
+  <summary>השוואה לסקר הבחירות INES</summary>
+  <p>ההערכה מהקלפיות נבדקה מול סקר הבחירות הישראלי (INES), שבו נשאלים מצביעים למי הצביעו בבחירות הקודמות ובנוכחיות. תשובות הסקר הותאמו לתוצאות הרשמיות. לסקר יש מגבלות משלו: המדגם קטן, ואנשים לא תמיד זוכרים נכון למי הצביעו. כשהשניים מסכימים, הממצא איתן.</p>
+  <div class="tbl-scroll"><table class="cmp">
+    <thead><tr><th>מעבר</th><th>מי עבר לאן</th><th>סקר INES</th><th>ההערכה כאן</th><th></th></tr></thead>
+    <tbody>
+      <tr><td>אפריל ← ספטמבר 2019</td><td>מי שלא הצביעו באפריל ← הרשימות הערביות</td><td>5% עד 7%</td><td>6%</td><td class="ok">מסכים</td></tr>
+      <tr><td>ספטמבר 2019 ← 2020</td><td>העבודה-גשר והמחנה הדמוקרטי ← כחול לבן</td><td>26% עד 27%</td><td>30% ו-27%</td><td class="ok">מסכים</td></tr>
+      <tr><td>2020 ← 2021</td><td>הרשימה המשותפת ← לא הצביעו</td><td>33% עד 45%</td><td>34%</td><td class="ok">מסכים</td></tr>
+      <tr><td>2020 ← 2021</td><td>הליכוד ← לא הצביעו</td><td>25%</td><td>8%</td><td class="no">פער</td></tr>
+      <tr><td>2021 ← 2022</td><td>הליכוד ← הציונות הדתית</td><td>כ-12%</td><td>11%</td><td class="ok">מסכים</td></tr>
+      <tr><td>2021 ← 2022</td><td>הליכוד ← נשארו בליכוד</td><td>72%</td><td>84%</td><td class="no">פער</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">הפערים צפויים: הערכה מתוצאות הקלפיות לא רואה חילופים שמתקזזים בתוך אותה קלפי, ולכן מעריכה נאמנות למפלגה ביותר מהמציאות. קיבוץ מפלגות שונות לקבוצה אחת מגדיל את הבעיה: בבדיקה, כשימינה, הציונות הדתית ותקווה חדשה קובצו לקבוצת "ימין" אחת והחישוב נעשה לכל הארץ יחד, המעבר מהליכוד לציונות הדתית ב-2022 ירד מ-11% ל-0%. לכן כאן כל מפלגה נשארת נפרדת, והחישוב נעשה לכל יישוב בנפרד.</p>
+  </details>
+</section>
+<p class="note about">על הפרויקט, השיטה ואיך הוא נבנה, בהרחבה: <a href="https://www.linkedin.com/feed/update/urn:li:activity:7520510892862500864/" target="_blank" rel="noopener">הפוסט שלי בלינקדין</a></p>
+</div>
+<div id="tip" hidden></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+<script>
+const ELECTIONS = {19:["2013","כנסת 19"],20:["2015","כנסת 20"],21:["אפריל 2019","כנסת 21"],22:["ספט׳ 2019","כנסת 22"],23:["2020","כנסת 23"],24:["2021","כנסת 24"],25:["2022","כנסת 25"],26:["2026","כנסת 26"]};
+// the election-night site adds pairs through site.json; the base site uses these
+const VIEWS = {full:["19-20","20-21","21-22","22-23","23-24","24-25"], skip:["19-20","20-25"]};
+const colsOf = pairs => [...new Set(pairs.flatMap(p => p.split("-").map(Number)))].sort((a,b)=>a-b);
+let SITE = {};
+const KIND = {national:"ארצי", sector:"מגזר", city:"יישוב"};
+const fmt = d3.format(",");
+const r10 = v => fmt(Math.round(v/10)*10);
+// a flow of a seat or more, in seats: votes per seat of the later election (of the earlier one for those who stayed home)
+const seatEq = d => { const q = SEATS && (SEATS.quota || {})[d.tn === "לא הצביעו" ? d.a : d.b], n = q ? d.value / q : 0;
+  return n >= 1 ? ` (כ-${n.toFixed(1)} מנדטים)` : ""; };
+const css = getComputedStyle(document.documentElement);
+const color = f => css.getPropertyValue("--f-"+f).trim() || css.getPropertyValue("--f-other").trim();
+const state = {area:"national", view:"full", cache:new Map(), data:null};
+const $ = id => document.getElementById(id);
+const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+async function loadJSON(path){ const r = await fetch(path); if(!r.ok) throw new Error(r.status); return r.json(); }
+
+async function init(){
+  try { SITE = await loadJSON("site.json"); } catch(e){ SITE = {}; }
+  if (SITE.views) Object.assign(VIEWS, SITE.views);
+  // election night: a view of the newest pair only, labelled by its years, and the page opens on it
+  if (VIEWS.last){ const [a, b] = VIEWS.last[0].split("-"); $("v-last").textContent = `רק ${ELECTIONS[a][0]} ← ${ELECTIONS[b][0]}`; $("v-last").hidden = false; }
+  if (SITE.default_view && VIEWS[SITE.default_view]) state.view = SITE.default_view;
+  if (SITE.banner){ $("live-banner").textContent = SITE.banner; $("live-banner").hidden = false; }
+  let index;
+  try { index = await loadJSON("index.json"); }
+  catch(e){ status("לא הצלחתי לטעון את רשימת האזורים. רעננו את הדף."); return; }
+  const sel = $("area");
+  const groups = {national:null, sector:null, city:null};
+  for (const a of index){
+    let parent = sel;
+    if (a.kind !== "national"){
+      if (!groups[a.kind]){ groups[a.kind] = document.createElement("optgroup"); groups[a.kind].label = a.kind==="sector" ? "מגזרים" : "יישובים"; sel.appendChild(groups[a.kind]); }
+      parent = groups[a.kind];
+    }
+    const o = document.createElement("option"); o.value = a.id; o.textContent = a.kind==="national" ? "כל הארץ" : a.name; parent.appendChild(o);
+  }
+  try { SES = await loadJSON("ses_index.json"); } catch(e){ SES = null; }
+  if (SES){
+    sesControls();
+  }
+  const valid = id => id === "ses" ? !!SES : index.some(a=>a.id===id);
+  const hash = decodeURIComponent(location.hash.slice(1));
+  const saved = store.get("area");
+  state.area = valid(hash) ? hash : valid(saved) ? saved : "national";
+  sel.addEventListener("change", () => { state.area = sel.value; store.set("area", sel.value); load(); });
+  // the socioeconomic view is a separate mode, so the last picked area comes back when leaving it
+  let lastArea = state.area === "ses" ? "national" : state.area;
+  const setMode = ses => {
+    $("mode-area").setAttribute("aria-pressed", !ses); $("mode-ses").setAttribute("aria-pressed", ses);
+    $("area-field").hidden = ses;
+    if (ses && state.area !== "ses") lastArea = state.area;
+    state.area = ses ? "ses" : lastArea; if (!ses) sel.value = lastArea;
+    store.set("area", state.area);
+  };
+  $("mode-area").addEventListener("click", () => { setMode(false); load(); });
+  $("mode-ses").addEventListener("click", () => { setMode(true); load(); });
+  if (!SES) $("mode-ses").hidden = true;
+  if (state.area === "ses") setMode(true); else sel.value = state.area;
+  const views = ["last","full","skip"];
+  const pressViews = () => views.forEach(x => $("v-"+x).setAttribute("aria-pressed", x===state.view));
+  for (const v of views) $("v-"+v).addEventListener("click", () => { state.view = v; pressViews(); draw(); tableSelect(); });
+  pressViews();
+  for (const id of ["nv","stay"]) $(id).addEventListener("change", draw);
+  $("th").addEventListener("input", draw);
+  $("tpair").addEventListener("change", table);
+  seats();
+  turnout();
+  const heads = headlines();
+  $("csv").addEventListener("click", csv);
+  await load();
+  mapInit();
+  if (hash.startsWith("h-")){ await heads; const h = HEADS.find(x => "h-" + x.id === hash); if (h) await showHeadline(h); }
+}
+
+// headline cards: each one opens its pair in the chart and lights up the flows it talks about
+async function headlines(){
+  let hs; try { hs = await loadJSON("headlines.json"); } catch(e){ return; }
+  if (!hs.length) return;
+  const grid = $("hgrid");
+  // on election night: a switch between the 2026 cards and the earlier elections' cards, 2026 first;
+  // a single named group (before results) gets a heading instead
+  const groups = [...new Set(hs.map(h => h.group || ""))];
+  const grids = {};
+  if (groups.length > 1){
+    const LABEL = {"ליל הבחירות 2026": "כותרות 2026", "הבחירות הקודמות": "כותרות הבחירות הקודמות"};
+    const sw = document.createElement("div"); sw.className = "seg hswitch"; sw.setAttribute("role", "group"); sw.setAttribute("aria-label", "אילו כותרות");
+    groups.forEach((g, i) => {
+      const box = i === 0 ? grid : document.createElement("div");
+      if (i) { box.className = "hgrid"; box.hidden = true; grid.parentNode.insertBefore(box, grid.nextSibling); }
+      grids[g] = box;
+      const btn = document.createElement("button"); btn.type = "button"; btn.textContent = LABEL[g] || g; btn.setAttribute("aria-pressed", i === 0);
+      btn.addEventListener("click", () => { for (const [k, el] of Object.entries(grids)) el.hidden = k !== g; [...sw.children].forEach(x => x.setAttribute("aria-pressed", x === btn)); });
+      sw.appendChild(btn);
+    });
+    grid.before(sw);
+  }
+  let group = null, target = grid;
+  for (const h of hs){
+    // an entry with no card keeps its group's tab (a tab that is there, still empty)
+    if (groups.length > 1){ target = grids[h.group || ""]; if (h.empty) continue; }
+    else if (h.group && h.group !== group){
+      group = h.group;
+      const g = document.createElement("h3"); g.className = "hgroup" + (group.startsWith("ממצאים מהבחירות הקודמות") ? " old" : ""); g.textContent = group; grid.appendChild(g);
+    }
+    target.appendChild(card(h));
+  }
+  $("heads").hidden = false;
+  HEADS = hs;
+  GRID26 = grids["ליל הבחירות 2026"] || null;
+  if (GRID26) { try { BYAREA = await loadJSON("headlines_by_area.json"); } catch(e){ BYAREA = null; } areaHeadlines(); }
+}
+// on election night the 2026 cards follow the area the reader picks: the built cards for the country, cards
+// computed for that area (headlines_by_area.json) for a city or a sector
+let GRID26 = null, BYAREA = null;
+function areaHeadlines(){
+  if (!GRID26 || !BYAREA) return;
+  const id = areaId(), own = id !== "national" && BYAREA[id];
+  const list = own ? BYAREA[id] : HEADS.filter(h => h.group === "ליל הבחירות 2026");
+  GRID26.innerHTML = "";
+  if (own || id !== "national"){ const n = document.createElement("p"); n.className = "note hfor";
+    n.textContent = own ? `הכותרות לפי הפילוח שבחרת: ${list[0].area_name}` : "בפילוח שבחרת נספרו מעט מדי קלפיות, אז הכותרות כאן הן של כל הארץ"; GRID26.appendChild(n); }
+  for (const h of list) GRID26.appendChild(card(h));
+}
+function card(h){
+    const c = document.createElement("article"); c.className = "hc";
+    const big = document.createElement("div"); big.className = "big"; big.textContent = h.big;
+    if (h.unit){ const u = document.createElement("small"); u.textContent = h.unit; big.appendChild(u); }
+    const t = document.createElement("h3"); t.textContent = h.title;
+    const b = document.createElement("p"); b.textContent = h.body;
+    c.append(big, t);
+    // figures a card wants read even by someone who skims
+    for (const x of h.stats || []){ const st = document.createElement("p"); st.className = "stat"; st.textContent = x; c.appendChild(st); }
+    c.appendChild(b);
+    if (h.check){ const k = document.createElement("p"); k.className = "chk " + h.check[0]; k.textContent = h.check[1]; c.appendChild(k); }
+    const f = document.createElement("div"); f.className = "foot";
+    // a card still waiting for results has no pair yet: no chart, link or image to offer
+    if (!h.pair){ c.classList.add("waiting"); return c; }
+    const [a, z] = h.pair.split("-").map(Number);
+    const w = document.createElement("span"); w.className = "where"; w.textContent = `${h.area_name} · ${ELECTIONS[a][0]} ← ${ELECTIONS[z][0]}`;
+    const go = document.createElement("button"); go.type = "button"; go.textContent = "הצג בתרשים";
+    go.addEventListener("click", () => showHeadline(h));
+    const acts = document.createElement("span"); acts.className = "acts"; acts.appendChild(go);
+    if (h.id){
+      c.id = "h-" + h.id;
+      const ln = document.createElement("button"); ln.type = "button"; ln.className = "minor"; ln.textContent = "קישור";
+      ln.addEventListener("click", () => copyLink(h, c, ln));
+      const im = document.createElement("button"); im.type = "button"; im.className = "minor"; im.textContent = "תמונה";
+      im.addEventListener("click", () => shareImage(h));
+      acts.append(ln, im);
+    }
+    f.append(w, acts); c.appendChild(f);
+    return c;
+}
+let HEADS = [];
+// a link that opens the page on one headline: the page address with #h-<id>
+async function copyLink(h, card, btn){
+  const url = (SITE.url || location.href.split("#")[0]) + "#h-" + h.id;
+  try { await navigator.clipboard.writeText(url); btn.textContent = "הקישור הועתק"; setTimeout(() => btn.textContent = "קישור", 2000); }
+  catch(e){
+    // clipboard blocked in this frame: show the link to copy by hand
+    let inp = card.querySelector("input.link");
+    if (!inp){ inp = document.createElement("input"); inp.className = "link"; inp.readOnly = true; card.appendChild(inp); }
+    inp.value = url; inp.select();
+  }
+}
+// a ready-made image of the headline, rendered when the site is built
+async function shareImage(h){
+  let blob; try { const r = await fetch("share/" + h.id + ".png"); if (!r.ok) throw 0; blob = await r.blob(); } catch(e){ return; }
+  const name = "vote-flows-" + h.id + ".png";
+  const dl = window.claude && await window.claude.use("downloads").catch(() => null);
+  if (dl){ try { await dl.save({filename: name, data: blob}); } catch(e){} return; }
+  const u = URL.createObjectURL(blob), a = document.createElement("a"); a.href = u; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(u), 1000);
+}
+async function showHeadline(h){
+  if (state.area === "ses") $("mode-area").click();
+  state.area = h.area; $("area").value = h.area;
+  $("v-" + h.view).click();
+  await load();
+  const [a, z] = h.pair.split("-").map(Number);
+  const want = new Set(h.links.map(l => l.join("|")));
+  const hit = d => d.a === a && d.b === z && want.has(d.sn + "|" + d.tn);
+  // a headline flow may sit under the small-flow threshold; lower it just enough to show the flow
+  const th = $("th");
+  while (+th.value > 0 && svg.selectAll("path.lk").filter(hit).size() < want.size){ th.value = +th.value - 1; draw(); }
+  // the headline's flows stay lit for 5 seconds, through hovering, unless another headline takes over
+  clearTimeout(LIT.timer);
+  LIT.hit = hit; LIT.data = state.data; LIT.view = state.view;
+  LIT.timer = setTimeout(() => { LIT.hit = null; hideTip(); }, 5000);
+  relight();
+  $("chart").closest(".card").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start"});
+}
+
+// every flow of the shown area, all pairs of the current view, as a table
+async function csv(){
+  const d = state.data; if (!d) return;
+  const q = v => /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : v;
+  const rows = [["אזור","מבחירות","לבחירות","ממפלגה","למפלגה","קולות","אחוז ממצביעי המפלגה","טווח 90% מ-","טווח 90% עד"]];
+  for (const key of VIEWS[state.view]){
+    const p = d.pairs[key]; if (!p) continue;
+    const [a, z] = key.split("-").map(Number);
+    for (const l of p.links) rows.push([d.kind==="national" ? "כל הארץ" : d.name, ELECTIONS[a][0], ELECTIONS[z][0], p.from[l[0]][0], p.to[l[1]][0], Math.round(l[2]), l[3], l[4] ?? "", l[5] ?? ""]);
+  }
+  const text = "\ufeff" + rows.map(r => r.map(q).join(",")).join("\r\n");
+  const name = `vote-flows-${(d.id || "area").replace(/[^\w-]+/g, "-")}.csv`;
+  const dl = window.claude && await window.claude.use("downloads").catch(() => null);
+  if (dl){ try { await dl.save({filename: name, data: text}); } catch(e){} return; }
+  const u = URL.createObjectURL(new Blob([text], {type: "text/csv"}));
+  const el = document.createElement("a"); el.href = u; el.download = name; el.click(); setTimeout(() => URL.revokeObjectURL(u), 1000);
+}
+
+function status(msg){ const s = $("status"); s.textContent = msg || ""; s.hidden = !msg; }
+
+// socioeconomic view: four cluster groups that can be combined, crossed with a sector filter
+let SES = null;
+const sesState = {filter:"all", all:true, groups:new Set()};
+// "all" stands for every group and is never on together with a single group
+function sesId(){
+  const c = sesState.all ? "g1g2g3g4" : ["g1","g2","g3","g4"].filter(g => sesState.groups.has(g)).join("");
+  return c ? `ses-${sesState.filter}-${c}` : null;
+}
+function sesControls(){
+  const gs = $("ses-groups");
+  const sync = () => { $("ses-all").checked = sesState.all; for (const g of Object.keys(SES.groups)) $("ses-"+g).checked = sesState.groups.has(g); };
+  const add = (id, label, onChange) => { const l = document.createElement("label"); l.innerHTML = `<input type="checkbox" id="${id}"> ${label}`;
+    l.querySelector("input").addEventListener("change", e => { onChange(e.target.checked);
+      // with no group left on, "all" takes over
+      if (!sesState.groups.size) sesState.all = true;
+      sync(); load(); }); gs.appendChild(l); };
+  add("ses-all", "הכל", on => { sesState.all = on; if (on) sesState.groups.clear(); });
+  for (const [g,label] of Object.entries(SES.groups))
+    add("ses-"+g, label, on => { on ? sesState.groups.add(g) : sesState.groups.delete(g); if (on) sesState.all = false; });
+  sync();
+  const fs = $("ses-filter");
+  for (const [f,label] of Object.entries(SES.filters)){
+    const b = document.createElement("button"); b.type = "button"; b.textContent = label; b.setAttribute("aria-pressed", f===sesState.filter);
+    b.addEventListener("click", () => { sesState.filter = f; [...fs.children].forEach(x => x.setAttribute("aria-pressed", x===b)); load(); });
+    fs.appendChild(b);
+  }
+}
+const areaId = () => state.area === "ses" ? sesId() : state.area;
+
+async function load(){
+  $("ses-ctl").hidden = state.area !== "ses";
+  const id = areaId();
+  if (state.area === "ses" && (!id || !SES.available.includes(id))){
+    state.data = null; svg.selectAll("*").remove(); $("insights").hidden = true; $("tbl").innerHTML = "";
+    $("area-name").textContent = "אשכולות חברתיים-כלכליים"; $("area-meta").textContent = "";
+    status(id ? "אין מספיק נתונים לצירוף הזה." : "בחרו לפחות קבוצת אשכולות אחת."); return;
+  }
+  status("טוען…");
+  try {
+    if (!state.cache.has(id)) state.cache.set(id, await loadJSON("data/"+id.replace(":","-")+".json"));
+    state.data = state.cache.get(id); status("");
+  } catch(e){ status("לא הצלחתי לטעון את הנתונים של האזור הזה."); return; }
+  const d = state.data;
+  $("area-name").textContent = d.kind==="national" ? "כל הארץ" : d.name;
+  $("area-meta").textContent = d.kind==="sector" ? "מגזר · ההערכה מבוססת רק על קלפיות המגזר" : d.kind==="city" ? "יישוב"
+    : d.kind==="ses" ? "סכום ההערכות של היישובים בקבוצה. האשכול הוא של היישוב כולו." : "סכום כל ההערכות המקומיות";
+  insights(); draw(); tableSelect(); areaHeadlines();
+}
+
+const BLOCS = [["bibi","גוש נתניהו"],["mid","בין הגושים"],["joint","המשותפת"],["raam","רע\"מ"],["anti","גוש אנטי-ביבי"]];
+function inkOn(hex){
+  // dark text on light fills, light text on dark fills
+  const c = d3.color(hex); if (!c) return "#fff";
+  const l = d3.lab(c).l; return l > 62 ? "#15202b" : "#ffffff";
+}
+// turnout by hour on election day, 2026 against the same hour in 2022
+async function turnout(){
+  let T; try { T = await loadJSON("turnout.json"); } catch(e){ $("turnout-box").hidden = true; return; }
+  const a = T["25"] || {}, b = T["26"] || {}, f = v => v == null ? "-" : v.toFixed(1) + "%";
+  // the rows follow the 2026 schedule; where 2022 has no figure for that hour, it is read off the straight line
+  // between the two 2022 figures around it (after the last one, the polls had closed: the last figure), marked ≈
+  const mins = h => /^\d\d:\d\d$/.test(h) ? +h.slice(0,2) * 60 + +h.slice(3) : null;
+  const pts = Object.keys(a).filter(h => mins(h) != null).sort((x,y) => mins(x) - mins(y));
+  const est = h => { const m = mins(h); if (m == null || !pts.length || m < mins(pts[0])) return null;
+    const j = pts.findIndex(p => mins(p) >= m); if (j < 0) return a[pts[pts.length-1]];
+    const p0 = pts[j-1], p1 = pts[j]; return a[p0] + (a[p1] - a[p0]) * (m - mins(p0)) / (mins(p1) - mins(p0)); };
+  const rows = T.hours.map(h => { const exact = a[h] != null, v22 = exact ? a[h] : est(h), d = v22 != null && b[h] != null ? b[h] - v22 : null;
+    const note = exact ? (T.notes || {})["25|" + h] && "25|" + h : v22 != null && (T.notes || {})["25|est"] && "25|est";
+    return `<tr><td>${h}</td><td${note ? ` class="has-note" data-note="${note}"` : ""}>${v22 != null && !exact ? `<span dir="ltr">≈${f(v22)}</span>` : f(v22)}</td><td${(T.notes || {})["26|" + h] ? ` class="has-note" data-note="26|${h}"` : ""}>${f(b[h])}</td><td class="${d == null ? "" : d >= 0 ? "ok" : "no"}">${d == null ? "-" : `<span dir="ltr">${exact ? "" : "≈"}${(d > 0 ? "+" : d < 0 ? "−" : "") + Math.abs(d).toFixed(1)}</span>`}</td></tr>`; });
+  $("turnout").innerHTML = `<thead><tr><th>שעה</th><th>2022</th><th>2026</th><th>הפרש (נקודות)</th></tr></thead><tbody>${rows.join("")}</tbody>`;
+  for (const td of $("turnout").querySelectorAll("td.has-note")){
+    td.addEventListener("mouseenter", ev => showTip(ev, T.notes[td.dataset.note]));
+    td.addEventListener("mousemove", moveTip); td.addEventListener("mouseleave", () => { if (!TOUCH) tip.hidden = true; });
+    // a phone has no hover: a tap shows the note, a tap elsewhere closes it
+    td.addEventListener("click", ev => showTip(ev, T.notes[td.dataset.note]));
+  }
+}
+
+// seats per list and votes per seat, per election (seats.json); the chart reads them once they load
+let SEATS = null;
+const seatsOf = (k, name) => { const r = SEATS && (SEATS[k] || []).find(x => x[0] === name); return r ? r[1] : 0; };
+const seatTxt = n => n === 1 ? "מנדט אחד" : `${n} מנדטים`;
+async function seats(){
+  let S; try { S = await loadJSON("seats.json"); } catch(e){ return; }
+  SEATS = S; if (state.data) draw();
+  const el = $("seats"); el.innerHTML = "";
+  const years = Object.keys(S).filter(k => /^\d+$/.test(k)).map(Number).sort((a,b)=>a-b);
+  // on election night only the live projection shows; the earlier elections are a click away
+  const live = years.find(k => (S.provisional || {})[k] || (S.final || {})[k]);
+  for (const k of years){
+    const rows = S[k]; if (!rows) continue;
+    const row = document.createElement("div"); row.className = "srow";
+    row.innerHTML = `<div class="yr">${ELECTIONS[k][0]}<small>${ELECTIONS[k][1]}${(S.provisional || {})[k] ? ((S.as_of || {})[k] ? ` - נכון ל-${S.as_of[k]}` : " - בינתיים") : ""}</small></div>`;
+    const bar = document.createElement("div"); bar.className = "sbar";
+    const tot = {};
+    for (const [b] of BLOCS){ const n = rows.filter(r => r[3]===b).reduce((s,r)=>s+r[1],0); if (n) tot[b] = n; }
+    // lists between the blocs (the Reservists in 2026) count half in each bloc's total
+    const mid = tot.mid || 0; delete tot.mid;
+    if (mid){ tot.bibi = (tot.bibi || 0) + mid / 2; tot.anti = (tot.anti || 0) + mid / 2; }
+    const gov = (S.coalitions || {})[k] || {};
+    const late = new Map(gov.later || []);
+    const role = name => (gov.full || []).includes(name) ? "full" : (gov.partial || []).includes(name) ? "part" : late.has(name) ? "late" : null;
+    // from the right: full coalition members, lists that joined in part, lists that joined later, then everyone else by bloc
+    const groups = [rows.filter(r => role(r[0])==="full"), rows.filter(r => role(r[0])==="part"), rows.filter(r => role(r[0])==="late"),
+      ...BLOCS.map(([b]) => rows.filter(r => r[3]===b && !role(r[0])))].filter(g => g.length);
+    for (const parts of groups){
+      const blk = document.createElement("div"); blk.className = "blk"; blk.style.flex = `${parts.reduce((s,r)=>s+r[1],0)} 0 0`;
+      for (const [name,n,fam] of parts){
+        const s = document.createElement("div"); s.style.flex = `${n} 0 0`;
+        const inGov = role(name);
+        s.className = "sseg" + ({full:" coal", part:" coal-part", late:" coal-late"}[inGov] || "");
+        const fill = color(fam); s.style.background = fill; s.style.color = inkOn(fill);
+        s.textContent = n >= 4 ? n : ""; s.title = `${name}: ${n} מנדטים`;
+        s.addEventListener("mouseenter", ev => showTip(ev, `<b>${name}</b><br>${n} מנדטים` + (inGov ? `<div class="m">${{full:"בממשלה", part:"חלק מהרשימה בממשלה", late:late.get(name)}[inGov]}${inGov === "late" ? "" : ": " + gov.name}</div>` : "")));
+        s.addEventListener("mousemove", moveTip); s.addEventListener("mouseleave", () => { tip.hidden = true; });
+        blk.appendChild(s);
+      }
+      bar.appendChild(blk);
+    }
+    const half = document.createElement("div"); half.className = "mid"; half.style.right = `calc(${61/120*100}% - 1px)`; bar.appendChild(half);
+    row.appendChild(bar);
+    const t = document.createElement("div"); t.className = "stot";
+    const gv = (S.coalitions || {})[k];
+    t.innerHTML = BLOCS.filter(([b]) => tot[b]).map(([b,label]) => `<span>${label} <b>${tot[b]}</b></span>`).join("")
+      + (mid ? `<span class="gov">${rows.filter(r => r[3]==="mid").map(r => r[0]).join(", ")} (${mid}) נספרו חצי בכל גוש</span>` : "")
+      + (gv ? `<span class="gov">${gv.name ? `${gv.name}: <b>${gv.seats}</b> מנדטים בהשבעה` : gv.note}</span>` : "")
+      + ((S.provisional || {})[k] || (S.final || {})[k] ? `<span class="gov">${(S.provisional || {})[k] || S.final[k]}</span>` : "");
+    row.appendChild(t);
+    if (live && k !== live) { row.hidden = true; row.dataset.old = "1"; }
+    el.appendChild(row);
+  }
+  if (live && years.length > 1){
+    const b = document.createElement("button"); b.type = "button"; b.className = "dl"; b.textContent = "הצג גם את מערכות הבחירות הקודמות";
+    b.addEventListener("click", () => { const show = b.dataset.on !== "1"; b.dataset.on = show ? "1" : "";
+      el.querySelectorAll(".srow[data-old]").forEach(r => r.hidden = !show);
+      b.textContent = show ? "הסתר את מערכות הבחירות הקודמות" : "הצג גם את מערכות הבחירות הקודמות"; });
+    el.appendChild(b);
+  }
+}
+
+// ---------- bubble map of the 20 largest localities ----------
+const MAP = {pts:null, dots:null, cities:new Map(), national:null, mode:"diff", pair:"24-25", src:"הליכוד", dst:"הציונות הדתית"};
+const PAIR_LABEL = p => { const [a,b] = p.split("-"); return `${ELECTIONS[a][0]} ← ${ELECTIONS[b][0]}`; };
+
+async function mapInit(){
+  let m; try { m = await loadJSON("map.json"); } catch(e){ $("mapcard").hidden = true; return; }
+  MAP.pts = m.top; MAP.dots = m.dots;
+  MAP.national = state.cache.get("national") || await loadJSON("data/national.json");
+  state.cache.set("national", MAP.national);
+  await Promise.all(MAP.pts.map(async ([id]) => {
+    if (!state.cache.has(id)) { try { state.cache.set(id, await loadJSON("data/"+id+".json")); } catch(e){} }
+    if (state.cache.has(id)) MAP.cities.set(id, state.cache.get(id));
+  }));
+  const ps = $("m-pair");
+  for (const p of [...VIEWS.full, ...VIEWS.skip.filter(x => !VIEWS.full.includes(x))]) if (MAP.national.pairs[p]) { const o = document.createElement("option"); o.value = p; o.textContent = PAIR_LABEL(p) + (p==="20-25" ? " (דילוג)" : ""); ps.appendChild(o); }
+  if (VIEWS.last && MAP.national.pairs[VIEWS.last[0]]){
+    MAP.pair = VIEWS.last[0];
+    const p = MAP.national.pairs[MAP.pair], i = p.from.findIndex(x => x[0] === "הליכוד");
+    const out = p.links.filter(l => l[0] === i && !["הליכוד","אחרים","לא הצביעו"].includes(p.to[l[1]][0])).sort((x, y) => y[2] - x[2])[0];
+    if (out) MAP.dst = p.to[out[1]][0];
+  }
+  ps.value = MAP.pair;
+  ps.addEventListener("change", () => { MAP.pair = ps.value; mapOptions(); mapDraw(); });
+  $("m-src").addEventListener("change", e => { MAP.src = e.target.value; mapDraw(); });
+  $("m-dst").addEventListener("change", e => { MAP.dst = e.target.value; mapDraw(); });
+  for (const v of ["diff","rate"]) $("m-"+v).addEventListener("click", () => { MAP.mode = v; $("m-diff").setAttribute("aria-pressed", v==="diff"); $("m-rate").setAttribute("aria-pressed", v==="rate"); mapDraw(); });
+  mapOptions(); mapDraw();
+}
+
+function mapOptions(){
+  const p = MAP.national.pairs[MAP.pair];
+  const fill = (id, list, keep) => { const s = $(id); s.innerHTML = "";
+    for (const [name] of list){ const o = document.createElement("option"); o.value = name; o.textContent = name; s.appendChild(o); }
+    s.value = list.some(x=>x[0]===keep) ? keep : list[0][0]; return s.value; };
+  MAP.src = fill("m-src", p.from, MAP.src); MAP.dst = fill("m-dst", p.to, MAP.dst);
+}
+
+function flowRate(d){
+  // rate of src→dst in one area; null when the pair is missing or the party is folded into "others" there
+  const p = d && d.pairs[MAP.pair]; if (!p) return null;
+  const i = p.from.findIndex(x=>x[0]===MAP.src), j = p.to.findIndex(x=>x[0]===MAP.dst);
+  if (i < 0 || j < 0) return null;
+  const l = p.links.find(x=>x[0]===i && x[1]===j);
+  return l ? {rate:l[3], lo:l[4], hi:l[5]} : {rate:0, lo:null, hi:null};
+}
+
+function mapDraw(){
+  if (!MAP.pts) return;
+  const svg = d3.select("#map"), W = 520, H = 760, pad = 16;
+  svg.attr("viewBox", `0 0 ${W} ${H}`).selectAll("*").remove();
+  // crop to the populated centre and north; ITM is in metres, so one scale serves both axes
+  const x0 = 140000, x1 = 275000, y0 = 548000, y1 = 800000;
+  const k = Math.min((W-2*pad)/(x1-x0), (H-2*pad)/(y1-y0));
+  const px = x => pad + (x - x0) * k, py = y => H - pad - (y - y0) * k;
+  svg.append("g").selectAll("circle").data(MAP.dots.filter(([x,y]) => x>=x0 && x<=x1 && y>=y0 && y<=y1)).join("circle")
+    .attr("class","dot").attr("cx",d=>px(d[0])).attr("cy",d=>py(d[1])).attr("r",1.6);
+  const nat = flowRate(MAP.national);
+  const vals = MAP.pts.map(([id,name,x,y,bzb]) => { const f = flowRate(MAP.cities.get(id));
+    return {id, name, bzb, tx:px(x), ty:py(y), f, v: f==null ? null : MAP.mode==="diff" ? (nat ? f.rate - nat.rate : null) : f.rate}; });
+  const rs = d3.scaleSqrt().domain([0, d3.max(vals, d=>d.bzb)]).range([0, 30]);
+  vals.forEach(d => { d.r = rs(d.bzb); d.x = d.tx; d.y = d.ty; });
+  const sim = d3.forceSimulation(vals).force("x", d3.forceX(d=>d.tx).strength(.6)).force("y", d3.forceY(d=>d.ty).strength(.6))
+    .force("c", d3.forceCollide(d=>d.r+1.5).iterations(3)).stop();
+  for (let i=0; i<300; i++) sim.tick();
+  const cs = getComputedStyle(document.documentElement), cv = n => cs.getPropertyValue(n).trim();
+  let scale, ticks;
+  const finite = vals.filter(d=>d.v!=null).map(d=>d.v);
+  if (MAP.mode==="diff"){
+    const m = Math.max(5, d3.max(finite.map(Math.abs)) || 5);
+    scale = d3.scaleDiverging([-m, 0, m], t => t < .5 ? d3.interpolateLab(cv("--div-lo"), cv("--div-mid"))(t*2) : d3.interpolateLab(cv("--div-mid"), cv("--div-hi"))((t-.5)*2));
+    ticks = [[-m, `${Math.round(-m)}`], [0, "כמו הארצי"], [m, `+${Math.round(m)}`]];
+  } else {
+    const m = Math.max(5, d3.max(finite) || 5);
+    scale = d3.scaleSequential([0, m], d3.interpolateLab(cv("--seq-lo"), cv("--seq-hi")));
+    ticks = [[0, "0%"], [m/2, `${Math.round(m/2)}%`], [m, `${Math.round(m)}%`]];
+  }
+  const g = svg.append("g");
+  g.selectAll("line").data(vals.filter(d => Math.hypot(d.x-d.tx, d.y-d.ty) > d.r*.6)).join("line").attr("class","leader")
+    .attr("x1",d=>d.tx).attr("y1",d=>d.ty).attr("x2",d=>d.x).attr("y2",d=>d.y);
+  g.selectAll("circle").data(vals).join("circle").attr("class", d => "bub" + (d.v==null ? " null" : ""))
+    .attr("cx",d=>d.x).attr("cy",d=>d.y).attr("r",d=>d.r).attr("fill", d => d.v==null ? null : scale(d.v))
+    .on("mouseenter", (ev,d) => { const f = d.f;
+      showTip(ev, `<b>${d.name}</b><br>` + (f==null ? "אין נתון למעבר הזה" :
+        `${Math.round(f.rate)}% ממצביעי ${MAP.src} עברו ל${MAP.dst}` + (f.lo!=null ? `<div class="m">טווח 90%: בין ${Math.round(f.lo)}% ל-${Math.round(f.hi)}%</div>` : "") +
+        (nat ? `<div class="m">בכל הארץ: ${Math.round(nat.rate)}%</div>` : ""))); })
+    .on("mousemove", moveTip).on("mouseleave", () => { tip.hidden = true; })
+    .on("click", (ev,d) => { if (state.area === "ses") $("mode-area").click(); $("area").value = d.id; state.area = d.id; store.set("area", d.id); load(); $("area-name").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); });
+  g.selectAll("text").data(vals.filter(d => d.r >= 13)).join("text").attr("class","lbl").attr("x",d=>d.x).attr("y",d=>d.y).attr("dy","0.35em").attr("text-anchor","middle")
+    .text(d => d.name.replace(" -יפו","").replace("-מכבים-רעות",""));
+  // legend
+  const L = d3.select("#m-legend").html("").append("svg").attr("viewBox","0 0 240 40");
+  const gid = "lg"+MAP.mode, grad = L.append("defs").append("linearGradient").attr("id",gid);
+  d3.range(0,1.01,.1).forEach(t => grad.append("stop").attr("offset", t).attr("stop-color", scale(scale.domain()[0] + t*(scale.domain()[scale.domain().length-1]-scale.domain()[0]))));
+  L.append("rect").attr("x",4).attr("y",4).attr("width",232).attr("height",12).attr("rx",2).attr("fill",`url(#${gid})`);
+  const lx = d3.scaleLinear([scale.domain()[0], scale.domain()[scale.domain().length-1]], [4, 236]);
+  ticks.forEach(([v,t],i) => L.append("text").attr("x", lx(v)).attr("y",32).attr("text-anchor", i===0 ? "start" : i===ticks.length-1 ? "end" : "middle").text(t));
+  $("m-nat").textContent = nat ? `בכל הארץ: ${Math.round(nat.rate)}% ממצביעי ${MAP.src} עברו ל${MAP.dst} (${PAIR_LABEL(MAP.pair)}).` + (MAP.mode==="diff" ? " הצבע מראה בכמה נקודות האחוז היישוב שונה מזה." : "") : "המעבר הזה לא קיים בנתונים הארציים.";
+}
+
+function mapFromLink(d){
+  // clicking a flow in the chart shows the same flow on the map
+  const pair = `${d.a}-${d.b}`; if (!MAP.national || !MAP.national.pairs[pair]) return;
+  MAP.pair = pair; $("m-pair").value = pair; MAP.src = d.sn; MAP.dst = d.tn; mapOptions(); MAP.src = $("m-src").value; MAP.dst = $("m-dst").value;
+  $("mapcard").open = true; mapDraw(); $("mapcard").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"});
+}
+
+// findings are written per area; an area without its own findings shows none
+let INSIGHTS = null;
+async function insights(){
+  const ul = $("insights");
+  if (!INSIGHTS) { try { INSIGHTS = await loadJSON("insights.json"); } catch(e){ INSIGHTS = {}; } }
+  const items = INSIGHTS[areaId()] || [];
+  ul.innerHTML = items.map(x => `<li><b>${x.title}</b>${x.text}</li>`).join("");
+  ul.hidden = !items.length;
+}
+
+function thresholdVotes(){
+  // slider steps are tenths of a percent of the area's eligible voters (largest electorate across the elections shown)
+  const base = Math.max(0, ...Object.values(state.data.pairs).filter(Boolean).map(p => p.from.reduce((s,x)=>s+x[2],0)));
+  const pct = +$("th").value / 10;
+  $("tho").textContent = pct.toFixed(1) + "% מבעלי זכות הבחירה";
+  return base * pct / 100;
+}
+
+// each party's share of the valid votes in an election, from the actual totals of the area
+function shares(){
+  const d = state.data, out = {};
+  // a party folded into "others" in one pair is listed there with a zero total, so fill it from the other pair
+  const put = (k, list) => { if (!list) return;
+    const valid = list.filter(x => x[1] !== "dnv").reduce((s,x)=>s+x[2],0), all = list.reduce((s,x)=>s+x[2],0);
+    out[k] = out[k] || {};
+    for (const [name,fam,t] of list) if (t > 0 && !out[k][name]) out[k][name] = fam === "dnv" ? {pct: t/all*100, of:"eligible"} : {pct: t/valid*100, of:"valid"}; };
+  // exact shares from the ballot files where the area has them (country, localities); "others" stays from the
+  // model because its node also holds the parties folded into it
+  if (d.shares) for (const [k,sh] of Object.entries(d.shares)){
+    out[+k] = {};
+    for (const [name,v] of Object.entries(sh)) if (v != null && v > 0 && name !== "אחרים") out[+k][name] = {pct:v, of: name === "לא הצביעו" ? "eligible" : "valid"};
+  }
+  for (const [pair,p] of Object.entries(d.pairs)) if (p) put(+pair.split("-")[0], p.from);
+  for (const [pair,p] of Object.entries(d.pairs)) if (p) put(+pair.split("-")[1], p.to_actual || p.to_counted || p.to);
+  return out;
+}
+const pctTxt = v => v >= 10 ? Math.round(v) + "%" : v.toFixed(1) + "%";
+
+function build(){
+  const d = state.data, showNV = $("nv").checked, showStay = $("stay").checked, th = thresholdVotes();
+  const nodes = new Map(), links = [], gaps = [];
+  const node = (k, name, fam, total) => { const id = k+"|"+name; if(!nodes.has(id)) nodes.set(id,{id,k:+k,name,fam,total}); return id; };
+  for (const pair of VIEWS[state.view]){
+    const [a,b] = pair.split("-");
+    const p = d.pairs[pair];
+    gaps.push({a:+a, b:+b, p});
+    // before 2026 results the newest pair has no flows: its 2022 column stands alone, sized by the 2022 totals
+    if (!p && b === "26" && SITE.pending26 && ![...nodes.values()].some(n => n.k === +a)){
+      const src = Object.entries(d.pairs).find(([q, x]) => x && q.endsWith("-" + a));
+      if (src) for (const [n, f, t] of src[1].to_actual || src[1].to)
+        if (t >= Math.max(th, 1) && (showNV || f !== "dnv")) nodes.set(a+"|"+n, {id:a+"|"+n, k:+a, name:n, fam:f, total:t, fixedValue:t});
+    }
+    if (!p) continue;
+    // the lists that always show in 2026 (config always_kept) keep their two largest flows when none passes the threshold
+    const keep = new Set(b==="26" ? d.always26 || [] : []), small = {};
+    for (const [i,j,v,rate,lo,hi] of p.links){
+      const [sn,sf,st] = p.from[i], [tn,tf,tt] = p.to[j];
+      if (!showNV && (sf==="dnv" || tf==="dnv")) continue;
+      if (sf==="dnv" && tf==="dnv") continue;
+      if (!showStay && sn===tn) continue;
+      const l = () => ({source:node(a,sn,sf,st), target:node(b,tn,tf,tt), value:v, rate, lo, hi, a:+a, b:+b, sn, tn, sf});
+      if (v >= Math.max(th,1)) links.push(l());
+      else if (keep.has(tn) && v >= 1) (small[tn] = small[tn] || []).push([v, l]);
+    }
+    for (const [tn, ls] of Object.entries(small))
+      if (!links.some(x => x.b===+b && x.tn===tn)) ls.sort((x,y) => y[0]-x[0]).slice(0,2).forEach(([,l]) => links.push(l()));
+  }
+  return {nodes:[...nodes.values()], links, gaps};
+}
+
+const svg = d3.select("#chart"), tip = $("tip");
+let SH = {};
+function showTip(ev, html){ tip.innerHTML = html; tip.hidden = false; moveTip(ev); }
+function moveTip(ev){ const w = tip.offsetWidth, h = tip.offsetHeight; let x = ev.clientX + 14, y = ev.clientY + 14;
+  if (x + w > innerWidth - 8) x = ev.clientX - w - 14; if (y + h > innerHeight - 8) y = ev.clientY - h - 14;
+  tip.style.left = Math.max(8,x)+"px"; tip.style.top = Math.max(8,y)+"px"; }
+const LIT = {hit:null, data:null, view:null, timer:null};
+// a headline's highlight survives the chart being redrawn for another area or view only if it is the same chart
+const relight = () => { const on = LIT.hit && LIT.data === state.data && LIT.view === state.view;
+  svg.classed("dim", !!on); svg.selectAll("path.lk").classed("on", on ? LIT.hit : false); };
+function hideTip(){ tip.hidden = true; TAPPED = null; relight(); }
+// on a touch screen a tap shows a flow's details (there is no hover) and a second tap on it opens the map;
+// a tap anywhere else closes the details
+let TOUCH = false, TAPPED = null;
+addEventListener("pointerdown", ev => { TOUCH = ev.pointerType === "touch"; }, true);
+addEventListener("click", ev => { if (TOUCH && !tip.hidden && !ev.target.closest("#chart path.lk, #chart g.node, td.has-note")) hideTip(); });
+// a touch browser sends a mouse leave right after the tap, which would close the details at once
+const leaveTip = () => { if (!TOUCH) hideTip(); };
+function tapLink(ev, d){
+  if (TOUCH && TAPPED !== d){ TAPPED = d; tip.insertAdjacentHTML("beforeend", `<div class="m">הקשה נוספת מציגה את המעבר במפה</div>`); moveTip(ev); return; }
+  hideTip(); mapFromLink(d);
+}
+
+// on a phone the wide chart opens at its newest end (the left side, since time runs right to left)
+const scrollNewest = () => { if (matchMedia("(max-width:640px)").matches){ const c = document.querySelector(".chart-scroll"); c.scrollLeft = -c.scrollWidth; } };
+function draw(){
+  if (!state.data) return;
+  requestAnimationFrame(scrollNewest);
+  // before any 2026 results, the full and skip views end in a placeholder 2026 column: its lists, no flows
+  const pend = SITE.pending26 && !Object.entries(state.data.pairs).some(([p, x]) => x && p.endsWith("-26")) ? SITE.pending26 : null;
+  const ks = [...new Set(colsOf(VIEWS[state.view]).concat(pend ? [26] : []))];
+  // two columns are drawn at the width they get on screen, so labels keep their size on a phone and on a wide screen
+  const fit = Math.min(1000, Math.max(420, $("chart").parentElement.clientWidth || 720));
+  // while the 2026 count is still running its column header says so, on a line of its own
+  const prov26 = !pend && ks.includes(26) && !!(SEATS && (SEATS.provisional || {})[26]);
+  const W = ks.length <= 2 ? fit : Math.max(1000, 200 * ks.length), H = 720, top = prov26 ? 72 : 58, bottom = 40, padX = 120;
+  svg.attr("viewBox", `0 0 ${W} ${H}`).selectAll("*").remove();
+  $("chart").style.minWidth = ks.length <= 2 ? "0" : state.view==="full" ? "1100px" : "760px";
+  const g = build();
+  SH = shares();
+  const colIndex = new Map(ks.map((k,i)=>[k,i]));
+  const colX = k => W - padX - colIndex.get(k) * (W - 2*padX - 12) / (ks.length - 1) - 12;
+  // headers and per-gap coverage notes are drawn even where a pair has no data
+  for (const k of ks){
+    const x = colX(k) + 6, anchor = k===ks[0] ? "end" : k===ks[ks.length-1] ? "start" : "middle";
+    const xx = k===ks[0] ? x + 6 : k===ks[ks.length-1] ? x - 6 : x;
+    svg.append("text").attr("class","yr").attr("x",xx).attr("y",20).attr("text-anchor",anchor).text(ELECTIONS[k][0] + (pend && k === 26 ? " ?" : ""));
+    svg.append("text").attr("class","yr-sub").attr("x",xx).attr("y",38).attr("text-anchor",anchor).text(ELECTIONS[k][1]);
+    if (prov26 && k === 26) svg.append("text").attr("class","yr-sub").attr("x",xx).attr("y",56).attr("text-anchor",anchor).text(SEATS.as_of && SEATS.as_of[26] ? `(נכון ל-${SEATS.as_of[26]})` : "(בינתיים)");
+  }
+  for (const gp of g.gaps){
+    if (pend && gp.b === 26) continue;
+    const xm = (colX(gp.a) + colX(gp.b)) / 2 + 6;
+    const t = svg.append("text").attr("class","gap-note").attr("x",xm).attr("y",H-12).attr("text-anchor","middle");
+    if (!gp.p){ t.classed("warn",true).text("אין מספיק נתונים");
+      svg.append("text").attr("class","nodata").attr("x",xm).attr("y",H/2).attr("text-anchor","middle").text("אין מספיק נתונים"); }
+    else {
+      // coverage of matched units, excluding the coarse per-city leftover units; may arrive as a fraction or a percentage
+      const c = gp.p.coverage_core ?? gp.p.coverage, cp = c > 1 ? c : c * 100;
+      t.text(`כיסוי ${Math.round(cp)}% ⓘ`).classed("warn", cp < 40).style("cursor","help")
+        .on("mouseenter", ev => showTip(ev, `<b>כיסוי ${Math.round(cp)}%</b><br>אחוזי המעבר חושבו מקלפיות שמייצגות ${Math.round(cp)}% מבעלי זכות הבחירה באזור ב-${ELECTIONS[gp.a][0]}, ואז הוחלו על כל המצביעים.` +
+          `<div class="m">נכנסות רק קלפיות שאפשר לזהות בשתי מערכות הבחירות ושמספר בעלי זכות הבחירה בהן כמעט לא השתנה, כדי שיהיו אלה אותם אנשים.` +
+          (cp < 40 ? " בכיסוי נמוך ההערכה נשענת על מיעוט הקלפיות, בעיקר בשכונות ותיקות ויציבות, ועלולה להיות מוטה." : "") +
+          (gp.b === 26 && SEATS && (SEATS.provisional || {})[26] && !(SEATS.near_final || {})[26] ? " הספירה עדיין נמשכת: בינתיים הותאמו רק הקלפיות שכבר נספרו, ולכן הכיסוי נמוך. הוא יעלה ככל שייספרו עוד קלפיות, וההערכה תתייצב." : "") + `</div>`))
+        .on("mousemove", moveTip).on("mouseleave", () => { tip.hidden = true; });
+    }
+  }
+  if (pend){
+    const x = colX(26), x1 = x + 11, x25 = colX(25) + 11;
+    svg.append("text").attr("class","gap-note").attr("x",(x1 + x25) / 2).attr("y",H-12).attr("text-anchor","middle").text("המעברים יופיעו כאן עם תוצאות הקלפיות");
+    svg.append("text").attr("class","nodata").attr("x",(x1 + x25) / 2).attr("y",H/2).attr("text-anchor","middle").text("?");
+    const step = (H - top - bottom) / pend.length;
+    const pg = svg.append("g").attr("class","pending");
+    pend.forEach(([name, fam], i) => {
+      const y = top + i * step + 2, h = Math.max(6, step - 6);
+      pg.append("rect").attr("x",x).attr("y",y).attr("width",11).attr("height",h).attr("fill","none")
+        .attr("stroke",color(fam)).attr("stroke-width",1.5).attr("stroke-dasharray","3 2");
+      pg.append("text").attr("class","nlabel").attr("x",x-6).attr("y",y+h/2).attr("dy","0.35em").attr("text-anchor","end").text(name + "\u200F");
+      pg.append("text").attr("class","nval").attr("x",x+17).attr("y",y+h/2).attr("dy","0.35em").attr("text-anchor","start").text("?");
+    });
+  }
+  if (!g.nodes.length) return;
+  const present = [...new Set(g.nodes.map(n=>n.k))].sort((x,y)=>x-y);
+  const ORDER = ["likud","otzma","far_right","winter","religious_right","new_right","shas","utj","yb","reservists","center","bluewhite","yashar","beyachad","yeshatid","center_left","labor","meretz","joint","hadash","raam","balad","other","dnv"];
+  // a 2026 list under the electoral threshold in the national count so far, and the lists that always show (config
+  // always_kept): their name shows however short the node, so the column gets more room between nodes
+  const below = d => d.k===26 && (state.data.below26 || []).includes(d.name);
+  const named = d => below(d) || d.k===26 && (state.data.always26 || []).includes(d.name);
+  const sk = d3.sankey().nodeId(d=>d.id).nodeWidth(11).nodePadding(g.nodes.some(named) ? 20 : 10)
+    .nodeAlign(d => present.indexOf(d.k))
+    .nodeSort((x,y)=>ORDER.indexOf(x.fam)-ORDER.indexOf(y.fam) || d3.descending(x.total,y.total))
+    .extent([[0, top],[100, H-bottom]]);
+  const {nodes, links} = sk({nodes:g.nodes.map(d=>({...d})), links:g.links.map(d=>({...d}))});
+  nodes.forEach(n => { n.x0 = colX(n.k); n.x1 = n.x0 + 11; });
+  const path = d => { const xs = d.source.x0, xt = d.target.x1, xm = (xs+xt)/2;
+    return `M${xs},${d.y0}C${xm},${d.y0} ${xm},${d.y1} ${xt},${d.y1}`; };
+  const lk = svg.append("g").selectAll("path").data(links).join("path")
+    .attr("class","lk").attr("d", path).attr("stroke", d => color(d.sf)).attr("stroke-width", d => Math.max(1, d.width))
+    .on("mouseenter", (ev,d) => { svg.classed("dim", true); lk.classed("on", l => l === d);
+      showTip(ev, `<b>${d.sn}</b> (${ELECTIONS[d.a][0]}) ← <b>${d.tn}</b> (${ELECTIONS[d.b][0]})<br>כ-${r10(d.value)} קולות${seatEq(d)} · ${Math.round(d.rate)}% ממצביעי ${d.sn}<div class="m">${d.lo==null ? "אין טווח אי-ודאות" : `טווח 90%: בין ${Math.round(d.lo)}% ל-${Math.round(d.hi)}%`}</div>`); })
+    .on("mousemove", moveTip).on("mouseleave", leaveTip).on("click", tapLink).style("cursor","pointer");
+  // a list's details open from its bar or its name and numbers, which is where a reader taps
+  const nd = svg.append("g").selectAll("g").data(nodes).join("g").attr("class","node").style("cursor","default");
+  nd.append("rect").attr("class","nd").attr("x",d=>d.x0).attr("y",d=>d.y0).attr("width",d=>d.x1-d.x0).attr("height",d=>Math.max(1,d.y1-d.y0)).attr("fill",d=>color(d.fam));
+  nd.append("rect").attr("x",d=>d.x0-6).attr("y",d=>d.y0-3).attr("width",23).attr("height",d=>Math.max(8,d.y1-d.y0+6)).attr("fill","transparent");
+  nd.on("mouseenter",(ev,d)=>{ svg.classed("dim",true); lk.classed("on", l => l.source===d || l.target===d);
+      const sh = SH[d.k] && SH[d.k][d.name];
+      showTip(ev, `<b>${d.name}</b> · ${ELECTIONS[d.k][0]}<br>${fmt(Math.round(d.total))} ${d.fam==="dnv" ? "לא הצביעו" : "קולות"}` +
+        (sh ? `<div class="m">${pctTxt(sh.pct)} ${sh.of==="eligible" ? "מבעלי זכות הבחירה" : "מהקולות הכשרים"}</div>` : "") +
+        (d.k===26 && (state.data.below26 || []).includes(d.name) ? `<div class="m">בספירה הארצית: מתחת לאחוז החסימה (3.25%)</div>` : "") +
+        (seatsOf(d.k, d.name) ? `<div class="m">${state.area === "national" ? "" : "בכל הארץ: "}${seatTxt(seatsOf(d.k, d.name))}${(SEATS.provisional || {})[d.k] ? " לפי הספירה עד כה" : ""}</div>` : "")); })
+    .on("mousemove", moveTip).on("mouseleave", leaveTip);
+  const first = ks[0], lab = (d) => d.k===first ? d.x1+6 : d.x0-6, anc = d => d.k===first ? "start" : "end";
+  nd.filter(d => d.y1-d.y0 >= 7 || named(d)).append("text").attr("class","nlabel").attr("x",lab).attr("y",d=>(d.y0+d.y1)/2).attr("dy","0.35em").attr("text-anchor",anc)
+    .text(d => d.name + "\u200F");
+  // under the name: the vote count and the share; a short node gets the share only
+  const share = d => { const sh = SH[d.k] && SH[d.k][d.name]; return sh ? pctTxt(sh.pct) : ""; };
+  // seats are national, so only the country view shows them; the vote count stays in the node's tooltip
+  const seat = d => state.area === "national" ? seatsOf(d.k, d.name) : 0;
+  // a tall node with seats and room under it gets the votes and share, then its seats on a line of their own
+  const gapBelow = d => Math.min(Infinity, ...nodes.filter(n => n.k===d.k && n.y0 > d.y0).map(n => (n.y0+n.y1)/2 - (d.y0+d.y1)/2));
+  const three = d => d.y1-d.y0 > 30 && seat(d) && share(d) && gapBelow(d) >= 44;
+  nd.filter(d => d.y1-d.y0 > 30 && !below(d)).append("text").attr("class","nval").attr("x",lab).attr("y",d=>(d.y0+d.y1)/2+15).attr("dy","0.35em").attr("text-anchor",anc)
+    .text(d => three(d) ? `${fmt(Math.round(d.total))} · ${share(d)}` : seat(d) && share(d) ? `${share(d)} · ${seatTxt(seat(d))}` : share(d) ? `${fmt(Math.round(d.total))} · ${share(d)}` : fmt(Math.round(d.total)));
+  nd.filter(three).append("text").attr("class","nval").attr("x",lab).attr("y",d=>(d.y0+d.y1)/2+29).attr("dy","0.35em").attr("text-anchor",anc).text(d => seatTxt(seat(d)));
+  // a short node with seats gets the line too when the next node in its column leaves room for it
+  const room = d => d.y1-d.y0 >= 7 && gapBelow(d) >= 28;
+  nd.filter(d => (d.y1-d.y0 > 18 || seat(d) && room(d)) && d.y1-d.y0 <= 30 && !below(d)).append("text").attr("class","nval").attr("x",lab).attr("y",d=>(d.y0+d.y1)/2+14).attr("dy","0.35em").attr("text-anchor",anc).text(d => seat(d) && share(d) ? `${share(d)} · ${seatTxt(seat(d))}` : share(d));
+  nd.filter(below).append("text").attr("class","nval below").attr("x",lab).attr("y",d=>(d.y0+d.y1)/2+14).attr("dy","0.35em").attr("text-anchor",anc)
+    .text(d => (share(d) ? share(d) + " · " : "") + "מתחת לחסימה" + "\u200F");
+}
+
+function tableSelect(){
+  const s = $("tpair"); const keep = s.value; s.innerHTML = "";
+  for (const pair of VIEWS[state.view]){ const [a,b] = pair.split("-"); const o = document.createElement("option"); o.value = pair; o.textContent = `${ELECTIONS[a][0]} ← ${ELECTIONS[b][0]}`; s.appendChild(o); }
+  if ([...s.options].some(o=>o.value===keep)) s.value = keep;
+  table();
+}
+function table(){
+  const el = $("tbl"), pair = $("tpair").value, p = state.data && state.data.pairs[pair];
+  if (!p){ el.innerHTML = `<p class="note">אין מספיק נתונים למעבר הזה באזור הזה.</p>`; return; }
+  const m = {}; p.links.forEach(([i,j,v]) => m[i+"|"+j] = v);
+  const [a,b] = pair.split("-");
+  let h = `<table><thead><tr><th>מ-${ELECTIONS[a][0]} \\ אל ${ELECTIONS[b][0]}</th>${p.to.map(t=>`<th>${t[0]}</th>`).join("")}<th>סה"כ</th><th>% מהקולות</th></tr></thead><tbody>`;
+  const shA = shares()[+a] || {};
+  p.from.forEach((f,i) => { h += `<tr><td>${f[0]}</td>${p.to.map((t,j)=>{ const v = m[i+"|"+j]; return v == null || v < 50 ? `<td class="z">–</td>` : `<td>${r10(v)}</td>`; }).join("")}<td>${fmt(Math.round(f[2]))}</td><td>${shA[f[0]] ? pctTxt(shA[f[0]].pct) + (shA[f[0]].of==="eligible" ? " מבעלי זכות הבחירה" : "") : ""}</td></tr>`; });
+  el.innerHTML = h + `</tbody></table>`;
+}
+init();
+</script>

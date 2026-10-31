@@ -1,0 +1,185 @@
+Stage 3 (SES x sector) summary
+============================================================
+CHECK 1: ses-all-g1g2g3g4 vs national (point estimates; max over cells, per pair)
+  19-20: max |votes| diff 14539.5; max |to total| diff 14933.1; max |from total| diff 20864.0; sum |diff| 30794.0 of national total 5656705 (0.544%); ses total 5625911
+  20-21: max |votes| diff 21524.6; max |to total| diff 24213.1; max |from total| diff 22198.0; sum |diff| 34505.0 of national total 5881696 (0.587%); ses total 5847191
+  21-22: max |votes| diff 18609.4; max |to total| diff 19692.6; max |from total| diff 26445.0; sum |diff| 36861.0 of national total 6339729 (0.581%); ses total 6302868
+  22-23: max |votes| diff 19768.1; max |to total| diff 20048.7; max |from total| diff 21242.0; sum |diff| 37405.0 of national total 6391218 (0.585%); ses total 6353813
+  23-24: max |votes| diff 20955.2; max |to total| diff 24587.3; max |from total| diff 20971.0; sum |diff| 38215.0 of national total 6453255 (0.592%); ses total 6415040
+  24-25: max |votes| diff 23165.6; max |to total| diff 23548.3; max |from total| diff 26494.0; sum |diff| 40050.0 of national total 6578084 (0.609%); ses total 6538034
+  20-25: max |votes| diff 16122.9; max |to total| diff 18261.9; max |from total| diff 22198.0; sum |diff| 34505.0 of national total 5881696 (0.587%); ses total 5847191
+  Expected difference: votes of localities missing from ses_clusters.csv (see bzb share below).
+
+CHECK 2: sum of the four single-group areas (link by link) vs ses-all-g1g2g3g4
+  19-20: max abs diff 0.000e+00 votes
+  20-21: max abs diff 0.000e+00 votes
+  21-22: max abs diff 0.000e+00 votes
+  22-23: max abs diff 0.000e+00 votes
+  23-24: max abs diff 0.000e+00 votes
+  24-25: max abs diff 0.000e+00 votes
+  20-25: max abs diff 0.000e+00 votes
+
+CHECK 3: bzb share of each group per election (denominator: all boxes of the election, excluding envelopes)
+  k19: g1 20.38%, g2 23.42%, g3 33.30%, g4 22.35%, missing from SES file 0.54%
+  k20: g1 20.74%, g2 23.20%, g3 33.24%, g4 22.23%, missing from SES file 0.59%
+  k21: g1 21.48%, g2 22.85%, g3 33.03%, g4 22.05%, missing from SES file 0.58%
+  k22: g1 21.54%, g2 22.81%, g3 33.01%, g4 22.05%, missing from SES file 0.59%
+  k23: g1 21.65%, g2 22.78%, g3 32.95%, g4 22.02%, missing from SES file 0.59%
+  k24: g1 21.86%, g2 22.72%, g3 32.84%, g4 21.97%, missing from SES file 0.61%
+  k25: g1 22.06%, g2 22.70%, g3 32.64%, g4 21.89%, missing from SES file 0.71%
+  Per filter (denominator: all boxes of that filter in the election):
+  k19 all     : g1 20.38%, g2 23.42%, g3 33.30%, g4 22.35%, missing 0.54%
+  k19 jewish  : g1 13.54%, g2 23.10%, g3 37.67%, g4 25.63%, missing 0.05%
+  k19 general : g1 8.23%, g2 24.18%, g3 40.11%, g4 27.44%, missing 0.05%
+  k19 arab    : g1 73.54%, g2 18.79%, g3 3.03%, g4 0.12%, missing 4.53%
+  k20 all     : g1 20.74%, g2 23.20%, g3 33.24%, g4 22.23%, missing 0.59%
+  k20 jewish  : g1 13.65%, g2 22.90%, g3 37.81%, g4 25.60%, missing 0.05%
+  k20 general : g1 8.43%, g2 23.97%, g3 40.19%, g4 27.35%, missing 0.05%
+  k20 arab    : g1 73.65%, g2 18.50%, g3 2.99%, g4 0.12%, missing 4.74%
+  k21 all     : g1 21.48%, g2 22.85%, g3 33.03%, g4 22.05%, missing 0.58%
+  k21 jewish  : g1 13.98%, g2 22.51%, g3 37.83%, g4 25.63%, missing 0.05%
+  k21 general : g1 8.01%, g2 23.63%, g3 40.62%, g4 27.69%, missing 0.05%
+  k21 arab    : g1 74.27%, g2 18.24%, g3 2.91%, g4 0.13%, missing 4.46%
+  k22 all     : g1 21.54%, g2 22.81%, g3 33.01%, g4 22.05%, missing 0.59%
+  k22 jewish  : g1 13.94%, g2 22.49%, g3 37.85%, g4 25.68%, missing 0.05%
+  k22 general : g1 7.78%, g2 23.64%, g3 40.73%, g4 27.80%, missing 0.05%
+  k22 arab    : g1 74.48%, g2 18.04%, g3 2.89%, g4 0.13%, missing 4.46%
+  k23 all     : g1 21.65%, g2 22.78%, g3 32.95%, g4 22.02%, missing 0.59%
+  k23 jewish  : g1 13.98%, g2 22.48%, g3 37.82%, g4 25.68%, missing 0.05%
+  k23 general : g1 7.68%, g2 23.67%, g3 40.71%, g4 27.89%, missing 0.05%
+  k23 arab    : g1 74.39%, g2 18.15%, g3 2.87%, g4 0.13%, missing 4.47%
+  k24 all     : g1 21.86%, g2 22.72%, g3 32.84%, g4 21.97%, missing 0.61%
+  k24 jewish  : g1 14.04%, g2 22.44%, g3 37.80%, g4 25.68%, missing 0.04%
+  k24 general : g1 7.67%, g2 23.59%, g3 40.79%, g4 27.91%, missing 0.05%
+  k24 arab    : g1 74.42%, g2 18.01%, g3 2.86%, g4 0.13%, missing 4.58%
+  k25 all     : g1 22.06%, g2 22.70%, g3 32.64%, g4 21.89%, missing 0.71%
+  k25 jewish  : g1 14.18%, g2 22.43%, g3 37.65%, g4 25.60%, missing 0.14%
+  k25 general : g1 7.55%, g2 23.54%, g3 40.81%, g4 27.94%, missing 0.15%
+  k25 arab    : g1 74.49%, g2 17.88%, g3 2.84%, g4 0.13%, missing 4.66%
+
+CHECK 4: five largest cross-category flows, 24-25, per filter and single group (rate % of from-row, 90% interval)
+  all-g1:
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 78347  rate 63.7%  [60.2, 66.0]
+    הרשימה המשותפת -> בל"ד: votes 30412  rate 24.7%  [21.9, 27.4]
+    לא הצביעו -> בל"ד: votes 29444  rate 4.5%  [3.7, 4.8]
+    לא הצביעו -> חד"ש-תע"ל: votes 15904  rate 2.4%  [2.2, 3.1]
+    לא הצביעו -> רע"מ: votes 15053  rate 2.3%  [2.1, 3.1]
+  all-g2:
+    הליכוד -> הציונות הדתית: votes 29118  rate 10.3%  [9.4, 10.9]
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 26026  rate 52.8%  [47.4, 54.6]
+    לא הצביעו -> הליכוד: votes 20047  rate 3.1%  [2.7, 3.5]
+    כחול לבן -> המחנה הממלכתי: votes 18592  rate 79.6%  [71.9, 78.9]
+    לא הצביעו -> אחרים: votes 17953  rate 2.8%  [2.6, 3.2]
+  all-g3:
+    כחול לבן -> המחנה הממלכתי: votes 63760  rate 66.7%  [62.5, 68.5]
+    הליכוד -> הציונות הדתית: votes 44008  rate 11.0%  [9.9, 11.5]
+    תקווה חדשה -> המחנה הממלכתי: votes 37870  rate 54.9%  [49.4, 57.6]
+    ימינה -> הציונות הדתית: votes 29938  rate 33.3%  [30.3, 36.0]
+    לא הצביעו -> הליכוד: votes 27543  rate 3.5%  [3.0, 3.9]
+  all-g4:
+    כחול לבן -> המחנה הממלכתי: votes 56542  rate 53.3%  [48.3, 55.8]
+    כחול לבן -> יש עתיד: votes 46367  rate 43.7%  [39.6, 47.2]
+    תקווה חדשה -> המחנה הממלכתי: votes 26984  rate 60.7%  [54.6, 62.3]
+    מרצ -> יש עתיד: votes 23763  rate 28.6%  [23.3, 32.7]
+    העבודה -> לא הצביעו: votes 20475  rate 18.7%  [13.6, 21.2]
+  jewish-g1:
+    הליכוד -> הציונות הדתית: votes 12595  rate 15.5%  [14.2, 16.4]
+    לא הצביעו -> ש"ס: votes 10926  rate 3.9%  [3.5, 4.4]
+    ימינה -> אחרים: votes 8043  rate 38.1%  [32.2, 42.8]
+    לא הצביעו -> יהדות התורה: votes 7708  rate 2.7%  [2.3, 3.1]
+    העבודה -> אחרים: votes 7334  rate 73.2%  [60.6, 88.0]
+  jewish-g2:
+    הליכוד -> הציונות הדתית: votes 30971  rate 11.2%  [9.9, 11.9]
+    לא הצביעו -> הליכוד: votes 20674  rate 4.0%  [3.4, 4.5]
+    כחול לבן -> המחנה הממלכתי: votes 17248  rate 78.3%  [70.9, 78.0]
+    ימינה -> הציונות הדתית: votes 16621  rate 40.8%  [36.8, 44.8]
+    לא הצביעו -> אחרים: votes 13307  rate 2.6%  [2.2, 2.9]
+  jewish-g3:
+    כחול לבן -> המחנה הממלכתי: votes 63908  rate 66.8%  [62.2, 68.2]
+    הליכוד -> הציונות הדתית: votes 44308  rate 11.1%  [10.0, 11.8]
+    תקווה חדשה -> המחנה הממלכתי: votes 38181  rate 55.2%  [50.6, 57.8]
+    ימינה -> הציונות הדתית: votes 29979  rate 33.0%  [30.1, 35.9]
+    לא הצביעו -> הליכוד: votes 27798  rate 3.6%  [3.2, 4.2]
+  jewish-g4:
+    כחול לבן -> המחנה הממלכתי: votes 59638  rate 53.8%  [48.7, 56.2]
+    כחול לבן -> יש עתיד: votes 47959  rate 43.3%  [38.5, 46.7]
+    תקווה חדשה -> המחנה הממלכתי: votes 29253  rate 62.1%  [54.6, 64.8]
+    מרצ -> יש עתיד: votes 24619  rate 28.6%  [24.2, 32.2]
+    העבודה -> יש עתיד: votes 19896  rate 17.7%  [15.7, 22.8]
+  general-g1:
+    הליכוד -> הציונות הדתית: votes 10890  rate 15.4%  [14.3, 16.2]
+    ימינה -> אחרים: votes 6287  rate 33.9%  [26.6, 38.5]
+    כחול לבן -> המחנה הממלכתי: votes 5377  rate 65.5%  [55.2, 75.4]
+    ימינה -> הציונות הדתית: votes 4683  rate 25.2%  [20.3, 30.8]
+    תקווה חדשה -> המחנה הממלכתי: votes 3971  rate 46.9%  [35.4, 59.7]
+  general-g2:
+    הליכוד -> הציונות הדתית: votes 31535  rate 11.4%  [10.3, 12.2]
+    לא הצביעו -> הליכוד: votes 22873  rate 4.5%  [3.9, 5.0]
+    כחול לבן -> המחנה הממלכתי: votes 17251  rate 77.5%  [69.2, 78.5]
+    ימינה -> הציונות הדתית: votes 16211  rate 40.3%  [36.2, 43.7]
+    ישראל ביתנו -> לא הצביעו: votes 12882  rate 18.1%  [15.3, 20.0]
+  general-g3:
+    כחול לבן -> המחנה הממלכתי: votes 64532  rate 66.9%  [62.8, 68.0]
+    הליכוד -> הציונות הדתית: votes 44926  rate 11.2%  [10.2, 11.7]
+    תקווה חדשה -> המחנה הממלכתי: votes 38789  rate 55.6%  [49.8, 57.7]
+    ימינה -> הציונות הדתית: votes 31227  rate 33.9%  [31.4, 37.1]
+    לא הצביעו -> הליכוד: votes 28297  rate 3.7%  [3.2, 4.1]
+  general-g4:
+    כחול לבן -> המחנה הממלכתי: votes 59744  rate 53.8%  [48.5, 55.7]
+    כחול לבן -> יש עתיד: votes 47995  rate 43.2%  [39.6, 46.9]
+    תקווה חדשה -> המחנה הממלכתי: votes 29330  rate 62.2%  [54.4, 65.1]
+    מרצ -> יש עתיד: votes 24655  rate 28.6%  [23.9, 31.4]
+    העבודה -> יש עתיד: votes 20189  rate 18.0%  [16.2, 23.3]
+  arab-g1:
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 77873  rate 63.6%  [60.1, 66.0]
+    הרשימה המשותפת -> בל"ד: votes 30323  rate 24.8%  [21.9, 27.4]
+    לא הצביעו -> בל"ד: votes 29327  rate 8.5%  [7.0, 9.0]
+    לא הצביעו -> חד"ש-תע"ל: votes 15827  rate 4.6%  [4.0, 5.9]
+    לא הצביעו -> רע"מ: votes 15017  rate 4.3%  [4.0, 5.8]
+  arab-g2:
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 19421  rate 55.2%  [48.4, 57.4]
+    הרשימה המשותפת -> בל"ד: votes 10524  rate 29.9%  [25.5, 37.0]
+    לא הצביעו -> בל"ד: votes 8723  rate 11.6%  [7.7, 14.3]
+    רע"מ -> אחרים: votes 5017  rate 17.2%  [11.3, 20.3]
+    רע"מ -> בל"ד: votes 4615  rate 15.9%  [10.0, 26.3]
+  arab-g3:
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 2491  rate 54.7%  [51.6, 57.0]
+    הרשימה המשותפת -> בל"ד: votes 1504  rate 33.0%  [29.8, 35.7]
+    לא הצביעו -> בל"ד: votes 1027  rate 8.0%  [5.6, 8.9]
+    לא הצביעו -> חד"ש-תע"ל: votes 793  rate 6.2%  [4.7, 7.5]
+    מרצ -> אחרים: votes 708  rate 81.9%  [63.8, 90.6]
+  arab-g4:
+    לא הצביעו -> בל"ד: votes 57  rate 9.3%  [6.3, 10.4]
+    הרשימה המשותפת -> חד"ש-תע"ל: votes 54  rate 67.0%  [63.8, 70.2]
+    לא הצביעו -> חד"ש-תע"ל: votes 38  rate 6.2%  [4.4, 8.1]
+    מרצ -> אחרים: votes 29  rate 86.2%  [66.5, 96.3]
+    הרשימה המשותפת -> בל"ד: votes 27  rate 33.0%  [29.1, 35.7]
+
+CHECK 5a: jewish fit counts per pair (own fits for regions with >= 15 jewish units; pooled fit present)
+  19-20: own jewish fits 80, jewish:pooled yes, total fits 263
+  20-21: own jewish fits 69, jewish:pooled yes, total fits 230
+  21-22: own jewish fits 87, jewish:pooled yes, total fits 287
+  22-23: own jewish fits 87, jewish:pooled yes, total fits 288
+  23-24: own jewish fits 64, jewish:pooled yes, total fits 219
+  24-25: own jewish fits 73, jewish:pooled yes, total fits 256
+  20-25: own jewish fits 35, jewish:pooled yes, total fits 123
+
+CHECK 5b: runtime per step
+      2.24 s  load, context, SES clusters
+    551.58 s  fits, storage, areas 19-20
+      3.58 s    per-locality matrices and SES aggregates 19-20
+    414.76 s  fits, storage, areas 20-21
+      3.52 s    per-locality matrices and SES aggregates 20-21
+    737.39 s  fits, storage, areas 21-22
+      3.76 s    per-locality matrices and SES aggregates 21-22
+    641.58 s  fits, storage, areas 22-23
+      3.45 s    per-locality matrices and SES aggregates 22-23
+    474.82 s  fits, storage, areas 23-24
+      3.19 s    per-locality matrices and SES aggregates 23-24
+    633.96 s  fits, storage, areas 24-25
+      3.82 s    per-locality matrices and SES aggregates 24-25
+    192.82 s  fits, storage, areas 20-25
+      3.47 s    per-locality matrices and SES aggregates 20-25
+      0.19 s  write out/web (stage 2 areas, regenerated)
+      0.23 s  write ses JSON and ses_index.json
+   3649.77 s  total stage 3 (before the reproduction check)
