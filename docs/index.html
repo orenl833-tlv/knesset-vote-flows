@@ -951,7 +951,7 @@ function draw(){
   }
   if (!g.nodes.length) return;
   const present = [...new Set(g.nodes.map(n=>n.k))].sort((x,y)=>x-y);
-  const ORDER = ["likud","otzma","far_right","winter","religious_right","new_right","shas","utj","yb","reservists","center","bluewhite","yashar","beyachad","yeshatid","center_left","labor","meretz","joint","hadash","raam","balad","other","dnv"];
+  const ORDER = ["likud","otzma","far_right","winter","religious_right","new_right","shas","utj","yb","reservists","center","bluewhite","yashar","beyachad","yeshatid","center_left","labor","meretz","joint","hadash","balad","raam","other","dnv"];
   // a 2026 list under the electoral threshold in the national count so far, and the lists that always show (config
   // always_kept): their name shows however short the node, so the column gets more room between nodes
   const below = d => d.k===26 && (state.data.below26 || []).includes(d.name);
