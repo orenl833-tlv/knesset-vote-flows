@@ -28,7 +28,7 @@ DNV = 'לא הצביעו'
 
 # the night cards, most interesting first (the big picture, then the surprises, then the details); any card not
 # listed keeps its place after these
-ORDER = ['blocs-2026', 'yashar-2026', 'likud-2026', 'beyachad-right-not-2026', 'far_right-otzma-2026', 'joint-dnv-2026',
+ORDER = ['blocs-2026', 'bennett21-2026', 'yashar-2026', 'likud-2026', 'beyachad-right-not-2026', 'far_right-otzma-2026', 'joint-dnv-2026',
          'winter-2026', 'shas-otzma-2026', 'ses-2026', 'shas-utj-2026', 'haredi-2026', 'arab-camps-2026', 'likud-left-not-2026']
 
 

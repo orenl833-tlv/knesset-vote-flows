@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
   // the CDN is sometimes slow to go quiet
   await page.goto(`http://localhost:${server.address().port}/`, { waitUntil: 'networkidle', timeout: 90000 });
   await page.waitForTimeout(800);
-  const hs = JSON.parse(fs.readFileSync(path.join(site, 'headlines.json'), 'utf8')).filter(h => h.id && h.pair);
+  const hs = JSON.parse(fs.readFileSync(path.join(site, 'headlines.json'), 'utf8')).filter(h => h.id && h.pair && !h.nochart);
   for (const h of hs) {
     await page.evaluate(async h => {
       // only this pair, wide enough to read, flows lit

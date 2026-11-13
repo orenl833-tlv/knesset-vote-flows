@@ -135,7 +135,7 @@ def main():
     old = [dict(h, group='הבחירות הקודמות') for h in json.load(open(hp))]
     new = [dict(h, group='ליל הבחירות 2026', view=h.get('view', 'last')) for h in nj.get('headlines', [])]
     taken = [l for h in new for l in h.get('links', [])]
-    json.dump(headlines26.order(headlines26.make(site, a.k26, taken=taken, total=max(0, 12 - len(new))) + new) + old, open(hp, 'w'), ensure_ascii=False, indent=1)
+    json.dump(headlines26.order(headlines26.make(site, a.k26, taken=taken, total=max(0, 13 - len(new))) + new) + old, open(hp, 'w'), ensure_ascii=False, indent=1)
     # the same flow cards for every other area, so the 2026 cards follow the area the reader picks; a card with
     # no numbers there is left out, and none has an id (no share image or link of its own); an area whose 2022->2026
     # coverage (as shown on the chart) is under MIN_COVER_AREA keeps the national cards, as a few ballots make noise

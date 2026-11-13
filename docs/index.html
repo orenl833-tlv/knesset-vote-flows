@@ -481,14 +481,14 @@ function card(h){
     const w = document.createElement("span"); w.className = "where"; w.textContent = `${h.area_name} · ${ELECTIONS[a][0]} ← ${ELECTIONS[z][0]}`;
     const go = document.createElement("button"); go.type = "button"; go.textContent = "הצג בתרשים";
     go.addEventListener("click", () => showHeadline(h));
-    const acts = document.createElement("span"); acts.className = "acts"; acts.appendChild(go);
+    const acts = document.createElement("span"); acts.className = "acts"; if (!h.nochart) acts.appendChild(go);
     if (h.id){
       c.id = "h-" + h.id;
       const ln = document.createElement("button"); ln.type = "button"; ln.className = "minor"; ln.textContent = "קישור";
       ln.addEventListener("click", () => copyLink(h, c, ln));
       const im = document.createElement("button"); im.type = "button"; im.className = "minor"; im.textContent = "תמונה";
       im.addEventListener("click", () => shareImage(h));
-      acts.append(ln, im);
+      acts.append(...(h.nochart ? [ln] : [ln, im]));
     }
     f.append(w, acts); c.appendChild(f);
     return c;
